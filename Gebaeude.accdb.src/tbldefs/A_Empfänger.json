@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "A_Empfänger",
+    "Connect": ";DATABASE=S:\\a60\\Datenbank\\Gebaeude\\Gebaeude_Daten.accdb",
+    "SourceTableName": "A_Empfänger",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[ID]"
+  }
+}

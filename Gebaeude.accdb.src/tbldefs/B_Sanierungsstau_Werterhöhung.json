@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "B_Sanierungsstau_Werterhöhung",
+    "Connect": ";DATABASE=S:\\a60\\Datenbank\\Gebaeude\\Gebaeude_Daten.accdb",
+    "SourceTableName": "B_Sanierungsstau_Werterhöhung",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[ID_Werterh]"
+  }
+}

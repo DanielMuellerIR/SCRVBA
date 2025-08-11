@@ -1,0 +1,16 @@
+﻿dbMemo "SQL" ="UPDATE Kalkulationsjahr SET Kalkulationsjahr.kalkulationsjahr = [Formulare]![M_F"
+    "ormular_Eingabe_Verwaltungskostn]![Jahr];\015\012"
+dbMemo "Connect" =""
+dbBoolean "ReturnsRecords" ="-1"
+dbInteger "ODBCTimeout" ="60"
+dbByte "RecordsetType" ="0"
+dbBoolean "OrderByOn" ="0"
+dbBoolean "UseTransaction" ="0"
+dbBoolean "FailOnError" ="0"
+dbByte "Orientation" ="0"
+dbByte "DefaultView" ="2"
+dbBoolean "FilterOnLoad" ="0"
+dbBoolean "OrderByOnLoad" ="-1"
+dbText "SubdatasheetName" ="[Auto]"
+Begin
+End

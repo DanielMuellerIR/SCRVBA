@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "Gebäudeliste_Alt",
+    "Connect": ";DATABASE=S:\\a60\\Datenbank\\Gebaeude\\Gebaeude_Daten.accdb",
+    "SourceTableName": "Gebäudeliste_Alt",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[ID]"
+  }
+}

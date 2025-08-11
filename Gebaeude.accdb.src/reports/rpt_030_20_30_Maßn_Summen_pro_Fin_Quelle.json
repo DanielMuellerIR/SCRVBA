@@ -1,0 +1,28 @@
+﻿{
+  "Info": {
+    "Class": "clsDbReport",
+    "Description": "rpt_030_20_30_Maßn_Summen_pro_Fin_Quelle Print Settings"
+  },
+  "Items": {
+    "Printer": {
+      "Orientation": "Portrait",
+      "PaperSize": "A4"
+    },
+    "Margins": {
+      "LeftMargin": 0.25,
+      "TopMargin": 0.25,
+      "RightMargin": 0.25,
+      "BotMargin": 0.25,
+      "DataOnly": false,
+      "Width": 3.2674,
+      "Height": 0.2396,
+      "DefaultSize": true,
+      "Columns": 1,
+      "ColumnSpacing": 0.25,
+      "RowSpacing": 0,
+      "ItemLayout": "Horizontal Columns",
+      "FastPrint": 1,
+      "Datasheet": 1
+    }
+  }
+}

@@ -1,0 +1,28 @@
+﻿{
+  "Info": {
+    "Class": "clsDbForm",
+    "Description": "Buchungsanordnung_Suche Print Settings"
+  },
+  "Items": {
+    "Printer": {
+      "Orientation": "Portrait",
+      "PaperSize": "A4"
+    },
+    "Margins": {
+      "LeftMargin": 0.984,
+      "TopMargin": 0.984,
+      "RightMargin": 1.7722,
+      "BotMargin": 0.984,
+      "DataOnly": false,
+      "Width": 8.0924,
+      "Height": 8.3417,
+      "DefaultSize": true,
+      "Columns": 1,
+      "ColumnSpacing": 0.25,
+      "RowSpacing": 0,
+      "ItemLayout": "Horizontal Columns",
+      "FastPrint": 1,
+      "Datasheet": 1
+    }
+  }
+}

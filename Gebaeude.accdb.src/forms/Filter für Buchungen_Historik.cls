@@ -1,0 +1,75 @@
+﻿Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+Option Explicit
+
+Private Sub Befehl10_Click()
+On Error GoTo Err_Befehl10_Click
+
+
+    DoCmd.Close
+
+Exit_Befehl10_Click:
+    Exit Sub
+
+Err_Befehl10_Click:
+    MsgBox Err.Description
+    Resume Exit_Befehl10_Click
+
+End Sub
+Private Sub Befehl38_Click()
+On Error GoTo Err_Befehl38_Click
+
+
+    DoCmd.DoMenuItem acFormBar, acEditMenu, 8, , acMenuVer70
+    DoCmd.DoMenuItem acFormBar, acEditMenu, 6, , acMenuVer70
+
+Exit_Befehl38_Click:
+    Exit Sub
+
+Err_Befehl38_Click:
+    MsgBox Err.Description
+    Resume Exit_Befehl38_Click
+
+End Sub
+Private Sub Befehl39_Click()
+On Error GoTo Err_Befehl39_Click
+
+
+    DoCmd.DoMenuItem acFormBar, acEditMenu, 8, , acMenuVer70
+    DoCmd.DoMenuItem acFormBar, acEditMenu, 6, , acMenuVer70
+
+Exit_Befehl39_Click:
+    Exit Sub
+
+Err_Befehl39_Click:
+    MsgBox Err.Description
+    Resume Exit_Befehl39_Click
+
+End Sub
+Private Sub Befehl52_Click()
+On Error GoTo Err_Befehl52_Click
+
+
+    DoCmd.Close
+
+Exit_Befehl52_Click:
+    Exit Sub
+
+Err_Befehl52_Click:
+    MsgBox Err.Description
+    Resume Exit_Befehl52_Click
+
+End Sub
+
+Private Sub Betrag_GotFocus()
+Me![Betrag].Requery
+
+End Sub
+
+Private Sub Sachbearbeiter_AfterUpdate()
+Me![Empfänger].Requery
+
+End Sub

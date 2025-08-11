@@ -1,0 +1,18 @@
+﻿{
+  "Info": {
+    "Class": "clsDbDocument",
+    "Description": "Database Documents Properties (DAO)"
+  },
+  "Items": {
+    "Databases": {
+      "SummaryInfo": {
+        "Title": "Database"
+      }
+    },
+    "Tables": {
+      "qry_230_10_10_Excel_Matrix_Bewertungen": {
+        "Description": "zu Evaluierungszwecken am 05.09.2018 erstellt, W. Budde"
+      }
+    }
+  }
+}

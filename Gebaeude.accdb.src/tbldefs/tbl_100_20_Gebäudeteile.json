@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "tbl_100_20_Gebäudeteile",
+    "Connect": ";DATABASE=S:\\a60\\Datenbank\\Gebaeude\\Gebaeude_Daten.accdb",
+    "SourceTableName": "tbl_100_20_Gebäudeteile",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[ID_Gebäudeteil]"
+  }
+}

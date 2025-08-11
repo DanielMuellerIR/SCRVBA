@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "Zuordnung_Abschreibung",
+    "Connect": ";DATABASE=S:\\a60\\Datenbank\\Gebaeude\\Gebaeude_Daten.accdb",
+    "SourceTableName": "Zuordnung_Abschreibung",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[ID_Zuordn]"
+  }
+}

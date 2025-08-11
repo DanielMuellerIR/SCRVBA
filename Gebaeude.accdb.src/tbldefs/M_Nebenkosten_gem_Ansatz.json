@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "M_Nebenkosten_gem_Ansatz",
+    "Connect": ";DATABASE=S:\\a60\\Datenbank\\Gebaeude\\Gebaeude_Daten.accdb",
+    "SourceTableName": "M_Nebenkosten_gem_Ansatz",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[ID]"
+  }
+}

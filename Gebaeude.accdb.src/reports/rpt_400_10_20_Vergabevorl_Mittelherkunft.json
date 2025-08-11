@@ -1,0 +1,28 @@
+﻿{
+  "Info": {
+    "Class": "clsDbReport",
+    "Description": "rpt_400_10_20_Vergabevorl_Mittelherkunft Print Settings"
+  },
+  "Items": {
+    "Printer": {
+      "Orientation": "Landscape",
+      "PaperSize": "A4"
+    },
+    "Margins": {
+      "LeftMargin": 0.3938,
+      "TopMargin": 0.3938,
+      "RightMargin": 0.3938,
+      "BotMargin": 0.3938,
+      "DataOnly": false,
+      "Width": 10.8708,
+      "Height": 0.1979,
+      "DefaultSize": true,
+      "Columns": 1,
+      "ColumnSpacing": 0.25,
+      "RowSpacing": 0,
+      "ItemLayout": "Horizontal Columns",
+      "FastPrint": 1,
+      "Datasheet": 1
+    }
+  }
+}

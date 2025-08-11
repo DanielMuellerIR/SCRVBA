@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "A_Sachbearbeiter_Buchung",
+    "Connect": ";DATABASE=S:\\a60\\Datenbank\\Gebaeude\\Gebaeude_Daten.accdb",
+    "SourceTableName": "A_Sachbearbeiter_Buchung",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[ID]"
+  }
+}

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:od="urn:schemas-microsoft-com:officedata">
+  <xsd:element name="dataroot">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="B_Ergebnisse_A" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+      </xsd:sequence>
+      <xsd:attribute name="generated" type="xsd:dateTime"></xsd:attribute>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="B_Ergebnisse_A">
+    <xsd:annotation>
+      <xsd:appinfo></xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="ID_Gebäudeteil" minOccurs="1" od:jetType="autonumber" od:sqlSType="int" od:autoUnique="yes" od:nonNullable="yes" type="xsd:int"></xsd:element>
+        <xsd:element name="Bezeichnung" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="255"></xsd:maxLength>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="Straße" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="255"></xsd:maxLength>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="Gebäudeteil" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="255"></xsd:maxLength>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="Typ_x0020_aus_x0020_NHK-Typen" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int"></xsd:element>
+        <xsd:element name="BGF" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double"></xsd:element>
+        <xsd:element name="BRI" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double"></xsd:element>
+        <xsd:element name="Baujahr_real" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="Baujahr_mod" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="gewöhnliche_x0020_Nutzungsdauer" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int"></xsd:element>
+        <xsd:element name="geschätze_x0020_Nutzungsdauer" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int"></xsd:element>
+        <xsd:element name="Ausstattung" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="255"></xsd:maxLength>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="Wert_x0020_von" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double"></xsd:element>
+        <xsd:element name="Wert_x0020_bis" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double"></xsd:element>
+        <xsd:element name="Euro_x0020_je_x0020_BGF" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double"></xsd:element>
+        <xsd:element name="Wert_x0020_NHK_x0020_x_x0020_BGF" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double"></xsd:element>
+        <xsd:element name="Index" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double"></xsd:element>
+        <xsd:element name="hochgerechneter_x0020_Wert" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double"></xsd:element>
+        <xsd:element name="Baunebenkosten" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int"></xsd:element>
+        <xsd:element name="Baunebenkosten_x0020__x20AC_" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double"></xsd:element>
+        <xsd:element name="Herstellungskosten1" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double"></xsd:element>
+        <xsd:element name="Neubauwert_ab_2000" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double"></xsd:element>
+        <xsd:element name="Index_x0020_2000" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double"></xsd:element>
+        <xsd:element name="Herstellungskosten2" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double"></xsd:element>
+        <xsd:element name="berücksichtigtes_x0020_Baujahr" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="Nutzungsdauer" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int"></xsd:element>
+        <xsd:element name="Bewertung_x0020_abgeschlossen" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="Index_manuell" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double"></xsd:element>
+        <xsd:element name="Versicherungswert" minOccurs="0" od:jetType="currency" od:sqlSType="money" type="xsd:double"></xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

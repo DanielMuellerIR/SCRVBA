@@ -1,0 +1,59 @@
+﻿SELECT
+  *
+from
+  B_Plausibilitätsprüfung_Part_01
+UNION
+SELECT
+  *
+from
+  B_Plausibilitätsprüfung_Part_02
+UNION
+SELECT
+  *
+from
+  B_Plausibilitätsprüfung_Part_03
+UNION
+SELECT
+  *
+from
+  B_Plausibilitätsprüfung_Part_04
+UNION
+SELECT
+  *
+from
+  B_Plausibilitätsprüfung_Part_05
+UNION
+SELECT
+  *
+from
+  B_Plausibilitätsprüfung_Part_06
+UNION
+SELECT
+  *
+from
+  B_Plausibilitätsprüfung_Part_07
+UNION
+SELECT
+  *
+from
+  B_Plausibilitätsprüfung_Part_08
+UNION
+SELECT
+  *
+from
+  B_Plausibilitätsprüfung_Part_09
+UNION
+SELECT
+  *
+from
+  B_Plausibilitätsprüfung_Part_10
+UNION
+SELECT
+  *
+from
+  B_Plausibilitätsprüfung_Part_11
+UNION
+SELECT
+  *
+from
+  B_Plausibilitätsprüfung_Part_12;

@@ -1,0 +1,144 @@
+﻿Operation =1
+Option =0
+Where ="(((tbl_100_10_Liegenschaften.Bodenrichtwert)=0 Or (tbl_100_10_Liegenschaften.Bod"
+    "enrichtwert) Is Null))"
+Begin InputTables
+    Name ="tbl_100_10_Liegenschaften"
+    Name ="M_Strassenverzeichnis"
+    Name ="tbl_070_10_Flure"
+    Name ="tbl_050_10_Gemarkungen"
+End
+Begin OutputColumns
+    Alias ="Objekt"
+    Expression ="[Name] & \" \" & [tbl_100_10_Liegenschaften].[Haus_Nr] & \": \" & [Bezeichnung]"
+    Alias ="ID_Gebäudeteil"
+    Expression ="0"
+    Expression ="tbl_050_10_Gemarkungen.Gemarkung"
+    Expression ="tbl_070_10_Flure.Flur"
+    Alias ="Flurstücke"
+    Expression ="fc_Flurstuecke([tbl_100_10_Liegenschaften].[ID_Gebäude])"
+    Alias ="Fehler"
+    Expression ="\"04 : zur Liegenschaft fehlt der Bodenrichtwert\""
+End
+Begin Joins
+    LeftTable ="tbl_100_10_Liegenschaften"
+    RightTable ="M_Strassenverzeichnis"
+    Expression ="tbl_100_10_Liegenschaften.Kennummer_Straße = M_Strassenverzeichnis.Kennummer"
+    Flag =2
+    LeftTable ="tbl_050_10_Gemarkungen"
+    RightTable ="tbl_100_10_Liegenschaften"
+    Expression ="tbl_050_10_Gemarkungen.ID_Gemarkung = tbl_100_10_Liegenschaften.ID_Gemarkung"
+    Flag =3
+    LeftTable ="tbl_070_10_Flure"
+    RightTable ="tbl_100_10_Liegenschaften"
+    Expression ="tbl_070_10_Flure.ID_Flur = tbl_100_10_Liegenschaften.ID_Flur"
+    Flag =3
+End
+Begin OrderBy
+    Expression ="[Name] & \" \" & [tbl_100_10_Liegenschaften].[Haus_Nr] & \": \" & [Bezeichnung]"
+    Flag =0
+End
+dbBoolean "ReturnsRecords" ="-1"
+dbInteger "ODBCTimeout" ="60"
+dbByte "RecordsetType" ="0"
+dbBoolean "OrderByOn" ="0"
+dbByte "Orientation" ="0"
+dbByte "DefaultView" ="2"
+dbBoolean "FilterOnLoad" ="0"
+dbBoolean "OrderByOnLoad" ="-1"
+dbBoolean "TotalsRow" ="0"
+dbText "SubdatasheetName" ="[Auto]"
+Begin
+    Begin
+        dbText "Name" ="Fehler"
+        dbInteger "ColumnWidth" ="8250"
+        dbBoolean "ColumnHidden" ="0"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="Objekt "
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="Flurstücke "
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="Objekt"
+        dbInteger "ColumnWidth" ="7620"
+        dbBoolean "ColumnHidden" ="0"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="Flurstücke"
+        dbInteger "ColumnWidth" ="2715"
+        dbBoolean "ColumnHidden" ="0"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tbl_070_10_Flure.Flur"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tbl_050_10_Gemarkungen.Gemarkung"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tbl_100_20_Gebäudeteile.ID_Gebäudeteil"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="ID_Gebäudeteil"
+        dbLong "AggregateType" ="-1"
+    End
+End
+Begin
+    State =2
+    Left =-8
+    Top =-31
+    Right =1874
+    Bottom =1080
+    Left =-1
+    Top =-1
+    Right =1850
+    Bottom =614
+    Left =0
+    Top =0
+    ColumnsShown =539
+    Begin
+        Left =57
+        Top =76
+        Right =310
+        Bottom =433
+        Top =0
+        Name ="tbl_100_10_Liegenschaften"
+        Name =""
+    End
+    Begin
+        Left =395
+        Top =191
+        Right =620
+        Bottom =306
+        Top =0
+        Name ="M_Strassenverzeichnis"
+        Name =""
+    End
+    Begin
+        Left =387
+        Top =465
+        Right =583
+        Bottom =575
+        Top =0
+        Name ="tbl_070_10_Flure"
+        Name =""
+    End
+    Begin
+        Left =394
+        Top =318
+        Right =620
+        Bottom =445
+        Top =0
+        Name ="tbl_050_10_Gemarkungen"
+        Name =""
+    End
+End

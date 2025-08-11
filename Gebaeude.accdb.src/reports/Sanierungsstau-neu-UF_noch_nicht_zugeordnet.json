@@ -1,0 +1,28 @@
+﻿{
+  "Info": {
+    "Class": "clsDbReport",
+    "Description": "Sanierungsstau-neu-UF_noch_nicht_zugeordnet Print Settings"
+  },
+  "Items": {
+    "Printer": {
+      "Orientation": "Portrait",
+      "PaperSize": "A4"
+    },
+    "Margins": {
+      "LeftMargin": 0.7875,
+      "TopMargin": 0.3938,
+      "RightMargin": 0.3938,
+      "BotMargin": 0.3938,
+      "DataOnly": false,
+      "Width": 6.1278,
+      "Height": 0.2188,
+      "DefaultSize": true,
+      "Columns": 1,
+      "ColumnSpacing": 0.25,
+      "RowSpacing": 0,
+      "ItemLayout": "Horizontal Columns",
+      "FastPrint": 1,
+      "Datasheet": 1
+    }
+  }
+}

@@ -1,0 +1,19 @@
+﻿SELECT
+  *
+from
+  qry_030_10_10_Rep_Teilm_Finanz_Summen
+UNION
+SELECT
+  *
+from
+  qry_030_10_15_Rep_Finanzgen_Unst_TM_Kosten
+UNION
+SELECT
+  *
+from
+  qry_030_10_20_Rep_Teilm_TM_Kostensummen
+UNION
+SELECT
+  *
+from
+  qry_030_10_25_Rep_Fehl_TM;

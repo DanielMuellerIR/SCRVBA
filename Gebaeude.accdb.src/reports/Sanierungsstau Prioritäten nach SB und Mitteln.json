@@ -1,0 +1,28 @@
+﻿{
+  "Info": {
+    "Class": "clsDbReport",
+    "Description": "Sanierungsstau Prioritäten nach SB und Mitteln Print Settings"
+  },
+  "Items": {
+    "Printer": {
+      "Orientation": "Portrait",
+      "PaperSize": "A4"
+    },
+    "Margins": {
+      "LeftMargin": 0.591,
+      "TopMargin": 0.3938,
+      "RightMargin": 0.3938,
+      "BotMargin": 0.3938,
+      "DataOnly": false,
+      "Width": 7.2604,
+      "Height": 0.2083,
+      "DefaultSize": true,
+      "Columns": 1,
+      "ColumnSpacing": 0.25,
+      "RowSpacing": 0,
+      "ItemLayout": "Horizontal Columns",
+      "FastPrint": 1,
+      "Datasheet": 1
+    }
+  }
+}

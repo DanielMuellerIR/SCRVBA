@@ -1,0 +1,45 @@
+﻿dbMemo "SQL" ="SELECT NK_entstanden_ohne_Abschläge_Zahlungen.ID, NK_entstanden_ohne_Abschläge_Z"
+    "ahlungen.[Summe von Zahlungen], NK_enstanden_ohne_Abschläge_Vorauszahlungen.Vora"
+    "uszahlung, NK_entstanden_ohne_Abschläge_Zahlungen.Haushaltsjahr, M_Bereiche.Betr"
+    "ieb, M_Bereiche.BereichNr, M_Bereiche.BereichName, M_Objekte.Bezeichnung, M_Obje"
+    "kte.ID, \"keine Vorauszahlungen\" AS Kostenart, 0 AS Betrag, \"C\" AS sort, M_Ob"
+    "jekte.Bruttogrundfläche, [formulare]![Filter für Nebenkostenabrechnung]![Datei] "
+    "AS [Text]\015\012FROM ((NK_entstanden_ohne_Abschläge_Zahlungen LEFT JOIN NK_enst"
+    "anden_ohne_Abschläge_Vorauszahlungen ON (NK_entstanden_ohne_Abschläge_Zahlungen."
+    "Haushaltsjahr = NK_enstanden_ohne_Abschläge_Vorauszahlungen.Planjahr) AND (NK_en"
+    "tstanden_ohne_Abschläge_Zahlungen.ID = NK_enstanden_ohne_Abschläge_Vorauszahlung"
+    "en.ID)) LEFT JOIN M_Objekte ON NK_entstanden_ohne_Abschläge_Zahlungen.ID = M_Obj"
+    "ekte.ID) LEFT JOIN M_Bereiche ON M_Objekte.[Kennummer aus Bereiche] = M_Bereiche"
+    ".Kennummer\015\012WHERE (((NK_enstanden_ohne_Abschläge_Vorauszahlungen.Vorauszah"
+    "lung) Is Null) AND ((NK_entstanden_ohne_Abschläge_Zahlungen.Haushaltsjahr)=[form"
+    "ulare]![Filter für Nebenkostenabrechnung]![JahrZahlung]));\015\012"
+dbMemo "Connect" =""
+dbBoolean "ReturnsRecords" ="-1"
+dbInteger "ODBCTimeout" ="60"
+dbByte "RecordsetType" ="0"
+dbBoolean "OrderByOn" ="0"
+dbByte "Orientation" ="0"
+dbByte "DefaultView" ="2"
+dbBoolean "FilterOnLoad" ="0"
+dbBoolean "OrderByOnLoad" ="-1"
+dbText "SubdatasheetName" ="[Auto]"
+Begin
+    Begin
+        dbText "Name" ="NK_enstanden_ohne_Abschläge_Vorauszahlungen.Vorauszahlung"
+        dbInteger "ColumnWidth" ="1575"
+        dbBoolean "ColumnHidden" ="0"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="Kostenart"
+        dbInteger "ColumnWidth" ="2175"
+        dbBoolean "ColumnHidden" ="0"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="Text"
+        dbInteger "ColumnWidth" ="2520"
+        dbBoolean "ColumnHidden" ="0"
+        dbLong "AggregateType" ="-1"
+    End
+End

@@ -1,0 +1,28 @@
+﻿{
+  "Info": {
+    "Class": "clsDbReport",
+    "Description": "Pausibilitätsprüfung Gebäudebewertung Print Settings"
+  },
+  "Items": {
+    "Printer": {
+      "Orientation": "Landscape",
+      "PaperSize": "A4"
+    },
+    "Margins": {
+      "LeftMargin": 0.7875,
+      "TopMargin": 0.3938,
+      "RightMargin": 0.3938,
+      "BotMargin": 0.3938,
+      "DataOnly": false,
+      "Width": 9.4875,
+      "Height": 0.2083,
+      "DefaultSize": true,
+      "Columns": 1,
+      "ColumnSpacing": 0.25,
+      "RowSpacing": 0,
+      "ItemLayout": "Horizontal Columns",
+      "FastPrint": 1,
+      "Datasheet": 1
+    }
+  }
+}

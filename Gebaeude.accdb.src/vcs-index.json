@@ -1,0 +1,4294 @@
+﻿{
+  "Info": {
+    "Class": "clsVCSIndex",
+    "Description": "Version Control System Index"
+  },
+  "Items": {
+    "MergeBuildDate": null,
+    "FullBuildDate": null,
+    "ExportDate": "2025-08-11T07:39:19.000Z",
+    "FullExportDate": "2025-08-11T07:39:19.000Z",
+    "OptionsHash": "e599266",
+    "LastMergedCommit": "",
+    "Components": {
+      "DB Connections": {
+        "db-connection.json": {
+        }
+      },
+      "DB Properties": {
+        "dbs-properties.json": {
+          "FileHash": "e48ef08",
+          "ExportDate": "2025-08-11T07:38:19.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "9c500de"
+        }
+      },
+      "Doc Properties": {
+        "documents.json": {
+          "FileHash": "3228d5e",
+          "ExportDate": "2025-08-11T07:39:18.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "ba65cd3"
+        }
+      },
+      "Forms": {
+        "A_Empfänger.bas": {
+          "FileHash": "85578e9",
+          "OtherHash": "8f58e03",
+          "ExportDate": "2025-08-11T07:39:04.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "5edb79e"
+        },
+        "Auswahl für Sanierungsstau Prioritaeten.bas": {
+          "FileHash": "2bf67e1",
+          "OtherHash": "b49046c",
+          "ExportDate": "2025-08-11T07:39:04.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d151984"
+        },
+        "Auswahl_Gebauede_Bewertung.bas": {
+          "FileHash": "7c9af69",
+          "OtherHash": "cd4d76e",
+          "ExportDate": "2025-08-11T07:39:06.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8851a0b"
+        },
+        "B_bebaute_Grundstücke_kann_weg%3F.bas": {
+          "FileHash": "e1fdbd5",
+          "ExportDate": "2025-08-11T07:39:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a1b8733"
+        },
+        "B_Formular_Gebäudebewertung.bas": {
+          "FileHash": "2ae1f82",
+          "OtherHash": "f0bbc1d",
+          "ExportDate": "2025-08-11T07:39:09.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "6f0ea33"
+        },
+        "B_Formular_neuer_NHK-Typ.bas": {
+          "FileHash": "125dade",
+          "OtherHash": "bc3cec4",
+          "ExportDate": "2025-08-11T07:39:04.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8cef695"
+        },
+        "B_Unterformular_Abschreibung.bas": {
+          "FileHash": "488d435",
+          "OtherHash": "e091f11",
+          "ExportDate": "2025-08-11T07:39:09.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a3269c8"
+        },
+        "B_Unterformular_Gebäudedaten.bas": {
+          "FileHash": "628b562",
+          "OtherHash": "a84d938",
+          "ExportDate": "2025-08-11T07:39:04.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a0cb5fa"
+        },
+        "B_Unterformular_NHK_Typ_Ausstattung_e.bas": {
+          "FileHash": "ceae487",
+          "OtherHash": "1ddc55f",
+          "ExportDate": "2025-08-11T07:39:02.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8023949"
+        },
+        "B_Unterformular_NHK_Typ_Ausstattung_e1.bas": {
+          "FileHash": "c74c8b7",
+          "OtherHash": "1ddc55f",
+          "ExportDate": "2025-08-11T07:39:04.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "bfe77d3"
+        },
+        "B_Unterformular_NHK_Typ_Ausstattung_g.bas": {
+          "FileHash": "5355464",
+          "OtherHash": "446e233",
+          "ExportDate": "2025-08-11T07:39:03.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "83d72be"
+        },
+        "B_Unterformular_NHK_Typ_Ausstattung_m.bas": {
+          "FileHash": "4a5bd3c",
+          "OtherHash": "1ddc55f",
+          "ExportDate": "2025-08-11T07:39:03.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "e51c915"
+        },
+        "B_Unterformular_NHK_Typen_Werte.bas": {
+          "FileHash": "a644d76",
+          "OtherHash": "bc3cec4",
+          "ExportDate": "2025-08-11T07:39:03.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "4d526b0"
+        },
+        "B_Unterformular_Sanierungsbedarf.bas": {
+          "FileHash": "b63c68b",
+          "OtherHash": "34542a4",
+          "ExportDate": "2025-08-11T07:39:09.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "21f1b9d"
+        },
+        "B_Unterformular_Sanierungsbedarf1.bas": {
+          "FileHash": "816073f",
+          "OtherHash": "2c51ec5",
+          "ExportDate": "2025-08-11T07:39:04.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b5fc379"
+        },
+        "B_Unterformular_Werterhöhung.bas": {
+          "FileHash": "f5256bf",
+          "OtherHash": "20dda08",
+          "ExportDate": "2025-08-11T07:39:10.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b09dbca"
+        },
+        "Bewertungsdaten archivieren.bas": {
+          "FileHash": "2de0ba9",
+          "OtherHash": "b915823",
+          "ExportDate": "2025-08-11T07:39:07.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "9815c46"
+        },
+        "Bewertungsdaten archivieren1.bas": {
+          "FileHash": "a7cf955",
+          "OtherHash": "bc20b42",
+          "ExportDate": "2025-08-11T07:39:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8a37cd6"
+        },
+        "Buchungsanordnung neu mit Aufteilung nach Flächen.bas": {
+          "FileHash": "085aaf7",
+          "OtherHash": "79688fc",
+          "ExportDate": "2025-08-11T07:39:07.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "4cd233d"
+        },
+        "Buchungsanordnung Unterformular 1.bas": {
+          "FileHash": "195d045",
+          "OtherHash": "57fac99",
+          "ExportDate": "2025-08-11T07:39:07.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "5f81a15"
+        },
+        "Buchungsanordnung Unterformular 1_Historik.bas": {
+          "FileHash": "d686f30",
+          "OtherHash": "2b05898",
+          "ExportDate": "2025-08-11T07:39:06.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "952237d"
+        },
+        "Buchungsanordnung Unterformular 2.bas": {
+          "FileHash": "f06b008",
+          "OtherHash": "3f25741",
+          "ExportDate": "2025-08-11T07:39:07.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "7093e29"
+        },
+        "Buchungsanordnung Unterformular 2_Historik.bas": {
+          "FileHash": "5a2b084",
+          "OtherHash": "444ff1d",
+          "ExportDate": "2025-08-11T07:39:06.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "4e0f6ad"
+        },
+        "Buchungsanordnung Unterformular 4.bas": {
+          "FileHash": "c338bac",
+          "OtherHash": "116e1ce",
+          "ExportDate": "2025-08-11T07:39:08.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "602b188"
+        },
+        "Buchungsanordnung Unterformular 4_Historik.bas": {
+          "FileHash": "c881e8e",
+          "OtherHash": "f263119",
+          "ExportDate": "2025-08-11T07:39:06.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "3e9f064"
+        },
+        "Buchungsanordnung.bas": {
+          "FileHash": "66c4a16",
+          "OtherHash": "ffe7ca3",
+          "ExportDate": "2025-08-11T07:39:03.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "58375ad"
+        },
+        "Buchungsanordnung_Historik.bas": {
+          "FileHash": "2e4a419",
+          "OtherHash": "c1d3100",
+          "ExportDate": "2025-08-11T07:39:06.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "2e3661b"
+        },
+        "Buchungsanordnung_Suche.bas": {
+          "FileHash": "6ebb6c0",
+          "OtherHash": "a3cd02c",
+          "ExportDate": "2025-08-11T07:39:06.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "7c7ac47"
+        },
+        "Buchungsanordnung_Suche_Hauptformular.bas": {
+          "FileHash": "6bb8fef",
+          "OtherHash": "cf4e6fd",
+          "ExportDate": "2025-08-11T07:39:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f93ed6d"
+        },
+        "Filter für Arbeitsprogramm.bas": {
+          "FileHash": "e704cc8",
+          "OtherHash": "1c2092b",
+          "ExportDate": "2025-08-11T07:39:07.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "36cde58"
+        },
+        "Filter für Archiv Gebäudebewertung.bas": {
+          "FileHash": "2b57e5d",
+          "OtherHash": "0e11a92",
+          "ExportDate": "2025-08-11T07:39:06.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a13648e"
+        },
+        "Filter für Archiv Mietberechnung.bas": {
+          "FileHash": "31864e4",
+          "OtherHash": "8b66969",
+          "ExportDate": "2025-08-11T07:39:03.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "145f773"
+        },
+        "Filter für Bericht Nebenkosten.bas": {
+          "FileHash": "d9f8836",
+          "OtherHash": "0599a91",
+          "ExportDate": "2025-08-11T07:39:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b64c5d1"
+        },
+        "Filter für Bericht Nebenkostenhochrechnung.bas": {
+          "FileHash": "5b5c5c0",
+          "OtherHash": "b58b07a",
+          "ExportDate": "2025-08-11T07:39:03.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c96feaf"
+        },
+        "Filter für Buchungen_Historik.bas": {
+          "FileHash": "1bfccb3",
+          "OtherHash": "075bafa",
+          "ExportDate": "2025-08-11T07:39:06.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "254a902"
+        },
+        "Filter für Controllingbericht.bas": {
+          "FileHash": "a41bb36",
+          "OtherHash": "2bd82e6",
+          "ExportDate": "2025-08-11T07:39:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "2369de7"
+        },
+        "Filter für Gebäudedaten.bas": {
+          "FileHash": "0ec2081",
+          "OtherHash": "ffaaa53",
+          "ExportDate": "2025-08-11T07:39:04.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "5d172a8"
+        },
+        "Filter für Gebäudeerfassungsbogen.bas": {
+          "FileHash": "54d3e54",
+          "OtherHash": "f057913",
+          "ExportDate": "2025-08-11T07:39:04.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "7479f20"
+        },
+        "Filter für Maßnahmen Erledigt Status.bas": {
+          "FileHash": "dfb4c8e",
+          "OtherHash": "27c89dc",
+          "ExportDate": "2025-08-11T07:39:08.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "fcb742b"
+        },
+        "Filter für Nebenkosten.bas": {
+          "FileHash": "ab2c88c",
+          "OtherHash": "26f6755",
+          "ExportDate": "2025-08-11T07:39:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "726ac98"
+        },
+        "Filter für Nebenkostenabrechnung.bas": {
+          "FileHash": "1ab0e0b",
+          "OtherHash": "7e16a84",
+          "ExportDate": "2025-08-11T07:39:03.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "293ae62"
+        },
+        "Filter für Sanierungsstau Jahre.bas": {
+          "FileHash": "6b9d298",
+          "OtherHash": "8ba8fcf",
+          "ExportDate": "2025-08-11T07:39:03.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "9200b1e"
+        },
+        "Filter für Verantwortungen.bas": {
+          "FileHash": "db97171",
+          "OtherHash": "bef4c86",
+          "ExportDate": "2025-08-11T07:39:07.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c2f75b4"
+        },
+        "Filter für Verwalt_Kosten_Massnahmen.bas": {
+          "FileHash": "8d020e3",
+          "OtherHash": "b90d3a5",
+          "ExportDate": "2025-08-11T07:39:04.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "6a66fd8"
+        },
+        "Filter für Zusammenstellung NK.bas": {
+          "FileHash": "0a6a193",
+          "OtherHash": "9c4ee96",
+          "ExportDate": "2025-08-11T07:39:07.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "ccd5a91"
+        },
+        "Filter_für_Mietberechnung.bas": {
+          "FileHash": "fa93463",
+          "OtherHash": "b165e05",
+          "ExportDate": "2025-08-11T07:39:03.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "378ba08"
+        },
+        "Filter_Kalkulationsjahr.bas": {
+          "FileHash": "043c1d7",
+          "OtherHash": "842dc71",
+          "ExportDate": "2025-08-11T07:39:08.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c594208"
+        },
+        "Filter_Unplausible_Gebaeudedaten.bas": {
+          "FileHash": "3a4aac9",
+          "OtherHash": "b32b31f",
+          "ExportDate": "2025-08-11T07:39:06.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c7b7634"
+        },
+        "Formular archivieren monatlicher Mittelabfluss.bas": {
+          "FileHash": "849ca59",
+          "ExportDate": "2025-08-11T07:39:08.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "072d9c3"
+        },
+        "Formular Aufträge.bas": {
+          "FileHash": "6eec85c",
+          "OtherHash": "15b9dc2",
+          "ExportDate": "2025-08-11T07:39:03.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d52dfdd"
+        },
+        "Formular Berichte Unterformular Finanzierung.bas": {
+          "FileHash": "ee5f755",
+          "ExportDate": "2025-08-11T07:39:03.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "cc85576"
+        },
+        "Formular Berichte Unterformular Maßnahmedaten Kann weg%3F.bas": {
+          "FileHash": "6a0129d",
+          "ExportDate": "2025-08-11T07:39:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b71bbb5"
+        },
+        "Formular Berichte Unterformular.bas": {
+          "FileHash": "c970385",
+          "OtherHash": "6ad1531",
+          "ExportDate": "2025-08-11T07:39:08.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "2c31ec9"
+        },
+        "Formular Berichte.bas": {
+          "FileHash": "18eb7da",
+          "OtherHash": "46d07fe",
+          "ExportDate": "2025-08-11T07:39:00.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "49d4fdd"
+        },
+        "Formular neue Buchungsstelle einrichten Doppik.bas": {
+          "FileHash": "6da8391",
+          "OtherHash": "6a283c6",
+          "ExportDate": "2025-08-11T07:39:03.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "da29829"
+        },
+        "Formular neue Kostenstelle einrichten.bas": {
+          "FileHash": "2de1356",
+          "OtherHash": "ad88fa7",
+          "ExportDate": "2025-08-11T07:39:04.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "be20f5c"
+        },
+        "Formular neue Nebenkostenart einrichten.bas": {
+          "FileHash": "c785ec8",
+          "OtherHash": "0ce753e",
+          "ExportDate": "2025-08-11T07:39:04.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "e7c6999"
+        },
+        "frm_001_001_Hintergrund.bas": {
+          "FileHash": "5015538",
+          "OtherHash": "c89b8a4",
+          "ExportDate": "2025-08-11T07:39:02.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "7eb0fc7"
+        },
+        "frm_001_010_Sachbearbeiter.bas": {
+          "FileHash": "cc0f857",
+          "OtherHash": "f3a84f4",
+          "ExportDate": "2025-08-11T07:39:04.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b3108c6"
+        },
+        "frm_005_10_10_Gemarkungen.bas": {
+          "FileHash": "6548e8c",
+          "OtherHash": "679a000",
+          "ExportDate": "2025-08-11T07:39:04.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "356e14b"
+        },
+        "frm_005_10_20_UF_Flure.bas": {
+          "FileHash": "591e4f8",
+          "OtherHash": "05eade2",
+          "ExportDate": "2025-08-11T07:39:02.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "82343b7"
+        },
+        "frm_005_10_25_UF_Flurstuecke.bas": {
+          "FileHash": "554aa50",
+          "OtherHash": "bd3b305",
+          "ExportDate": "2025-08-11T07:39:06.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "96bc46d"
+        },
+        "frm_010_010_Gebäudeverwaltung - ALT.bas": {
+          "FileHash": "3b2ee95",
+          "OtherHash": "38e93c0",
+          "ExportDate": "2025-08-11T07:39:07.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "cd161e9"
+        },
+        "frm_010_010_Gebäudeverwaltung - ALT01.bas": {
+          "FileHash": "30c7a95",
+          "OtherHash": "38e93c0",
+          "ExportDate": "2025-08-11T07:39:09.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "e65ca56"
+        },
+        "frm_010_010_Gebäudeverwaltung.bas": {
+          "FileHash": "d574ad0",
+          "OtherHash": "355fa8c",
+          "ExportDate": "2025-08-11T07:39:09.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f40d248"
+        },
+        "frm_010_020_Alle Flurstücke zu Flur.bas": {
+          "FileHash": "bbfeaf3",
+          "OtherHash": "d43e268",
+          "ExportDate": "2025-08-11T07:39:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "1a693d6"
+        },
+        "frm_010_030_Geb_verw_UF_Gebäudedaten - ALT.bas": {
+          "FileHash": "d360489",
+          "OtherHash": "5ba40dd",
+          "ExportDate": "2025-08-11T07:39:09.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "61e8287"
+        },
+        "frm_010_030_Geb_verw_UF_Gebäudedaten - ALT01.bas": {
+          "FileHash": "b029fe3",
+          "OtherHash": "5ba40dd",
+          "ExportDate": "2025-08-11T07:39:09.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "17d60a1"
+        },
+        "frm_010_030_Geb_verw_UF_Gebäudedaten.bas": {
+          "FileHash": "5c33d78",
+          "OtherHash": "5ba40dd",
+          "ExportDate": "2025-08-11T07:39:07.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "891a811"
+        },
+        "frm_010_040_Geb_verw_UF_Gebäudeteil - ALT.bas": {
+          "FileHash": "709686e",
+          "OtherHash": "9fed160",
+          "ExportDate": "2025-08-11T07:39:09.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c22b313"
+        },
+        "frm_010_040_Geb_verw_UF_Gebäudeteil - Alt01.bas": {
+          "FileHash": "a0be3ce",
+          "OtherHash": "9fed160",
+          "ExportDate": "2025-08-11T07:39:09.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f33909d"
+        },
+        "frm_010_040_Geb_verw_UF_Gebäudeteil.bas": {
+          "FileHash": "7786a51",
+          "OtherHash": "9fed160",
+          "ExportDate": "2025-08-11T07:39:09.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "83ca2cb"
+        },
+        "frm_010_050_GebTeil_UF_Kostenst_Hitorie.bas": {
+          "FileHash": "6c769da",
+          "OtherHash": "c4b4224",
+          "ExportDate": "2025-08-11T07:39:06.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "fa3aef4"
+        },
+        "frm_015_10_10_Buchungsstelle.bas": {
+          "FileHash": "a26ca02",
+          "OtherHash": "4e318f1",
+          "ExportDate": "2025-08-11T07:39:06.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "7480004"
+        },
+        "frm_020_10_Maßnahmenverwaltung.bas": {
+          "FileHash": "79a8743",
+          "OtherHash": "cc2b36d",
+          "ExportDate": "2025-08-11T07:39:08.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "901c2c2"
+        },
+        "frm_020_20_Maßn_verw_Einzel_DS.bas": {
+          "FileHash": "4cf1e43",
+          "OtherHash": "dd47168",
+          "ExportDate": "2025-08-11T07:39:08.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "348f0d9"
+        },
+        "frm_020_30_UF_Massn_Finanzierung.bas": {
+          "FileHash": "f5aa39e",
+          "OtherHash": "03ce3ed",
+          "ExportDate": "2025-08-11T07:39:03.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8dfe679"
+        },
+        "frm_020_40_UF__Teilmassnahmen.bas": {
+          "FileHash": "efa128c",
+          "OtherHash": "4b74dd8",
+          "ExportDate": "2025-08-11T07:39:07.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "596d1bd"
+        },
+        "frm_020_50_UF_Teilmass_Finanzierung.bas": {
+          "FileHash": "988f893",
+          "OtherHash": "bbae732",
+          "ExportDate": "2025-08-11T07:39:03.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f4cf2a4"
+        },
+        "frm_030_10_Maßn_SB_Term_planung.bas": {
+          "FileHash": "fc61ec5",
+          "OtherHash": "bc077bf",
+          "ExportDate": "2025-08-11T07:39:08.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "edbe5bd"
+        },
+        "frm_030_30_Maßn_SB_Eigenleistungen.bas": {
+          "FileHash": "1f52db9",
+          "OtherHash": "126607b",
+          "ExportDate": "2025-08-11T07:39:08.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "fa24407"
+        },
+        "frm_030_40_Maßn_SB_Eigenl_Std.bas": {
+          "FileHash": "f0ed209",
+          "OtherHash": "cad3f4a",
+          "ExportDate": "2025-08-11T07:39:08.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "dd1e607"
+        },
+        "frm_040_010_Bewertungsbilanzen_Verwaltung.bas": {
+          "FileHash": "bfa6f26",
+          "OtherHash": "c3be961",
+          "ExportDate": "2025-08-11T07:39:03.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "122ecc8"
+        },
+        "frm_040_020_Werterhöhungen_nach_Bewertungsjahr.bas": {
+          "FileHash": "3766068",
+          "OtherHash": "447e23e",
+          "ExportDate": "2025-08-11T07:39:07.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "cc01c9c"
+        },
+        "frm_050_010_Vergabevorlagen.bas": {
+          "FileHash": "22212f2",
+          "OtherHash": "bf9b65f",
+          "ExportDate": "2025-08-11T07:39:04.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "896414f"
+        },
+        "frm_050_20_UF_VergabeVorlage.bas": {
+          "FileHash": "15e4d1b",
+          "OtherHash": "df8174b",
+          "ExportDate": "2025-08-11T07:39:06.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d262d44"
+        },
+        "frm_500_010_Gebaeudebegehungen.bas": {
+          "FileHash": "d87aaca",
+          "OtherHash": "c908289",
+          "ExportDate": "2025-08-11T07:39:08.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "4d45c7f"
+        },
+        "frm_500_20_Geb_Begehungen_UF.bas": {
+          "FileHash": "bc80733",
+          "OtherHash": "c3857e6",
+          "ExportDate": "2025-08-11T07:39:08.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "3b3f86c"
+        },
+        "frm_LAyouts.bas": {
+          "FileHash": "785f0b5",
+          "OtherHash": "aae19f1",
+          "ExportDate": "2025-08-11T07:39:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "ffb0241"
+        },
+        "Haushaltsdaten eingeben.bas": {
+          "FileHash": "e53b35a",
+          "OtherHash": "883d2df",
+          "ExportDate": "2025-08-11T07:39:07.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "7fd540b"
+        },
+        "M_Formular_Eingabe_VerwaltungskostenAb2024.bas": {
+          "FileHash": "a929c7e",
+          "OtherHash": "215de91",
+          "ExportDate": "2025-08-11T07:39:10.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a7d1b87"
+        },
+        "M_Formular_Eingabe_VerwaltungskostenBis2023.bas": {
+          "FileHash": "5529e5f",
+          "OtherHash": "6e0a25e",
+          "ExportDate": "2025-08-11T07:39:10.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "124137b"
+        },
+        "M_Formular_Gebäudedaten.bas": {
+          "FileHash": "4022d25",
+          "OtherHash": "305155f",
+          "ExportDate": "2025-08-11T07:39:04.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "6ef5100"
+        },
+        "M_Unterformular_Eingabe_Bauunterhaltung.bas": {
+          "FileHash": "ce9fc36",
+          "ExportDate": "2025-08-11T07:39:06.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "5bf6475"
+        },
+        "M_Unterformular_Eingabe_Personalkosten.bas": {
+          "FileHash": "58f7c3c",
+          "OtherHash": "9b01e0c",
+          "ExportDate": "2025-08-11T07:39:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c5438a2"
+        },
+        "M_Unterformular_Eingabe_Verwaltungskosten.bas": {
+          "FileHash": "0ac434b",
+          "ExportDate": "2025-08-11T07:39:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "20ec54a"
+        },
+        "M_Unterformular_Fremdmieten.bas": {
+          "FileHash": "ae79c9d",
+          "OtherHash": "6a814c1",
+          "ExportDate": "2025-08-11T07:39:07.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "fcc744c"
+        },
+        "M_Unterformular_Memos.bas": {
+          "FileHash": "3d02e2c",
+          "OtherHash": "2c13333",
+          "ExportDate": "2025-08-11T07:39:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "ba72486"
+        },
+        "M_Unterformular_Sonderleistungen.bas": {
+          "FileHash": "3f7bd91",
+          "OtherHash": "810c8b0",
+          "ExportDate": "2025-08-11T07:39:08.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "10eeb79"
+        },
+        "M_Unterformular_Sonderleistungen_Kalkulation_für_Budget.bas": {
+          "FileHash": "c02bd01",
+          "OtherHash": "57d4c45",
+          "ExportDate": "2025-08-11T07:39:08.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "39c7a20"
+        },
+        "M_Unterformulart_Steigerung_Nebenkosten.bas": {
+          "FileHash": "c396fd3",
+          "OtherHash": "9b01e0c",
+          "ExportDate": "2025-08-11T07:39:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d1a6655"
+        },
+        "Monatsanordnung.bas": {
+          "FileHash": "a63f73e",
+          "OtherHash": "0f78ad1",
+          "ExportDate": "2025-08-11T07:39:06.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "69b9bc4"
+        },
+        "Monatsanordnung_UF_1.bas": {
+          "FileHash": "feb7bfa",
+          "ExportDate": "2025-08-11T07:39:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8115448"
+        },
+        "Monatsanordnung_UF_2.bas": {
+          "FileHash": "2895bb2",
+          "ExportDate": "2025-08-11T07:39:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f10bfde"
+        },
+        "Monatsanordnung_UF_3.bas": {
+          "FileHash": "474395e",
+          "OtherHash": "e405271",
+          "ExportDate": "2025-08-11T07:39:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "cd36b18"
+        },
+        "Monatsanordnung_UF_4.bas": {
+          "FileHash": "3c932aa",
+          "OtherHash": "4f4c6c7",
+          "ExportDate": "2025-08-11T07:39:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "225b112"
+        },
+        "Monatsanordnung_UF_5.bas": {
+          "FileHash": "88393f9",
+          "ExportDate": "2025-08-11T07:39:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "ff78623"
+        },
+        "Startformular.bas": {
+          "FileHash": "c39ee17",
+          "OtherHash": "d4dbba9",
+          "ExportDate": "2025-08-11T07:39:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "5cb3b36"
+        },
+        "Unterformular Auftragsabwicklung.bas": {
+          "FileHash": "61c0c1e",
+          "OtherHash": "c9f7d1f",
+          "ExportDate": "2025-08-11T07:39:03.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "2f77d81"
+        },
+        "Unterformular Maßnahmeplanung1.bas": {
+          "FileHash": "3636803",
+          "OtherHash": "0152b15",
+          "ExportDate": "2025-08-11T07:39:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "fa1d102"
+        },
+        "Unterformular Mittelabfluss.bas": {
+          "FileHash": "dfda955",
+          "OtherHash": "9cd2d38",
+          "ExportDate": "2025-08-11T07:39:08.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "3a20e0f"
+        },
+        "Unterformular Teilmaßnahmen_Alt.bas": {
+          "FileHash": "7e9283b",
+          "OtherHash": "03ce3ed",
+          "ExportDate": "2025-08-11T07:39:08.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "27fe7bd"
+        },
+        "Unterformular Vergabevorlagen.bas": {
+          "FileHash": "d06b418",
+          "OtherHash": "9cd2d38",
+          "ExportDate": "2025-08-11T07:39:04.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "00c37a8"
+        }
+      },
+      "Hidden Attributes": {
+        "hidden-attributes.json": {
+        }
+      },
+      "Macros": {
+        "Ausgabe in Excel Gebäudeerfassungsbogen.bas": {
+          "FileHash": "b9606c5",
+          "ExportDate": "2025-08-11T07:39:10.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "915ac36"
+        },
+        "Ausgabe Mietkalkulation in Excel.bas": {
+          "FileHash": "340f64b",
+          "ExportDate": "2025-08-11T07:39:10.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "235c5a2"
+        },
+        "Autoexec.bas": {
+          "FileHash": "48ddb05",
+          "ExportDate": "2025-08-11T07:39:10.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "17a1aa5"
+        },
+        "B_Gesamtergebnisse_zusammenstellen.bas": {
+          "FileHash": "24032f0",
+          "ExportDate": "2025-08-11T07:39:10.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "4dc82cc"
+        },
+        "Datensatz duplizieren.bas": {
+          "FileHash": "c9443ff",
+          "ExportDate": "2025-08-11T07:39:10.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "175b405"
+        },
+        "Filter für Grafik Mittelabfluss.bas": {
+          "FileHash": "4fe2011",
+          "ExportDate": "2025-08-11T07:39:10.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "68c6753"
+        },
+        "Filter für Nebenkostenabrechnung.bas": {
+          "FileHash": "b055e07",
+          "ExportDate": "2025-08-11T07:39:10.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c4816eb"
+        },
+        "Formular verstecken.bas": {
+          "FileHash": "48180b1",
+          "ExportDate": "2025-08-11T07:39:10.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a66e89d"
+        },
+        "Formular_Mietberechnung_versteckt_öffnen.bas": {
+          "FileHash": "9660314",
+          "ExportDate": "2025-08-11T07:39:10.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8b70ee0"
+        },
+        "Gebäudebewertung_archivieren_kann_weg.bas": {
+          "FileHash": "dca936a",
+          "ExportDate": "2025-08-11T07:39:10.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b1d759e"
+        },
+        "Haushaltsdaten_importieren.bas": {
+          "FileHash": "f17280d",
+          "ExportDate": "2025-08-11T07:39:10.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "907ef9a"
+        },
+        "Makro archivieren monatlicher Mittelabfluss.bas": {
+          "FileHash": "8c964c1",
+          "ExportDate": "2025-08-11T07:39:10.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "67fbd0c"
+        },
+        "Makro Filter Buchungsanordnung Historik.bas": {
+          "FileHash": "f1a96a6",
+          "ExportDate": "2025-08-11T07:39:10.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "9bb3a3f"
+        },
+        "Makro Filter Controllingbericht.bas": {
+          "FileHash": "4390126",
+          "ExportDate": "2025-08-11T07:39:10.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "0af10ef"
+        },
+        "Makro Filter Finanzierungsbedarf_Alt.bas": {
+          "FileHash": "2971437",
+          "ExportDate": "2025-08-11T07:39:10.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d1b5c77"
+        },
+        "Makro Filter für Nebenkosten.bas": {
+          "FileHash": "2d297a2",
+          "ExportDate": "2025-08-11T07:39:10.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f16a04d"
+        },
+        "Makro Filter für Nebenkostenhochrechnung.bas": {
+          "FileHash": "995a839",
+          "ExportDate": "2025-08-11T07:39:10.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "28e13e8"
+        },
+        "Makro Filter Mietberechnung.bas": {
+          "FileHash": "9661e58",
+          "ExportDate": "2025-08-11T07:39:10.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b172b89"
+        },
+        "Makro Filter Nebenkosten.bas": {
+          "FileHash": "f0c9e9a",
+          "ExportDate": "2025-08-11T07:39:10.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "7942688"
+        },
+        "Makro Filter Nebenkostenzusammenstellung.bas": {
+          "FileHash": "d4a7cb2",
+          "ExportDate": "2025-08-11T07:39:10.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "6ee19fe"
+        },
+        "Makro Filter.bas": {
+          "FileHash": "49b68d8",
+          "ExportDate": "2025-08-11T07:39:10.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "7a20ece"
+        },
+        "Makro_Filter_Gebäudebewertung.bas": {
+          "FileHash": "17e56f9",
+          "ExportDate": "2025-08-11T07:39:10.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "3701c61"
+        },
+        "Mietdaten archivieren.bas": {
+          "FileHash": "e545fd7",
+          "ExportDate": "2025-08-11T07:39:10.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "9e245a1"
+        },
+        "Personalkosten_übernehmen.bas": {
+          "FileHash": "b4a226b",
+          "ExportDate": "2025-08-11T07:39:10.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b0c0b7e"
+        },
+        "Sanierungsstau Finanzplanung Jahre nach Excel exportieren.bas": {
+          "FileHash": "9655c0d",
+          "ExportDate": "2025-08-11T07:39:10.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "5016bdc"
+        }
+      },
+      "Modules": {
+        "clsCommonDialog.cls": {
+          "FileHash": "b585f3d",
+          "OtherHash": "d8b5695",
+          "ExportDate": "2025-08-11T07:38:18.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "ff31feb"
+        },
+        "Konvertiertes Makro- B_Gesamtergebnisse_zusammenstellen.bas": {
+          "FileHash": "d71abfa",
+          "OtherHash": "34fbbe2",
+          "ExportDate": "2025-08-11T07:38:18.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "1ce86b0"
+        },
+        "LetzDat.bas": {
+          "FileHash": "1366c27",
+          "OtherHash": "91d0b08",
+          "ExportDate": "2025-08-11T07:38:18.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d1f8014"
+        },
+        "mdl_010_Budde_Oeffentliche_Variablen.bas": {
+          "FileHash": "8b93921",
+          "OtherHash": "be7dc82",
+          "ExportDate": "2025-08-11T07:38:18.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "7fe631d"
+        },
+        "mdl_051_Budde_User_Login_Abfrage.bas": {
+          "FileHash": "bf62205",
+          "OtherHash": "98dd1e1",
+          "ExportDate": "2025-08-11T07:38:18.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "952fc85"
+        },
+        "mdl_055_Rechtezuordnungen.bas": {
+          "FileHash": "f924b60",
+          "OtherHash": "efa075d",
+          "ExportDate": "2025-08-11T07:38:18.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8919cfe"
+        },
+        "mdl_060_01_01_Loeschen_moeglich.bas": {
+          "FileHash": "8e56ac4",
+          "OtherHash": "4fa7d5b",
+          "ExportDate": "2025-08-11T07:38:18.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a057100"
+        },
+        "mdl_071_Budde_Mausoperationen.bas": {
+          "FileHash": "d215971",
+          "OtherHash": "70ea53c",
+          "ExportDate": "2025-08-11T07:38:18.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "7d2d662"
+        },
+        "mdl_101_Budde_Konvertierung_BLZ_KontoNr_zu_IBAN_BIC.bas": {
+          "FileHash": "35d838b",
+          "OtherHash": "f745de2",
+          "ExportDate": "2025-08-11T07:38:18.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "1b3485c"
+        },
+        "mdl_120_Budde_Farbauswahldiaolg.bas": {
+          "FileHash": "28396a7",
+          "OtherHash": "d7ef740",
+          "ExportDate": "2025-08-11T07:38:18.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "949a98c"
+        },
+        "mdl_150_Budde_Benutzerdefinierte_Funktionen.bas": {
+          "FileHash": "ecaa5d0",
+          "OtherHash": "d826828",
+          "ExportDate": "2025-08-11T07:38:18.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d5a4e6e"
+        },
+        "mdl_170_Bewertungslauefe.bas": {
+          "FileHash": "33f1c35",
+          "OtherHash": "a058859",
+          "ExportDate": "2025-08-11T07:38:18.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "cb17b4f"
+        },
+        "mdl_180_Abschreib_Wiederherst_Kost_Werterhoehg.bas": {
+          "FileHash": "d087075",
+          "OtherHash": "bce30e3",
+          "ExportDate": "2025-08-11T07:38:18.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "ec79ad3"
+        },
+        "mdl_190_Index_Ermittlung.bas": {
+          "FileHash": "c844e12",
+          "OtherHash": "9b22179",
+          "ExportDate": "2025-08-11T07:38:18.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "819d7ba"
+        },
+        "mdl_200_Budde_Arbeitsprogramm.bas": {
+          "FileHash": "78da5a5",
+          "OtherHash": "1e8def5",
+          "ExportDate": "2025-08-11T07:38:18.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c433870"
+        },
+        "mdl_300_Gebaeude_verwalten.bas": {
+          "FileHash": "9f1cfa8",
+          "OtherHash": "a709ff2",
+          "ExportDate": "2025-08-11T07:38:18.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "16bb19f"
+        },
+        "mdl_600_Export_PDF.bas": {
+          "FileHash": "b948b93",
+          "OtherHash": "f8aabe0",
+          "ExportDate": "2025-08-11T07:38:19.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "770b71a"
+        },
+        "mdl_Budde_API_GetOpenfile.bas": {
+          "FileHash": "ce44143",
+          "OtherHash": "b8e46e8",
+          "ExportDate": "2025-08-11T07:38:18.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a6f78aa"
+        },
+        "mdl_Budde_Experimente.bas": {
+          "FileHash": "9c3e07b",
+          "OtherHash": "6915673",
+          "ExportDate": "2025-08-11T07:38:19.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "2522042"
+        },
+        "mdl_Budde_Tools.bas": {
+          "FileHash": "da229e9",
+          "OtherHash": "26c67c5",
+          "ExportDate": "2025-08-11T07:38:18.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "5416d2f"
+        },
+        "mdl_Excel_Exporte.bas": {
+          "FileHash": "64028d5",
+          "OtherHash": "5a2f4df",
+          "ExportDate": "2025-08-11T07:38:18.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "2829d7a"
+        },
+        "mdl_Export_ind_Fremd_DB.bas": {
+          "FileHash": "293b92b",
+          "OtherHash": "78314c7",
+          "ExportDate": "2025-08-11T07:38:18.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "56d4129"
+        },
+        "mdl_Oeffnen_Speichern_Dialoge_Neu.bas": {
+          "FileHash": "9ec5cdc",
+          "OtherHash": "104c02c",
+          "ExportDate": "2025-08-11T07:38:18.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b353187"
+        },
+        "Modul1.bas": {
+          "FileHash": "6573d23",
+          "OtherHash": "c3e5a11",
+          "ExportDate": "2025-08-11T07:38:19.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f7cb9ff"
+        },
+        "Modul2.bas": {
+          "FileHash": "3e7353a",
+          "OtherHash": "e3a4e23",
+          "ExportDate": "2025-08-11T07:38:18.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "af14e11"
+        },
+        "Modul3.bas": {
+          "FileHash": "a2ea8fa",
+          "OtherHash": "bc12b61",
+          "ExportDate": "2025-08-11T07:38:18.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "666f441"
+        },
+        "Usys_mdl_99_20_­DB_Dok_Scanne_VBA_Code_und_SQLs.bas": {
+          "FileHash": "d3f748a",
+          "OtherHash": "42ecdec",
+          "ExportDate": "2025-08-11T07:38:19.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "77dcf81"
+        }
+      },
+      "Nav Pane Groups": {
+        "nav-pane-groups.json": {
+          "FileHash": "d7dda4f",
+          "ExportDate": "2025-08-11T07:39:18.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "236e98d"
+        }
+      },
+      "Proj Properties": {
+        "proj-properties.json": {
+        }
+      },
+      "Project": {
+        "project.json": {
+          "FileHash": "9fe41ad",
+          "ExportDate": "2025-08-11T07:38:18.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b05caef"
+        }
+      },
+      "Queries": {
+        "___qry_Buchungszuordnung_auf_Kostenstellen.bas": {
+          "FileHash": "3a43d9d",
+          "ExportDate": "2025-08-11T07:38:22.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "dd9c117"
+        },
+        "Abfrage für Bericht Energieverbrauch.bas": {
+          "FileHash": "fb32d84",
+          "ExportDate": "2025-08-11T07:38:22.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b331815"
+        },
+        "Abfrage für Bericht Vergabevorlagen.bas": {
+          "FileHash": "c7e60f4",
+          "ExportDate": "2025-08-11T07:38:22.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8db6d7a"
+        },
+        "Abfrage für Berichte Techniker.bas": {
+          "FileHash": "2670de6",
+          "ExportDate": "2025-08-11T07:38:22.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "fe4ace0"
+        },
+        "Abfrage für Berichte Techniker1.bas": {
+          "FileHash": "2670de6",
+          "ExportDate": "2025-08-11T07:38:22.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "fe4ace0"
+        },
+        "Abfrage für Buchungsanordnung Monat.bas": {
+          "FileHash": "cb05a67",
+          "ExportDate": "2025-08-11T07:38:22.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f73b7fe"
+        },
+        "Abfrage für Buchungsanordnung.bas": {
+          "FileHash": "1592f20",
+          "ExportDate": "2025-08-11T07:38:22.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "9f9bd68"
+        },
+        "Abfrage für Buchungsanordnung_Historik.bas": {
+          "FileHash": "b86e7e7",
+          "ExportDate": "2025-08-11T07:38:22.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "5013f59"
+        },
+        "Abfrage für Buchungsanordnung_Historik1.bas": {
+          "FileHash": "b86e7e7",
+          "ExportDate": "2025-08-11T07:38:23.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "fef9ff4"
+        },
+        "Abfrage für Buchungsanordnung_Historik2.bas": {
+          "FileHash": "b86e7e7",
+          "ExportDate": "2025-08-11T07:38:23.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "fef9ff4"
+        },
+        "Abfrage für Buchungsanordnung_U1.bas": {
+          "FileHash": "525774e",
+          "ExportDate": "2025-08-11T07:38:23.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f81f527"
+        },
+        "Abfrage für Buchungsanordnung_U2.bas": {
+          "FileHash": "070f7b4",
+          "ExportDate": "2025-08-11T07:38:23.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "29f0adb"
+        },
+        "Abfrage für Buchungsanordnung_U21.bas": {
+          "FileHash": "1a6f709",
+          "ExportDate": "2025-08-11T07:38:23.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f500cbc"
+        },
+        "Abfrage für Buchungsanordnung_U3.bas": {
+          "FileHash": "490c28e",
+          "ExportDate": "2025-08-11T07:38:23.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "14bc3ed"
+        },
+        "Abfrage für Eingabe Buchungsstelle in Unterformular.bas": {
+          "FileHash": "4d232cb",
+          "ExportDate": "2025-08-11T07:38:23.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "95f6b3c"
+        },
+        "Abfrage für Filter im Formular Monatsanordnung 2.bas": {
+          "FileHash": "3213f03",
+          "ExportDate": "2025-08-11T07:38:23.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "678ec3d"
+        },
+        "Abfrage für Filter im Formular Monatsanordnung 21.bas": {
+          "FileHash": "473fb7e",
+          "ExportDate": "2025-08-11T07:38:23.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "9ff50d6"
+        },
+        "Abfrage für Finanzierungsübersicht.bas": {
+          "FileHash": "9febe03",
+          "ExportDate": "2025-08-11T07:38:23.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "14a2a61"
+        },
+        "Abfrage für Finanzierungsübersicht1.bas": {
+          "FileHash": "9febe03",
+          "ExportDate": "2025-08-11T07:38:23.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "14a2a61"
+        },
+        "Abfrage für Finanzierungsübersicht2.bas": {
+          "FileHash": "9febe03",
+          "ExportDate": "2025-08-11T07:38:23.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "14a2a61"
+        },
+        "Abfrage für monatlicher Mittelabfluss Daten archivieren.bas": {
+          "FileHash": "e38dc8f",
+          "ExportDate": "2025-08-11T07:38:24.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "51374f5"
+        },
+        "Abfrage für monatlicher Mittelabfluss Daten archivieren1.bas": {
+          "FileHash": "e38dc8f",
+          "ExportDate": "2025-08-11T07:38:24.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "51374f5"
+        },
+        "Abfrage für monatlicher Mittelabfluss.bas": {
+          "FileHash": "097036b",
+          "ExportDate": "2025-08-11T07:38:24.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "e2f497b"
+        },
+        "Abfrage für monatlicher Mittelabfluss1.bas": {
+          "FileHash": "097036b",
+          "ExportDate": "2025-08-11T07:38:24.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "e2f497b"
+        },
+        "Abfrage für Übersicht Haushalt.bas": {
+          "FileHash": "c19ac6e",
+          "ExportDate": "2025-08-11T07:38:24.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "66174d9"
+        },
+        "Abfrage für Unterbericht Arbeitsprogramm.bas": {
+          "FileHash": "b89cb5c",
+          "ExportDate": "2025-08-11T07:38:25.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "fdc60b6"
+        },
+        "Abfrage für Unterbericht Arbeitsprogramm1.bas": {
+          "FileHash": "b89cb5c",
+          "ExportDate": "2025-08-11T07:38:25.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "4775330"
+        },
+        "Abfrage für Unterformular Finanzierungen.bas": {
+          "FileHash": "c242004",
+          "ExportDate": "2025-08-11T07:38:25.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "144b795"
+        },
+        "Abfrage Mittelherkunft nach Haushaltsjahren.bas": {
+          "FileHash": "6dda24d",
+          "ExportDate": "2025-08-11T07:38:25.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "4c9d43e"
+        },
+        "Abfrage Objektverantwortung.bas": {
+          "FileHash": "fa44f30",
+          "ExportDate": "2025-08-11T07:38:25.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "ef355ae"
+        },
+        "Abfrage_für_Import_Haushaltsdaten_in_Tabelle.bas": {
+          "FileHash": "a8985f7",
+          "ExportDate": "2025-08-11T07:38:25.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b6d3850"
+        },
+        "Änderung zeitliche Planung Investitionen.bas": {
+          "FileHash": "e8ce7e6",
+          "ExportDate": "2025-08-11T07:38:25.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "5d4daf9"
+        },
+        "Änderung zeitliche Planung Investitionen1.bas": {
+          "FileHash": "e8ce7e6",
+          "ExportDate": "2025-08-11T07:38:25.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "5d4daf9"
+        },
+        "Anteilige_Aufteilung_Rechnung_nach_Quadratmetern.bas": {
+          "FileHash": "2bbd700",
+          "ExportDate": "2025-08-11T07:38:25.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "4644209"
+        },
+        "Anteilige_Aufteilung_Rechnung_nach_Quadratmetern_Test.bas": {
+          "FileHash": "5409c78",
+          "ExportDate": "2025-08-11T07:38:25.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8a9eecc"
+        },
+        "Anteilige_Aufteilung_Rechnung_nach_Quardratmetern_Löschabfrage.bas": {
+          "FileHash": "9a477e2",
+          "ExportDate": "2025-08-11T07:38:26.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8a18e7a"
+        },
+        "Anzahl Massnahmen für Finanzierungsübersicht.bas": {
+          "FileHash": "0696d9d",
+          "ExportDate": "2025-08-11T07:38:26.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "0d8a4f2"
+        },
+        "Archiverstellungsabfrage_Mietberechnung.bas": {
+          "FileHash": "29d0c57",
+          "ExportDate": "2025-08-11T07:38:26.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f0d3df7"
+        },
+        "B_Abfrage_alle_Ergebnisse.bas": {
+          "FileHash": "13271b4",
+          "ExportDate": "2025-08-11T07:38:26.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b288904"
+        },
+        "B_Abfrage_alle_Ergebnisse_A.bas": {
+          "FileHash": "debfa48",
+          "ExportDate": "2025-08-11T07:38:26.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a71591a"
+        },
+        "B_Abfrage_alle_Ergebnisse_A_erstellen.bas": {
+          "FileHash": "71ad4eb",
+          "ExportDate": "2025-08-11T07:38:26.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f5218fc"
+        },
+        "B_Abfrage_alle_Ergebnisse_B.bas": {
+          "FileHash": "eb41bbc",
+          "ExportDate": "2025-08-11T07:38:27.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "ba868d2"
+        },
+        "B_Abfrage_alle_Ergebnisse_B_erstellen.bas": {
+          "FileHash": "46bb56c",
+          "ExportDate": "2025-08-11T07:38:27.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f161cb0"
+        },
+        "B_Abfrage_alle_Ergebnisse_C.bas": {
+          "FileHash": "91aceba",
+          "ExportDate": "2025-08-11T07:38:27.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "4e2165f"
+        },
+        "B_Abfrage_alle_Ergebnisse_C_erstellen.bas": {
+          "FileHash": "73ba581",
+          "ExportDate": "2025-08-11T07:38:27.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8d26398"
+        },
+        "B_Abfrage_alle_Ergebnisse_D.bas": {
+          "FileHash": "c57ec5f",
+          "ExportDate": "2025-08-11T07:38:27.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "5390f3a"
+        },
+        "B_Abfrage_alle_Ergebnisse_D_erstellen.bas": {
+          "FileHash": "96665bd",
+          "ExportDate": "2025-08-11T07:38:27.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b68dcfb"
+        },
+        "B_Abfrage_alle_Ergebnisse_E.bas": {
+          "FileHash": "97c616f",
+          "ExportDate": "2025-08-11T07:38:27.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "89c680e"
+        },
+        "B_Abfrage_alle_Ergebnisse_E_erstellen.bas": {
+          "FileHash": "a2343b2",
+          "ExportDate": "2025-08-11T07:38:28.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8a2fd2b"
+        },
+        "B_Abfrage_alle_Ergebnisse_F.bas": {
+          "FileHash": "83721b4",
+          "ExportDate": "2025-08-11T07:38:28.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a777cbe"
+        },
+        "B_Abfrage_alle_Ergebnisse_F_erstellen.bas": {
+          "FileHash": "3a3a136",
+          "ExportDate": "2025-08-11T07:38:28.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "1ef8ced"
+        },
+        "B_Abfrage_alle_Ergebnisse_G.bas": {
+          "FileHash": "18e766d",
+          "ExportDate": "2025-08-11T07:38:28.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "66ac875"
+        },
+        "B_Abfrage_alle_Ergebnisse_G_erstellen.bas": {
+          "FileHash": "b6ac977",
+          "ExportDate": "2025-08-11T07:38:28.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "46ab4b1"
+        },
+        "B_Abfrage_für_Bericht_0.bas": {
+          "FileHash": "269388d",
+          "ExportDate": "2025-08-11T07:38:28.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "fade749"
+        },
+        "B_Abfrage_für_Bericht_1.bas": {
+          "FileHash": "03b2848",
+          "ExportDate": "2025-08-11T07:38:28.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "9da146f"
+        },
+        "B_Abfrage_für_Bericht_2.bas": {
+          "FileHash": "7ef5ba4",
+          "ExportDate": "2025-08-11T07:38:28.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "76b504d"
+        },
+        "B_Abfrage_für_Bericht_3.bas": {
+          "FileHash": "232efd8",
+          "ExportDate": "2025-08-11T07:38:28.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8bede93"
+        },
+        "B_Abfrage_für_Bericht_4.bas": {
+          "FileHash": "37ceda8",
+          "ExportDate": "2025-08-11T07:38:29.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a2dfcdc"
+        },
+        "B_Abfrage_für_Bericht_5.bas": {
+          "FileHash": "76192d3",
+          "ExportDate": "2025-08-11T07:38:29.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "6dc7994"
+        },
+        "B_Abfrage_für_Formular.bas": {
+          "FileHash": "216a3a6",
+          "ExportDate": "2025-08-11T07:38:29.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "38a1431"
+        },
+        "B_Abfrage_für_Zuordnung_Sanierungsstau.bas": {
+          "FileHash": "710385f",
+          "ExportDate": "2025-08-11T07:38:29.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c58e561"
+        },
+        "B_Abfrage_Kontrolle_Grundstückszuordnung.bas": {
+          "FileHash": "5ec8560",
+          "ExportDate": "2025-08-11T07:38:29.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "fee489c"
+        },
+        "B_Abfrage_Zuordnung_Grundstück.bas": {
+          "FileHash": "c3647d8",
+          "ExportDate": "2025-08-11T07:38:29.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "46e3fe7"
+        },
+        "B_Archivierung_Gebäudebewertung_1.bas": {
+          "FileHash": "ba4ee27",
+          "ExportDate": "2025-08-11T07:38:29.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "e541429"
+        },
+        "B_Archivierung_Gebäudebewertung_1_lesen.bas": {
+          "FileHash": "b6f5e63",
+          "ExportDate": "2025-08-11T07:38:29.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "1a74ea1"
+        },
+        "B_Archivierung_Gebäudebewertung_2.bas": {
+          "FileHash": "e0ad3a4",
+          "ExportDate": "2025-08-11T07:38:29.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "6a89456"
+        },
+        "B_Archivierung_Gebäudebewertung_2_lesen.bas": {
+          "FileHash": "89d29b9",
+          "ExportDate": "2025-08-11T07:38:30.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d2af6f0"
+        },
+        "B_Archivierung_Gebäudebewertung_3.bas": {
+          "FileHash": "15305e1",
+          "ExportDate": "2025-08-11T07:38:30.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "1468926"
+        },
+        "B_Archivierung_Gebäudebewertung_3_lesen.bas": {
+          "FileHash": "508eeae",
+          "ExportDate": "2025-08-11T07:38:30.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "463add8"
+        },
+        "B_Archivierung_Gebäudebewertung_4.bas": {
+          "FileHash": "938d77e",
+          "ExportDate": "2025-08-11T07:38:30.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "fcbe06c"
+        },
+        "B_Archivierung_Gebäudebewertung_4_lesen.bas": {
+          "FileHash": "19a5714",
+          "ExportDate": "2025-08-11T07:38:30.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "9e44cd5"
+        },
+        "B_Archivierung_Gebäudebewertung_5.bas": {
+          "FileHash": "cebb75e",
+          "ExportDate": "2025-08-11T07:38:30.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b91718c"
+        },
+        "B_Archivierung_Gebäudebewertung_5_lesen.bas": {
+          "FileHash": "48410a0",
+          "ExportDate": "2025-08-11T07:38:30.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "fa318ca"
+        },
+        "B_Ergebnisse_Tabelle.bas": {
+          "FileHash": "5aad577",
+          "ExportDate": "2025-08-11T07:38:30.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "919454b"
+        },
+        "B_Plausibilitätsprüfung.bas": {
+          "FileHash": "7ac1df6",
+          "ExportDate": "2025-08-11T07:38:30.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "120d610"
+        },
+        "B_Plausibilitätsprüfung_Part_01.bas": {
+          "FileHash": "4b857f1",
+          "ExportDate": "2025-08-11T07:38:30.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "303331c"
+        },
+        "B_Plausibilitätsprüfung_Part_02.bas": {
+          "FileHash": "98855bd",
+          "ExportDate": "2025-08-11T07:38:31.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "39c2d66"
+        },
+        "B_Plausibilitätsprüfung_Part_03.bas": {
+          "FileHash": "bb793f7",
+          "ExportDate": "2025-08-11T07:38:31.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "41f4b5c"
+        },
+        "B_Plausibilitätsprüfung_Part_04.bas": {
+          "FileHash": "bc7abc1",
+          "ExportDate": "2025-08-11T07:38:31.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f8e6c10"
+        },
+        "B_Plausibilitätsprüfung_Part_05.bas": {
+          "FileHash": "0ec11a1",
+          "ExportDate": "2025-08-11T07:38:31.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "816545d"
+        },
+        "B_Plausibilitätsprüfung_Part_06.bas": {
+          "FileHash": "ae25ec0",
+          "ExportDate": "2025-08-11T07:38:31.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "355a545"
+        },
+        "B_Plausibilitätsprüfung_Part_07.bas": {
+          "FileHash": "c1260d5",
+          "ExportDate": "2025-08-11T07:38:31.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "47403e1"
+        },
+        "B_Plausibilitätsprüfung_Part_08.bas": {
+          "FileHash": "1821161",
+          "ExportDate": "2025-08-11T07:38:31.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "9a40954"
+        },
+        "B_Plausibilitätsprüfung_Part_09.bas": {
+          "FileHash": "7c5435a",
+          "ExportDate": "2025-08-11T07:38:31.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "2ad35e8"
+        },
+        "B_Plausibilitätsprüfung_Part_10.bas": {
+          "FileHash": "3b8cd7e",
+          "ExportDate": "2025-08-11T07:38:31.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "911f7a7"
+        },
+        "B_Plausibilitätsprüfung_Part_11.bas": {
+          "FileHash": "90a8d3d",
+          "ExportDate": "2025-08-11T07:38:32.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "e3d1ceb"
+        },
+        "B_Plausibilitätsprüfung_Part_12.bas": {
+          "FileHash": "fc5f16c",
+          "ExportDate": "2025-08-11T07:38:32.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "bfc4b3a"
+        },
+        "Bereitgestellt.bas": {
+          "FileHash": "63770bf",
+          "ExportDate": "2025-08-11T07:38:32.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "3af2feb"
+        },
+        "Bericht Arbeitsprogramm Abfrage 1.bas": {
+          "FileHash": "37a21cc",
+          "ExportDate": "2025-08-11T07:38:32.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "43e0a99"
+        },
+        "Bericht Arbeitsprogramm erweitert.bas": {
+          "FileHash": "6710e31",
+          "ExportDate": "2025-08-11T07:38:32.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b9b7495"
+        },
+        "Bericht Arbeitsprogramm für Fachingenieure.bas": {
+          "FileHash": "59b9966",
+          "ExportDate": "2025-08-11T07:38:32.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8e6ee7f"
+        },
+        "Bericht Nebenkosten für Bereich 55.bas": {
+          "FileHash": "e21f568",
+          "ExportDate": "2025-08-11T07:38:33.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a10d5f7"
+        },
+        "Bericht Nebenkosten.bas": {
+          "FileHash": "a8c4e84",
+          "ExportDate": "2025-08-11T07:38:32.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8b3353a"
+        },
+        "Bericht NK.bas": {
+          "FileHash": "cdc983f",
+          "ExportDate": "2025-08-11T07:38:33.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d35b53f"
+        },
+        "Bericht Sanierungsstau Filter.bas": {
+          "FileHash": "511822f",
+          "ExportDate": "2025-08-11T07:38:33.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "867275f"
+        },
+        "Bericht Sanierungsstau mit Teilfinanzierung.bas": {
+          "FileHash": "34ffbbd",
+          "ExportDate": "2025-08-11T07:38:33.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d73868a"
+        },
+        "Bericht Sanierungsstau nach Finanzpl_Part_01.bas": {
+          "FileHash": "12b4af0",
+          "ExportDate": "2025-08-11T07:38:33.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "38ca9f1"
+        },
+        "Bericht Sanierungsstau nach Finanzpl_Part_02.bas": {
+          "FileHash": "da22a05",
+          "ExportDate": "2025-08-11T07:38:33.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "3dfdbe3"
+        },
+        "Bericht Sanierungsstau nach Finanzpl_Part_03 ALT.bas": {
+          "FileHash": "bc8e33a",
+          "ExportDate": "2025-08-11T07:38:34.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "cfce292"
+        },
+        "Bericht Sanierungsstau nach Finanzpl_Part_03.bas": {
+          "FileHash": "e93f167",
+          "ExportDate": "2025-08-11T07:38:33.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "74b86ed"
+        },
+        "Bericht Sanierungsstau nach Finanzpl_Union.bas": {
+          "FileHash": "4f25168",
+          "ExportDate": "2025-08-11T07:38:34.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "bb8fa52"
+        },
+        "Bericht Sanierungsstau nach Finanzplanung mit Filter.bas": {
+          "FileHash": "2f073d7",
+          "ExportDate": "2025-08-11T07:38:34.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "dd74e22"
+        },
+        "Bericht Sanierungsstau nach Finanzplanung noch nicht zugeordnet.bas": {
+          "FileHash": "7af380a",
+          "ExportDate": "2025-08-11T07:38:34.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "dba041b"
+        },
+        "Bericht Sanierungsstau nach Finanzplanung ohne Filter.bas": {
+          "FileHash": "3e7bdbb",
+          "ExportDate": "2025-08-11T07:38:34.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "33b82d5"
+        },
+        "Bericht Sanierungsstau nach Finanzplanung.bas": {
+          "FileHash": "a94bc10",
+          "ExportDate": "2025-08-11T07:38:34.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a56b386"
+        },
+        "Bericht Sanierungsstau nach Finanzplanung_Kreuztabelle.bas": {
+          "FileHash": "254d62a",
+          "ExportDate": "2025-08-11T07:38:35.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "52a9d52"
+        },
+        "Bericht Sanierungsstau Prioritäten nach Mitteln.bas": {
+          "FileHash": "37d13b4",
+          "ExportDate": "2025-08-11T07:38:35.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "499abe2"
+        },
+        "Bericht Sanierungsstau Prioritäten nach SB und Mitteln.bas": {
+          "FileHash": "cbff09a",
+          "ExportDate": "2025-08-11T07:38:35.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "cdbd96f"
+        },
+        "Bericht Sanierungsstau Prioritäten zeitlich.bas": {
+          "FileHash": "018d5cc",
+          "ExportDate": "2025-08-11T07:38:36.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c4070b9"
+        },
+        "Bericht Sanierungsstau Prioritäten.bas": {
+          "FileHash": "1483986",
+          "ExportDate": "2025-08-11T07:38:35.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "e26be5e"
+        },
+        "Bericht Sanierungsstau.bas": {
+          "FileHash": "8121f9f",
+          "ExportDate": "2025-08-11T07:38:33.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "11c6e8b"
+        },
+        "Bericht_Nebenkosten_Grafik_1.bas": {
+          "FileHash": "10c70f3",
+          "ExportDate": "2025-08-11T07:38:36.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "eddb7ea"
+        },
+        "Diffenrenzen bei Kostenstelle und Bereich.bas": {
+          "FileHash": "0e74418",
+          "ExportDate": "2025-08-11T07:38:36.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "489fdec"
+        },
+        "Duplikate suchen für geplante Finanzierung.bas": {
+          "FileHash": "37658fa",
+          "ExportDate": "2025-08-11T07:38:36.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "23b2f50"
+        },
+        "Duplikate suchen zu M_Objekte.bas": {
+          "FileHash": "e1b6c39",
+          "ExportDate": "2025-08-11T07:38:36.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8444263"
+        },
+        "Duplikate suchen zu V_Vergleichsobjekte_Zuordnung_M-Objekte.bas": {
+          "FileHash": "b2ca55f",
+          "ExportDate": "2025-08-11T07:38:36.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "6ecae15"
+        },
+        "Energieverbräuche_Detail_2.bas": {
+          "FileHash": "61e9838",
+          "ExportDate": "2025-08-11T07:38:36.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "6433ba8"
+        },
+        "Entwicklung Grundbesitzabgaben.bas": {
+          "FileHash": "b63e615",
+          "ExportDate": "2025-08-11T07:38:36.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "4d45c5d"
+        },
+        "Entwicklung Grundbesitzabgaben_Kreuztabelle.bas": {
+          "FileHash": "9bddccb",
+          "ExportDate": "2025-08-11T07:38:36.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "7808344"
+        },
+        "Excel_Export_Ergebnisse.bas": {
+          "FileHash": "a42a625",
+          "ExportDate": "2025-08-11T07:38:36.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "911ae5b"
+        },
+        "Excel_Export_Versicherungswerte.bas": {
+          "FileHash": "7184d7d",
+          "ExportDate": "2025-08-11T07:38:37.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "0678714"
+        },
+        "Fiktive Flächen berechnen.bas": {
+          "FileHash": "ab807ea",
+          "ExportDate": "2025-08-11T07:38:37.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "ff63b56"
+        },
+        "Filter_für_Buchungen_Historik.bas": {
+          "FileHash": "8ea8a42",
+          "ExportDate": "2025-08-11T07:38:37.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b512af6"
+        },
+        "Filter_für_Buchungen_suchen.bas": {
+          "FileHash": "8419641",
+          "ExportDate": "2025-08-11T07:38:37.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "fe95a64"
+        },
+        "Flag_setzen_in_Kalkulation_übernommen.bas": {
+          "FileHash": "dc08430",
+          "ExportDate": "2025-08-11T07:38:37.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "ce992a0"
+        },
+        "Hochrechnung_Nebenkosten_1.bas": {
+          "FileHash": "1c859a7",
+          "ExportDate": "2025-08-11T07:38:37.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "adf95b7"
+        },
+        "Hochrechnung_Nebenkosten_2.bas": {
+          "FileHash": "94657e0",
+          "ExportDate": "2025-08-11T07:38:37.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "4eec339"
+        },
+        "Hochrechnung_Nebenkosten_3.bas": {
+          "FileHash": "19a1198",
+          "ExportDate": "2025-08-11T07:38:37.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "9ad2f5e"
+        },
+        "Hochrechnung_Nebenkosten_3a.bas": {
+          "FileHash": "72729fa",
+          "ExportDate": "2025-08-11T07:38:37.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "bdf13cf"
+        },
+        "Hochrechnung_Nebenkosten_4a.bas": {
+          "FileHash": "cd4b89c",
+          "ExportDate": "2025-08-11T07:38:37.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "7b4eea6"
+        },
+        "Hochrechnung_Nebenkosten_4a_für_Formular.bas": {
+          "FileHash": "042e3aa",
+          "ExportDate": "2025-08-11T07:38:38.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "e0d8469"
+        },
+        "Inventurliste.bas": {
+          "FileHash": "5c4fc64",
+          "ExportDate": "2025-08-11T07:38:38.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "2e8f3a0"
+        },
+        "Inventurliste_Part_01.bas": {
+          "FileHash": "f47c751",
+          "ExportDate": "2025-08-11T07:38:38.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "6691440"
+        },
+        "Inventurliste_Part_02.bas": {
+          "FileHash": "1f7c758",
+          "ExportDate": "2025-08-11T07:38:38.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "e4776e7"
+        },
+        "Jahre_für_Bauunterhaltung.bas": {
+          "FileHash": "9a13b68",
+          "ExportDate": "2025-08-11T07:38:39.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "16b4b10"
+        },
+        "Jährliche Abschreibungen.bas": {
+          "FileHash": "4b3decc",
+          "ExportDate": "2025-08-11T07:38:39.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "e7ef79a"
+        },
+        "Kalkulationsjahr_für_Berechnung_in_Tabelle_setzen.bas": {
+          "FileHash": "0cd1eb0",
+          "ExportDate": "2025-08-11T07:38:39.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b6c06d5"
+        },
+        "M_Berechnung_Faktor_bei_Mietende_Mietbeginn.bas": {
+          "FileHash": "41b66e2",
+          "ExportDate": "2025-08-11T07:38:39.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "0e6d206"
+        },
+        "M_Bericht_Nebenkosten.bas": {
+          "FileHash": "f4d1ca6",
+          "ExportDate": "2025-08-11T07:38:39.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "bbb16a3"
+        },
+        "M_Datensatz_duplizieren.bas": {
+          "FileHash": "9a41f22",
+          "ExportDate": "2025-08-11T07:38:39.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "294709a"
+        },
+        "M_Mietberechnung_aus_Archiv.bas": {
+          "FileHash": "e314b14",
+          "ExportDate": "2025-08-11T07:38:39.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "6bfa990"
+        },
+        "M_Mietberechnung_aus_Archiv_Betr_Summen.bas": {
+          "FileHash": "6faca3e",
+          "ExportDate": "2025-08-11T07:38:39.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "35282f3"
+        },
+        "M_Nebenkostenabrechnung_1.bas": {
+          "FileHash": "97aae9e",
+          "ExportDate": "2025-08-11T07:38:39.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f39800c"
+        },
+        "M_Nebenkostenabrechnung_1_Part_01.bas": {
+          "FileHash": "e73f1e7",
+          "ExportDate": "2025-08-11T07:38:39.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b51b418"
+        },
+        "M_Nebenkostenabrechnung_1_Part_02.bas": {
+          "FileHash": "4b7dcad",
+          "ExportDate": "2025-08-11T07:38:39.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "7f7708a"
+        },
+        "M_Nebenkostenabrechnung_2.bas": {
+          "FileHash": "8a2c44f",
+          "ExportDate": "2025-08-11T07:38:40.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "677460b"
+        },
+        "M_Plausitbilitätsprüfungen.bas": {
+          "FileHash": "8cfb152",
+          "ExportDate": "2025-08-11T07:38:40.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "4162614"
+        },
+        "M_Sollstellung_1.bas": {
+          "FileHash": "b9066de",
+          "ExportDate": "2025-08-11T07:38:40.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "29280cb"
+        },
+        "M_Sollstellung_2.bas": {
+          "FileHash": "3053497",
+          "ExportDate": "2025-08-11T07:38:41.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a77a450"
+        },
+        "M_Übernahme_Sonderleistungen_aus_Vorjahr_für_Kalkulation.bas": {
+          "FileHash": "15f16c8",
+          "ExportDate": "2025-08-11T07:38:41.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f510480"
+        },
+        "Mietkalkulation_Kontrolle.bas": {
+          "FileHash": "817b2b1",
+          "ExportDate": "2025-08-11T07:38:41.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "e40b4be"
+        },
+        "Mittelabfluss_1_Zeitablauf.bas": {
+          "FileHash": "a5a2601",
+          "ExportDate": "2025-08-11T07:38:41.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "0b27f92"
+        },
+        "Mittelabfluss_2_Zeitablauf.bas": {
+          "FileHash": "fbc1583",
+          "ExportDate": "2025-08-11T07:38:41.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "64ed581"
+        },
+        "Mittelabfluss_3_Zeitablauf.bas": {
+          "FileHash": "d6952d9",
+          "ExportDate": "2025-08-11T07:38:41.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "57b50f3"
+        },
+        "Mittelabfluss_4_Zeitablauf.bas": {
+          "FileHash": "5734847",
+          "ExportDate": "2025-08-11T07:38:41.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "bd0e368"
+        },
+        "Mittelabfluss_5_Zeitablauf.bas": {
+          "FileHash": "c139eb5",
+          "ExportDate": "2025-08-11T07:38:42.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "285d7c0"
+        },
+        "Monats_AO_Buchungssatz_temp_Buchungssatz_übernehmen.bas": {
+          "FileHash": "31277fa",
+          "ExportDate": "2025-08-11T07:38:42.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "238e47d"
+        },
+        "Monats_AO_Buchungssatz_temp_BuSt_uebernehmen.bas": {
+          "FileHash": "971e167",
+          "ExportDate": "2025-08-11T07:38:42.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a6df6e5"
+        },
+        "Monats_AO_Buchungssatz_temp_Fälligkeiten_übernehmen.bas": {
+          "FileHash": "6d18350",
+          "ExportDate": "2025-08-11T07:38:42.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "58c0f48"
+        },
+        "Monats_AO_Buchungssatz_temp_Kostenstellen_übernehmen.bas": {
+          "FileHash": "8dbf334",
+          "ExportDate": "2025-08-11T07:38:42.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "21da1b0"
+        },
+        "Monats_AO_temp_Buchungssatz_ Buchungsstellen_anlegen.bas": {
+          "FileHash": "5611290",
+          "ExportDate": "2025-08-11T07:38:42.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8cfcafe"
+        },
+        "Monats_AO_temp_Buchungssatz_anlegen.bas": {
+          "FileHash": "6ce5d17",
+          "ExportDate": "2025-08-11T07:38:42.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f47b642"
+        },
+        "Monats_AO_temp_Buchungssatz_Buchungsstellen_Formular.bas": {
+          "FileHash": "fe8b364",
+          "ExportDate": "2025-08-11T07:38:42.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "80787c7"
+        },
+        "Monats_AO_temp_Buchungssatz_Buchungsstellen_löschen.bas": {
+          "FileHash": "e38444e",
+          "ExportDate": "2025-08-11T07:38:42.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "448ad9e"
+        },
+        "Monats_AO_temp_Buchungssatz_Fälligkeiten_anlegen.bas": {
+          "FileHash": "b559a1a",
+          "ExportDate": "2025-08-11T07:38:42.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8943553"
+        },
+        "Monats_AO_temp_Buchungssatz_Fälligkeiten_löschen.bas": {
+          "FileHash": "7ebf186",
+          "ExportDate": "2025-08-11T07:38:42.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "6f28d5d"
+        },
+        "Monats_AO_temp_Buchungssatz_Kostenstellen_anlegen.bas": {
+          "FileHash": "cd6109b",
+          "ExportDate": "2025-08-11T07:38:42.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "e43da53"
+        },
+        "Monats_AO_temp_Buchungssatz_Kostenstellen_Formular.bas": {
+          "FileHash": "67493c9",
+          "ExportDate": "2025-08-11T07:38:42.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "24f6219"
+        },
+        "Monats_AO_temp_Buchungssatz_Kostenstellen_löschen.bas": {
+          "FileHash": "928a3fd",
+          "ExportDate": "2025-08-11T07:38:42.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "936d03b"
+        },
+        "Monats_AO_temp_Buchungssatz_löschen.bas": {
+          "FileHash": "2604379",
+          "ExportDate": "2025-08-11T07:38:42.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "ff2efcc"
+        },
+        "MonatsAO_temp.bas": {
+          "FileHash": "b169807",
+          "ExportDate": "2025-08-11T07:38:42.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "2c1830f"
+        },
+        "NK_enstanden_ohne_Abschläge_Vorauszahlungen.bas": {
+          "FileHash": "5636ed0",
+          "ExportDate": "2025-08-11T07:38:43.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "29b2eac"
+        },
+        "NK_enstanden_ohne_Vorauszahlungen_DS_anfügen.bas": {
+          "FileHash": "870a9c6",
+          "ExportDate": "2025-08-11T07:38:43.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "3d99c03"
+        },
+        "NK_enstanden_ohne_Vorauszahlungen_DS_suchen.bas": {
+          "FileHash": "318fc45",
+          "ExportDate": "2025-08-11T07:38:43.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "629fde0"
+        },
+        "NK_entstanden_ohne_Abschläge_Zahlungen.bas": {
+          "FileHash": "7d02de1",
+          "ExportDate": "2025-08-11T07:38:43.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "794c06e"
+        },
+        "Objekt_Verantwortung_Alle.bas": {
+          "FileHash": "18820c6",
+          "ExportDate": "2025-08-11T07:38:43.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f5231a1"
+        },
+        "Plausibilitätsprüfung Bildung Vergleichsobjekte.bas": {
+          "FileHash": "50d3be2",
+          "ExportDate": "2025-08-11T07:38:43.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "936381e"
+        },
+        "Plausibilitätsprüfung_Buchungen.bas": {
+          "FileHash": "515eeb4",
+          "ExportDate": "2025-08-11T07:38:43.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f5948b5"
+        },
+        "Plausibilitätsprüfung_Buchungen_1.bas": {
+          "FileHash": "e7cce1a",
+          "ExportDate": "2025-08-11T07:38:43.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "0ffee69"
+        },
+        "Plausibilitätsprüfung_Buchungen_2a.bas": {
+          "FileHash": "3dbd24f",
+          "ExportDate": "2025-08-11T07:38:44.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "82a9819"
+        },
+        "Plausibilitätsprüfung_Buchungen_2b.bas": {
+          "FileHash": "6c49b44",
+          "ExportDate": "2025-08-11T07:38:44.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "6d0c130"
+        },
+        "Plausibilitätsprüfung_Buchungen_2c.bas": {
+          "FileHash": "7a114ea",
+          "ExportDate": "2025-08-11T07:38:44.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "5ba1c2e"
+        },
+        "Plausibilitätsprüfung_Buchungen_3.bas": {
+          "FileHash": "69aa7af",
+          "ExportDate": "2025-08-11T07:38:44.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8ede341"
+        },
+        "Plausibilitätsprüfung_Zeitsp_Kostellen.bas": {
+          "FileHash": "281cab5",
+          "ExportDate": "2025-08-11T07:38:44.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "3f38f68"
+        },
+        "qry_010_20_20_Arbeitsplatzkosten.bas": {
+          "FileHash": "5ed5743",
+          "ExportDate": "2025-08-11T07:38:44.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "7788b01"
+        },
+        "qry_020_05_05_Arb_Programm.bas": {
+          "FileHash": "dd4b94d",
+          "ExportDate": "2025-08-11T07:38:44.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "4f01a4b"
+        },
+        "qry_020_10_10_Rep_Arbeitsprogramm.bas": {
+          "FileHash": "717adba",
+          "ExportDate": "2025-08-11T07:38:45.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "ba7502b"
+        },
+        "qry_020_10_15_Rep_Arbeitsprogr_UB_Kontierungen.bas": {
+          "FileHash": "0235e52",
+          "ExportDate": "2025-08-11T07:38:45.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8b63c6a"
+        },
+        "qry_020_10_15_Rep_Arbeitsprogr_UB_Kontierungen_2020.bas": {
+          "FileHash": "45d361b",
+          "ExportDate": "2025-08-11T07:38:45.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "71c4430"
+        },
+        "qry_020_10_15_Rep_Arbeitsprogr_UB_Kontierungen_alt.bas": {
+          "FileHash": "c41635c",
+          "ExportDate": "2025-08-11T07:38:45.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "27eeb70"
+        },
+        "qry_030_05_05_Haush_Dat_Maßn_Summen.bas": {
+          "FileHash": "be0a19f",
+          "ExportDate": "2025-08-11T07:38:45.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "ff4d9bf"
+        },
+        "qry_030_05_10_Gepl_Finanz_Maßn_Summen.bas": {
+          "FileHash": "04fc309",
+          "ExportDate": "2025-08-11T07:38:45.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c047fb2"
+        },
+        "qry_030_05_15_Gepl_Finanz_Maßn_Sum_AP.bas": {
+          "FileHash": "067cff5",
+          "ExportDate": "2025-08-11T07:38:45.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "5461822"
+        },
+        "qry_030_05_15_Gepl_Finanz_Maßn_Sum_AP_pro_Jahr.bas": {
+          "FileHash": "181b7d8",
+          "ExportDate": "2025-08-11T07:38:45.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a3be47e"
+        },
+        "qry_030_05_15_Gepl_Finanz_Maßn_Sum_AP_pro_SB.bas": {
+          "FileHash": "5a482d9",
+          "ExportDate": "2025-08-11T07:38:46.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "dc9d8a2"
+        },
+        "qry_030_05_20_Tats_Gepl_Finanz_Umstimmigkeiten_01.bas": {
+          "FileHash": "5a6222f",
+          "ExportDate": "2025-08-11T07:38:46.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "78275c1"
+        },
+        "qry_030_05_40_Tats_Gepl_Finanz_Umstimmigkeiten_03.bas": {
+          "FileHash": "48d1e9e",
+          "ExportDate": "2025-08-11T07:38:46.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d501afe"
+        },
+        "qry_030_05_45_Tats_Gepl_Finanz_Umstimmigkeiten_04.bas": {
+          "FileHash": "ae0164e",
+          "ExportDate": "2025-08-11T07:38:46.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "3ec88d6"
+        },
+        "qry_030_05_50_Tats_Gepl_Finanz_Unstimmigk_Union.bas": {
+          "FileHash": "d0b0bf7",
+          "ExportDate": "2025-08-11T07:38:46.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "384c854"
+        },
+        "qry_030_10_10_Rep_Teilm_Finanz_Summen.bas": {
+          "FileHash": "d299be0",
+          "ExportDate": "2025-08-11T07:38:46.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "ca9842f"
+        },
+        "qry_030_10_15_Rep_Finanzgen_Unst_TM_Kosten.bas": {
+          "FileHash": "7de1118",
+          "ExportDate": "2025-08-11T07:38:46.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "44dc2b1"
+        },
+        "qry_030_10_20_Rep_Teilm_TM_Kostensummen.bas": {
+          "FileHash": "4493b42",
+          "ExportDate": "2025-08-11T07:38:46.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c25aa50"
+        },
+        "qry_030_10_25_Rep_Fehl_TM.bas": {
+          "FileHash": "67a943d",
+          "ExportDate": "2025-08-11T07:38:46.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "0f874a6"
+        },
+        "qry_030_10_30_Rep_Teilm_Finanz_TM_Kosten_kumul.bas": {
+          "FileHash": "e618b50",
+          "ExportDate": "2025-08-11T07:38:47.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f391b5a"
+        },
+        "qry_030_10_40_Rep_Teilm_Finanz_Unstimmigkeiten.bas": {
+          "FileHash": "623c856",
+          "ExportDate": "2025-08-11T07:38:47.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b32c10a"
+        },
+        "qry_030_20_10_DH_rpt_Maßn_Summen_pro_Buch_Stelle.bas": {
+          "FileHash": "391eee1",
+          "ExportDate": "2025-08-11T07:38:47.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "5dd2bdb"
+        },
+        "qry_030_20_30_DH_rpt_Maßn_Summen_pro_Fin_Herk_kaputt.bas": {
+          "FileHash": "d98d5d0",
+          "ExportDate": "2025-08-11T07:38:47.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "74a8e96"
+        },
+        "qry_200_05_10_Fehlende_Erstbewertungen.bas": {
+          "FileHash": "20b208b",
+          "ExportDate": "2025-08-11T07:38:47.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "2ad2c5e"
+        },
+        "qry_200_05_12_Gebaeude_ohne_Zus_B60.bas": {
+          "FileHash": "90f4ce5",
+          "ExportDate": "2025-08-11T07:38:47.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f48b35e"
+        },
+        "qry_200_05_20_Zu_bewertende_Geb_Teile.bas": {
+          "FileHash": "9b2fb7c",
+          "ExportDate": "2025-08-11T07:38:47.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "aa2c522"
+        },
+        "qry_200_05_30_Index_Bezugsjahre.bas": {
+          "FileHash": "1d1f13d",
+          "ExportDate": "2025-08-11T07:38:47.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d85aa3d"
+        },
+        "qry_200_05_40_Indexe.bas": {
+          "FileHash": "5b00ad8",
+          "ExportDate": "2025-08-11T07:38:48.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c046101"
+        },
+        "qry_200_05_40_Jaehrliche_Bodenrichtwerte.bas": {
+          "FileHash": "9ed796f",
+          "ExportDate": "2025-08-11T07:38:48.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "07468aa"
+        },
+        "qry_200_10_05_Werterhöhungen_nach_Bewertungsjahr.bas": {
+          "FileHash": "c675b30",
+          "ExportDate": "2025-08-11T07:38:48.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "9575cd0"
+        },
+        "qry_200_10_07_Erstelle_Erst_Bewertungsbilanz.bas": {
+          "FileHash": "b78816c",
+          "ExportDate": "2025-08-11T07:38:48.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "e8f367f"
+        },
+        "qry_200_10_10_Erstelle_Bewertungsbilanz.bas": {
+          "FileHash": "2efa4cb",
+          "ExportDate": "2025-08-11T07:38:48.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "194c89b"
+        },
+        "qry_200_10_20_Bewertung_fehlender_NBW_ab_2000.bas": {
+          "FileHash": "ce4a56a",
+          "ExportDate": "2025-08-11T07:38:49.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "68f6d94"
+        },
+        "qry_200_30_10_Erst_Bew_bil_Sanierungsstau.bas": {
+          "FileHash": "4fbc149",
+          "ExportDate": "2025-08-11T07:38:49.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d9206f4"
+        },
+        "qry_200_30_20_Erst_Bew_bil_Werterhoehung.bas": {
+          "FileHash": "93fb79d",
+          "ExportDate": "2025-08-11T07:38:49.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "7455448"
+        },
+        "qry_200_30_30_Geb_Teile_2009_bereits_erstbewertet.bas": {
+          "FileHash": "d441598",
+          "ExportDate": "2025-08-11T07:38:49.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "12e4a37"
+        },
+        "qry_200_30_30_Geb_Teile_ohne_Erstbewertung.bas": {
+          "FileHash": "0373958",
+          "ExportDate": "2025-08-11T07:38:49.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "54bcc53"
+        },
+        "qry_220_10_10_DH_rpt_Bew_Bil_HK_Kosten.bas": {
+          "FileHash": "f8b624c",
+          "ExportDate": "2025-08-11T07:38:49.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "154b064"
+        },
+        "qry_220_10_10_DH_rpt_Bew_Bil_HK_Kosten_DM.bas": {
+          "FileHash": "15f9a00",
+          "ExportDate": "2025-08-11T07:38:50.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "7f4cf4a"
+        },
+        "qry_220_10_10_DH_rpt_Bew_Bil_HK_Kosten_nach_2009.bas": {
+          "FileHash": "d935b26",
+          "ExportDate": "2025-08-11T07:38:50.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f015946"
+        },
+        "qry_220_10_10_DH_rpt_Bew_Bil_HK_Kosten_nach_2009_SI.bas": {
+          "FileHash": "36982c1",
+          "ExportDate": "2025-08-11T07:38:50.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c1c6dac"
+        },
+        "qry_220_30_10_DH_rpt_Bew_Bil_HK_Kost_Sanstau.bas": {
+          "FileHash": "a75312f",
+          "ExportDate": "2025-08-11T07:38:50.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "6898fa9"
+        },
+        "qry_220_30_20_DH_rpt_Bew_Bil_HK_Kost_Werterh.bas": {
+          "FileHash": "707db58",
+          "ExportDate": "2025-08-11T07:38:50.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "592b4b3"
+        },
+        "qry_220_30_30_DH_rpt_Bew_Bil_HK_Kost_Werterh_Restwert.bas": {
+          "FileHash": "5301f71",
+          "ExportDate": "2025-08-11T07:38:50.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a46fc63"
+        },
+        "qry_230_10_10_Excel_Matrix_Bewertungen.bas": {
+          "FileHash": "ee48467",
+          "ExportDate": "2025-08-11T07:38:50.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "0940a40"
+        },
+        "qry_400_10_05_Verg_Summen_pro_Auftrag.bas": {
+          "FileHash": "4afc6f7",
+          "ExportDate": "2025-08-11T07:38:51.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "1ef9711"
+        },
+        "qry_400_10_10_DH_rpt_Vergabevorlagen.bas": {
+          "FileHash": "d06d745",
+          "ExportDate": "2025-08-11T07:38:51.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "95a84c0"
+        },
+        "qry_400_10_20_DH_rpt_Vergabevorl_Castroper_Firmen.bas": {
+          "FileHash": "36af863",
+          "ExportDate": "2025-08-11T07:38:51.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "3ae001e"
+        },
+        "qry_BGF_Summen.bas": {
+          "FileHash": "0ffdeb7",
+          "ExportDate": "2025-08-11T07:38:51.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "1e96e1d"
+        },
+        "qry_DM_HK.bas": {
+          "FileHash": "fd6efd0",
+          "ExportDate": "2025-08-11T07:38:51.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f9dec2e"
+        },
+        "qry_Gebaeude_Massnahmen.bas": {
+          "FileHash": "13014db",
+          "ExportDate": "2025-08-11T07:38:51.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8eab2db"
+        },
+        "qry_Gebäudeteile_ohne_Kostenstellenzuordnung.bas": {
+          "FileHash": "7c986aa",
+          "ExportDate": "2025-08-11T07:38:51.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a9c2dcc"
+        },
+        "qry_HK_Aus_B_Sanierungsstau.bas": {
+          "FileHash": "22079af",
+          "ExportDate": "2025-08-11T07:38:51.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c69de81"
+        },
+        "qry_rpt_030_50_10_Aktiv_bare_Eigenleistungen.bas": {
+          "FileHash": "bf54ef2",
+          "ExportDate": "2025-08-11T07:38:51.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c2ae4a6"
+        },
+        "qry_rpt_200_10_10_Datenherk_Bewertungsbil_nach_2009.bas": {
+          "FileHash": "2f13d68",
+          "ExportDate": "2025-08-11T07:38:52.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "92feeab"
+        },
+        "qry_rpt_200_10_10_Datenherk_Bewertungsbilanz.bas": {
+          "FileHash": "26a13e7",
+          "ExportDate": "2025-08-11T07:38:52.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "e570bb8"
+        },
+        "qry_rpt_300_10_05_Gepl_Erled_Finanzierung.bas": {
+          "FileHash": "d13e694",
+          "ExportDate": "2025-08-11T07:38:52.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a81fc1d"
+        },
+        "qry_rpt_300_10_10_DH_Verwbericht_Massn_Kosten.bas": {
+          "FileHash": "5a6d204",
+          "ExportDate": "2025-08-11T07:38:52.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "79d4e2f"
+        },
+        "qry_rpt_300_10_20_DH_Verwbericht_Restebildung.bas": {
+          "FileHash": "e92c602",
+          "ExportDate": "2025-08-11T07:38:52.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "734abe3"
+        },
+        "qry_Temp_Finanzherkuenfte_kann_gelöscht_werden.bas": {
+          "FileHash": "4dbc89a",
+          "ExportDate": "2025-08-11T07:38:52.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c51662f"
+        },
+        "Sanierungsstau Finanzplanung Jahre Excel.bas": {
+          "FileHash": "f0bd393",
+          "ExportDate": "2025-08-11T07:38:53.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "728dfe2"
+        },
+        "select 1.bas": {
+          "FileHash": "1d301b5",
+          "ExportDate": "2025-08-11T07:38:53.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "518579d"
+        },
+        "Übernahme Daten Finanzauskunft 1.bas": {
+          "FileHash": "df9343d",
+          "ExportDate": "2025-08-11T07:38:53.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "ff78130"
+        },
+        "Übernahme Daten Finanzauskunft 2.bas": {
+          "FileHash": "6c7a142",
+          "ExportDate": "2025-08-11T07:38:53.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "7475872"
+        },
+        "Übernahme Haushaltsdaten aus Access Löschabfrage.bas": {
+          "FileHash": "423dc48",
+          "ExportDate": "2025-08-11T07:38:53.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "96b588c"
+        },
+        "Übernahme Haushaltsdaten aus Access max von Zeitstempel.bas": {
+          "FileHash": "a496ffe",
+          "ExportDate": "2025-08-11T07:38:53.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "e281bdc"
+        },
+        "Übernahme Haushaltsdaten aus Access.bas": {
+          "FileHash": "8c84166",
+          "ExportDate": "2025-08-11T07:38:53.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a0c8c44"
+        },
+        "Union_Abfrage_Mietberechnung.bas": {
+          "FileHash": "fcf3733",
+          "ExportDate": "2025-08-11T07:38:54.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "5944b63"
+        },
+        "Union_Abfrage_Mietberechnung_1.bas": {
+          "FileHash": "42ceff4",
+          "ExportDate": "2025-08-11T07:38:54.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "bd42f16"
+        },
+        "Union_Abfrage_Mietberechnung_1__Teil_1.bas": {
+          "FileHash": "238243b",
+          "ExportDate": "2025-08-11T07:38:54.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "9989b5a"
+        },
+        "Union_Abfrage_Mietberechnung_1__Teil_2.bas": {
+          "FileHash": "8b9d59a",
+          "ExportDate": "2025-08-11T07:38:54.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "ea9d98f"
+        },
+        "Union_Abfrage_Mietberechnung_1__Teil_3.bas": {
+          "FileHash": "f98883b",
+          "ExportDate": "2025-08-11T07:38:54.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "373e82a"
+        },
+        "Union_Abfrage_Mietberechnung_1__Teil_4.bas": {
+          "FileHash": "28aeebf",
+          "ExportDate": "2025-08-11T07:38:55.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "5c18df2"
+        },
+        "Union_Abfrage_Mietberechnung_1__Teil_5.bas": {
+          "FileHash": "6d64fbb",
+          "ExportDate": "2025-08-11T07:38:55.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8f5c31d"
+        },
+        "Union_Abfrage_Mietberechnung_1__Teil_6.bas": {
+          "FileHash": "9ff08ac",
+          "ExportDate": "2025-08-11T07:38:55.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "eaff27b"
+        },
+        "Union_Abfrage_Mietberechnung_1__Teil_7.bas": {
+          "FileHash": "1f08c89",
+          "ExportDate": "2025-08-11T07:38:55.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "5c8c82b"
+        },
+        "Union_Abfrage_Mietberechnung_Bauunterhaltung_1.bas": {
+          "FileHash": "4a5c8ef",
+          "ExportDate": "2025-08-11T07:38:55.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f14c309"
+        },
+        "Union_Abfrage_Mietberechnung_Bauunterhaltung_Summe_Flächen.bas": {
+          "FileHash": "15fa44d",
+          "ExportDate": "2025-08-11T07:38:55.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "38a0606"
+        },
+        "Union_Abfrage_Mietberechnung_Bauunterhaltung_Summe_Flächen_Neu.bas": {
+          "FileHash": "90348fa",
+          "ExportDate": "2025-08-11T07:38:55.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "3a8476e"
+        },
+        "Union_Abfrage_Mietberechnung_mit_Filter.bas": {
+          "FileHash": "ff8f1e5",
+          "ExportDate": "2025-08-11T07:38:56.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "cef0237"
+        },
+        "Union_Abfrage_Mietberechnung_mit_Filter_Betr_Summen.bas": {
+          "FileHash": "ebb44b9",
+          "ExportDate": "2025-08-11T07:38:57.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "941293b"
+        },
+        "Union_Abfrage_Mietberechnung_nur_Abschreibung.bas": {
+          "FileHash": "92507ca",
+          "ExportDate": "2025-08-11T07:38:57.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8c9c670"
+        },
+        "Union_Abfrage_Mietberechnung_ohne_Filter.bas": {
+          "FileHash": "5a12cde",
+          "ExportDate": "2025-08-11T07:38:57.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d2092e5"
+        },
+        "Union_Abfrage_Mietberechnung_Personalkosten_1.bas": {
+          "FileHash": "c739619",
+          "ExportDate": "2025-08-11T07:38:57.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f4937c8"
+        },
+        "Union_Abfrage_Mietberechnung1.bas": {
+          "FileHash": "fcf3733",
+          "ExportDate": "2025-08-11T07:38:58.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "3095a5c"
+        },
+        "Unterabfrage für Plausibiltitätsprüfung.bas": {
+          "FileHash": "b13d494",
+          "ExportDate": "2025-08-11T07:38:58.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "1012dbf"
+        },
+        "Usys_qry_Verwaiste_Einträge_in_2009_er_Archhiv.bas": {
+          "FileHash": "4ef0276",
+          "ExportDate": "2025-08-11T07:38:58.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "1d6f41c"
+        },
+        "Zuordnung Gebäude zu Sachbearbeitern.bas": {
+          "FileHash": "c94ad46",
+          "ExportDate": "2025-08-11T07:38:58.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "cf15ae6"
+        },
+        "Zuordnung KoSt zu Bereichen und Betrieben.bas": {
+          "FileHash": "eda87a6",
+          "ExportDate": "2025-08-11T07:38:58.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d26f2f8"
+        },
+        "Zuordnung_Abschreibung_1.bas": {
+          "FileHash": "55ca090",
+          "ExportDate": "2025-08-11T07:38:59.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c3ab7eb"
+        },
+        "Zuordnung_Abschreibung_2.bas": {
+          "FileHash": "8142e1f",
+          "ExportDate": "2025-08-11T07:38:59.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "fd7aafc"
+        },
+        "Zusammenstellung NK nach Arten.bas": {
+          "FileHash": "7017f9c",
+          "ExportDate": "2025-08-11T07:38:59.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "5f40626"
+        },
+        "Zusammenstellung NK_0.bas": {
+          "FileHash": "e9248be",
+          "ExportDate": "2025-08-11T07:38:59.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "0adf75c"
+        },
+        "Zusammenstellung NK_0_Alt.bas": {
+          "FileHash": "7333634",
+          "ExportDate": "2025-08-11T07:38:59.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b662044"
+        },
+        "Zusammenstellung NK_1.bas": {
+          "FileHash": "7f81391",
+          "ExportDate": "2025-08-11T07:39:00.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f9e7d02"
+        }
+      },
+      "Reports": {
+        "Arbeitsprogramm Unterbericht Maßnahmenteile.bas": {
+          "FileHash": "ba8eec9",
+          "ExportDate": "2025-08-11T07:39:11.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "9fd512a"
+        },
+        "Aufstellung Nebenkosten.bas": {
+          "FileHash": "0d797b8",
+          "ExportDate": "2025-08-11T07:39:12.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "7811e57"
+        },
+        "B_Ergebnisse_Tabelle.bas": {
+          "FileHash": "8de4703",
+          "OtherHash": "72c419b",
+          "ExportDate": "2025-08-11T07:39:15.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "54f914b"
+        },
+        "B_Ergebnisse_Versicherungswerte.bas": {
+          "FileHash": "bfb3326",
+          "OtherHash": "72c419b",
+          "ExportDate": "2025-08-11T07:39:10.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "fe452ce"
+        },
+        "Bericht Mittelabfluss Historik.bas": {
+          "FileHash": "93b0f20",
+          "ExportDate": "2025-08-11T07:39:15.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "9d9842c"
+        },
+        "Bericht Mittelabfluss.bas": {
+          "FileHash": "8d31a84",
+          "OtherHash": "071d8b6",
+          "ExportDate": "2025-08-11T07:39:16.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "5d6d3d2"
+        },
+        "Bericht Mittelabfluss1.bas": {
+          "FileHash": "3be924c",
+          "ExportDate": "2025-08-11T07:39:12.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "317b790"
+        },
+        "Bericht Mittelabfluss11.bas": {
+          "FileHash": "3be924c",
+          "ExportDate": "2025-08-11T07:39:12.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "317b790"
+        },
+        "Bericht monatlicher Mittelabfluss Diagramm.bas": {
+          "FileHash": "b6308ec",
+          "ExportDate": "2025-08-11T07:39:16.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "3f2ed54"
+        },
+        "Bericht Sanierungsstau nach Finanzplanung_Kreuztabelle.bas": {
+          "FileHash": "a1e64ef",
+          "ExportDate": "2025-08-11T07:39:11.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "5e1dd5c"
+        },
+        "Bericht Sanierungsstau nach Finanzplanung_Kreuztabelle1.bas": {
+          "FileHash": "a1e64ef",
+          "ExportDate": "2025-08-11T07:39:16.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "5ab75ab"
+        },
+        "Bericht Sanierungsstau nach Finanzplanung_Kreuztabelle11.bas": {
+          "FileHash": "a1e64ef",
+          "ExportDate": "2025-08-11T07:39:16.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "5ab75ab"
+        },
+        "Bericht Sanierungsstau nach Finanzplanung_Kreuztabelle111.bas": {
+          "FileHash": "a1e64ef",
+          "ExportDate": "2025-08-11T07:39:12.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "9ccb3df"
+        },
+        "Bericht_Nebenkosten.bas": {
+          "FileHash": "c8b20d1",
+          "ExportDate": "2025-08-11T07:39:12.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "6a65fa7"
+        },
+        "Bericht_Nebenkosten_Kalkulation.bas": {
+          "FileHash": "9ea221a",
+          "ExportDate": "2025-08-11T07:39:13.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "da83cf4"
+        },
+        "Bericht_Nebenkosten_Kalkulation1.bas": {
+          "FileHash": "5ec7c9f",
+          "ExportDate": "2025-08-11T07:39:12.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c87a32d"
+        },
+        "Bericht_Nebenkosten1.bas": {
+          "FileHash": "2a1cdbf",
+          "ExportDate": "2025-08-11T07:39:16.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "ce355b9"
+        },
+        "Bericht_Nebenkosten2.bas": {
+          "FileHash": "2d6879c",
+          "ExportDate": "2025-08-11T07:39:16.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "3bf9a57"
+        },
+        "Buchungsanordnung.bas": {
+          "FileHash": "ecf1f3e",
+          "OtherHash": "58843b8",
+          "ExportDate": "2025-08-11T07:39:11.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f637546"
+        },
+        "Buchungsanordnung_Historik.bas": {
+          "FileHash": "fd78fac",
+          "OtherHash": "16dbb86",
+          "ExportDate": "2025-08-11T07:39:15.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "6431fa4"
+        },
+        "Buchungsanordnung_Kopie.bas": {
+          "FileHash": "74d5803",
+          "OtherHash": "9b01e0c",
+          "ExportDate": "2025-08-11T07:39:14.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "ce80fe0"
+        },
+        "Buchungsanordnung_Kopie_Historik.bas": {
+          "FileHash": "09fab21",
+          "OtherHash": "9b01e0c",
+          "ExportDate": "2025-08-11T07:39:11.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "15c9e27"
+        },
+        "Buchungsanordnung_Monat.bas": {
+          "FileHash": "2016b31",
+          "OtherHash": "0b13c1e",
+          "ExportDate": "2025-08-11T07:39:13.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "5eff85f"
+        },
+        "Buchungsanordnung_Monat_Kopie.bas": {
+          "FileHash": "b3bcd94",
+          "OtherHash": "9b01e0c",
+          "ExportDate": "2025-08-11T07:39:11.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a5f60db"
+        },
+        "Buchungsanordnung_Unterbericht_Buchungsstelle.bas": {
+          "FileHash": "bede8c0",
+          "OtherHash": "9b01e0c",
+          "ExportDate": "2025-08-11T07:39:14.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b77800c"
+        },
+        "Buchungsanordnung_Unterbericht_Fälligkeiten.bas": {
+          "FileHash": "1e5b5ec",
+          "OtherHash": "9b01e0c",
+          "ExportDate": "2025-08-11T07:39:12.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "25000e8"
+        },
+        "Buchungsanordnung_Unterbericht_Kostenrechnung.bas": {
+          "FileHash": "9f00e8a",
+          "OtherHash": "9b01e0c",
+          "ExportDate": "2025-08-11T07:39:11.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c7a017f"
+        },
+        "Gebäudebewertung - nur Sanierungsstau -.bas": {
+          "FileHash": "5a48979",
+          "OtherHash": "9b01e0c",
+          "ExportDate": "2025-08-11T07:39:15.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "87ba059"
+        },
+        "Gebäudebewertung.bas": {
+          "FileHash": "25c1e2c",
+          "OtherHash": "4399352",
+          "ExportDate": "2025-08-11T07:39:15.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d639f93"
+        },
+        "Gebäudebewertung_Archiv.bas": {
+          "FileHash": "2019e3b",
+          "OtherHash": "abff56a",
+          "ExportDate": "2025-08-11T07:39:16.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f1ae732"
+        },
+        "Gebäudebewertung_Archiv_Unterbericht_Ausstattung.bas": {
+          "FileHash": "0d1211f",
+          "OtherHash": "9b01e0c",
+          "ExportDate": "2025-08-11T07:39:11.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "9001c2f"
+        },
+        "Gebäudebewertung_Archiv_Unterbericht_Bodenwert.bas": {
+          "FileHash": "905c78c",
+          "OtherHash": "9b01e0c",
+          "ExportDate": "2025-08-11T07:39:16.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a0d955f"
+        },
+        "Gebäudebewertung_Archiv_Unterbericht_Sanierungsstau.bas": {
+          "FileHash": "f76fcfb",
+          "OtherHash": "9b01e0c",
+          "ExportDate": "2025-08-11T07:39:17.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "7b7cd4f"
+        },
+        "Gebäudebewertung_Archiv_Unterbericht_Werterhöhung.bas": {
+          "FileHash": "0f76672",
+          "OtherHash": "9b01e0c",
+          "ExportDate": "2025-08-11T07:39:15.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "590a659"
+        },
+        "Gebäudebewertung_UB_San_Stau_UB_Jahre.bas": {
+          "FileHash": "eebe7ad",
+          "OtherHash": "9b01e0c",
+          "ExportDate": "2025-08-11T07:39:14.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "ba2df29"
+        },
+        "Gebäudebewertung_Unterbericht_Anmerkungen.bas": {
+          "FileHash": "351f9a5",
+          "OtherHash": "9b01e0c",
+          "ExportDate": "2025-08-11T07:39:12.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8551a83"
+        },
+        "Gebäudebewertung_Unterbericht_Ausstattung.bas": {
+          "FileHash": "8dcf294",
+          "OtherHash": "9b01e0c",
+          "ExportDate": "2025-08-11T07:39:11.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "2e11616"
+        },
+        "Gebäudebewertung_Unterbericht_Bodenwert.bas": {
+          "FileHash": "72ce6cd",
+          "OtherHash": "9b01e0c",
+          "ExportDate": "2025-08-11T07:39:16.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "22bbc64"
+        },
+        "Gebäudebewertung_Unterbericht_Sanierungsstau.bas": {
+          "FileHash": "fb9a90d",
+          "OtherHash": "9b01e0c",
+          "ExportDate": "2025-08-11T07:39:17.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "cb8dbfd"
+        },
+        "Gebäudebewertung_Unterbericht_Werterhöhung.bas": {
+          "FileHash": "3b38ffe",
+          "OtherHash": "9b01e0c",
+          "ExportDate": "2025-08-11T07:39:15.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "e57605f"
+        },
+        "Mietkalkulation ohne Details.bas": {
+          "FileHash": "1974408",
+          "ExportDate": "2025-08-11T07:39:16.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "44f56ac"
+        },
+        "Mietkalkulation.bas": {
+          "FileHash": "d1823c9",
+          "OtherHash": "e9792ab",
+          "ExportDate": "2025-08-11T07:39:13.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "e843d47"
+        },
+        "Mietkalkulation_aus_Archiv_alt.bas": {
+          "FileHash": "3b4911a",
+          "OtherHash": "4d4037a",
+          "ExportDate": "2025-08-11T07:39:13.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c33f021"
+        },
+        "Mietkalkulation_Kontrolle.bas": {
+          "FileHash": "787b4fb",
+          "ExportDate": "2025-08-11T07:39:15.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "0b9ae16"
+        },
+        "Mietkalkulation-nur Ergebnisse.bas": {
+          "FileHash": "b9a2ed1",
+          "ExportDate": "2025-08-11T07:39:11.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "1a6e05a"
+        },
+        "Nebenkostenabrechnung - Kurzfassung.bas": {
+          "FileHash": "5ac9801",
+          "ExportDate": "2025-08-11T07:39:12.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "9c426a3"
+        },
+        "Nebenkostenabrechnung.bas": {
+          "FileHash": "6dfb787",
+          "ExportDate": "2025-08-11T07:39:12.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "255b15a"
+        },
+        "Nebenkostenabrechnung_Unterbericht_Zahlungen.bas": {
+          "FileHash": "e0c48f5",
+          "ExportDate": "2025-08-11T07:39:15.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "9166087"
+        },
+        "Objektverantwortung.bas": {
+          "FileHash": "b7d64c2",
+          "OtherHash": "12ba47e",
+          "ExportDate": "2025-08-11T07:39:11.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "731c305"
+        },
+        "Objektverantwortung_Alle.bas": {
+          "FileHash": "c84980b",
+          "OtherHash": "3a28cc7",
+          "ExportDate": "2025-08-11T07:39:14.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c3cd7b4"
+        },
+        "Pausibilitätsprüfung Gebäudebewertung.bas": {
+          "FileHash": "3555609",
+          "OtherHash": "753ebb1",
+          "ExportDate": "2025-08-11T07:39:15.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "28fe7b3"
+        },
+        "Plausibilitätsprüfung_Buchungen.bas": {
+          "FileHash": "671d9cb",
+          "OtherHash": "9b01e0c",
+          "ExportDate": "2025-08-11T07:39:17.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f60462d"
+        },
+        "Plausibilitätsprüfung_Buchungen_alt.bas": {
+          "FileHash": "0d644af",
+          "OtherHash": "9b01e0c",
+          "ExportDate": "2025-08-11T07:39:17.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8767f93"
+        },
+        "Plausibiltätsprüfungen.bas": {
+          "FileHash": "0733559",
+          "ExportDate": "2025-08-11T07:39:15.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f635cf5"
+        },
+        "rpt_001_Sachbearbeiter.bas": {
+          "FileHash": "34f2769",
+          "OtherHash": "2a7da36",
+          "ExportDate": "2025-08-11T07:39:16.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "fab9a8a"
+        },
+        "rpt_020_10_10_Arbeitsprogramm.bas": {
+          "FileHash": "c25445e",
+          "OtherHash": "5422641",
+          "ExportDate": "2025-08-11T07:39:18.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "ad4896b"
+        },
+        "rpt_020_10_10_Arbeitsprogramm_2020.bas": {
+          "FileHash": "68215fa",
+          "OtherHash": "2fc1e1f",
+          "ExportDate": "2025-08-11T07:39:18.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "0b5541c"
+        },
+        "rpt_020_10_15_Arbeitspr_UB_Kontierungen.bas": {
+          "FileHash": "1384d66",
+          "ExportDate": "2025-08-11T07:39:15.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "4c68033"
+        },
+        "rpt_020_10_15_Arbeitspr_UB_Kontierungen_2020.bas": {
+          "FileHash": "8de1bd8",
+          "ExportDate": "2025-08-11T07:39:16.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "1b84e45"
+        },
+        "rpt_020_10_20_Umstimmigk_TeilmKosten_Finanzg.bas": {
+          "FileHash": "e1b7a0e",
+          "OtherHash": "067ee7b",
+          "ExportDate": "2025-08-11T07:39:11.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "78b551e"
+        },
+        "rpt_020_10_30_Umstimmigk_Tats_Gepl_Finanzg.bas": {
+          "FileHash": "f4c95fa",
+          "OtherHash": "067ee7b",
+          "ExportDate": "2025-08-11T07:39:15.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "7d98bb7"
+        },
+        "rpt_030_20_10_Maßn_Summen_pro_Buch_Stelle.bas": {
+          "FileHash": "77c2bee",
+          "ExportDate": "2025-08-11T07:39:14.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b144b02"
+        },
+        "rpt_030_20_20_Maßn_Summen_pro_SB.bas": {
+          "FileHash": "10a99df",
+          "OtherHash": "afdb41b",
+          "ExportDate": "2025-08-11T07:39:14.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "0ed2104"
+        },
+        "rpt_030_20_30_Maßn_Summen_pro_Fin_Herk.bas": {
+          "FileHash": "465eaa2",
+          "ExportDate": "2025-08-11T07:39:16.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "e0f8477"
+        },
+        "rpt_030_20_30_Maßn_Summen_pro_Fin_Quelle.bas": {
+          "FileHash": "e40c30d",
+          "ExportDate": "2025-08-11T07:39:10.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "1fc9fb7"
+        },
+        "rpt_030_20_50_Maßn_Summen_Alle.bas": {
+          "FileHash": "1f6499c",
+          "OtherHash": "0b13c1e",
+          "ExportDate": "2025-08-11T07:39:14.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "25b1bfc"
+        },
+        "rpt_030_50_10_Aktiv_bare_Eigenleistungen.bas": {
+          "FileHash": "9528ea6",
+          "OtherHash": "7905d4e",
+          "ExportDate": "2025-08-11T07:39:15.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "7bbe912"
+        },
+        "rpt_200_10_10_Bewertungsbilanz.bas": {
+          "FileHash": "c25b759",
+          "OtherHash": "cce611e",
+          "ExportDate": "2025-08-11T07:39:14.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8ad2011"
+        },
+        "rpt_200_10_12_Bew_Bilanz_nach_2009.bas": {
+          "FileHash": "0124ab5",
+          "OtherHash": "bb2ed44",
+          "ExportDate": "2025-08-11T07:39:17.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "02917e4"
+        },
+        "rpt_200_10_12_Bew_Bilanz_nach_2009_AKTUELL.bas": {
+          "FileHash": "3c0de18",
+          "OtherHash": "bb2ed44",
+          "ExportDate": "2025-08-11T07:39:18.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "334ce82"
+        },
+        "rpt_200_10_12_Bew_Bilanz_nach_2009_ALt.bas": {
+          "FileHash": "6298fc1",
+          "OtherHash": "bb2ed44",
+          "ExportDate": "2025-08-11T07:39:17.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "9a978c7"
+        },
+        "rpt_200_10_12_Bew_Bilanz_nach_2009_Alt2.bas": {
+          "FileHash": "f448172",
+          "OtherHash": "bb2ed44",
+          "ExportDate": "2025-08-11T07:39:18.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "11043c7"
+        },
+        "rpt_200_10_30_Bew_Bil_Sanierungsstau.bas": {
+          "FileHash": "d7f3bfd",
+          "OtherHash": "9b01e0c",
+          "ExportDate": "2025-08-11T07:39:13.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "9fcb7de"
+        },
+        "rpt_200_10_50_Bew_Bil_Werterhoehung.bas": {
+          "FileHash": "b832e4f",
+          "OtherHash": "9b01e0c",
+          "ExportDate": "2025-08-11T07:39:11.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b093e0e"
+        },
+        "rpt_200_10_52_Bew_Bil_Werterh_Nach_2009.bas": {
+          "FileHash": "ff593d8",
+          "OtherHash": "9b01e0c",
+          "ExportDate": "2025-08-11T07:39:10.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "ba0f449"
+        },
+        "rpt_220_10_10_Bew_Bil_HK_Kosten.bas": {
+          "FileHash": "9baba2b",
+          "OtherHash": "7260ebe",
+          "ExportDate": "2025-08-11T07:39:17.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "4cee5a4"
+        },
+        "rpt_220_10_10_Bew_Bil_HK_Kosten_nach_2009.bas": {
+          "FileHash": "6839d2e",
+          "OtherHash": "45a2bbc",
+          "ExportDate": "2025-08-11T07:39:17.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8ed78f7"
+        },
+        "rpt_220_10_10_Bew_Bil_Versicherungswerte.bas": {
+          "FileHash": "51cf106",
+          "OtherHash": "9b01e0c",
+          "ExportDate": "2025-08-11T07:39:10.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "da8e9b3"
+        },
+        "rpt_220_10_10_Bew_Bil_Verswerte_nach_2009.bas": {
+          "FileHash": "0dd464f",
+          "OtherHash": "9b01e0c",
+          "ExportDate": "2025-08-11T07:39:17.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a05b65c"
+        },
+        "rpt_300_10_10_Verwaltungsbericht_Massn_Kosten.bas": {
+          "FileHash": "d01dd36",
+          "OtherHash": "7d55b26",
+          "ExportDate": "2025-08-11T07:39:12.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "0b9f266"
+        },
+        "rpt_300_10_20_Verwaltungsbericht_Restebildung.bas": {
+          "FileHash": "bd7b76b",
+          "OtherHash": "0b13c1e",
+          "ExportDate": "2025-08-11T07:39:14.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "01090bd"
+        },
+        "rpt_400_10_10_Vergabevorlagen.bas": {
+          "FileHash": "5631376",
+          "OtherHash": "2cd7ecc",
+          "ExportDate": "2025-08-11T07:39:17.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "6b27774"
+        },
+        "rpt_400_10_20_Vergabevorl_Mittelherkunft.bas": {
+          "FileHash": "3afd265",
+          "OtherHash": "a2a275f",
+          "ExportDate": "2025-08-11T07:39:13.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "3d2d7f7"
+        },
+        "rpt_500_10_10_Objektbegehungen.bas": {
+          "FileHash": "ea6ac5a",
+          "OtherHash": "bfd8fe9",
+          "ExportDate": "2025-08-11T07:39:12.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "45c2a4a"
+        },
+        "Sanierungsstau Finanzplanung Erledigt_Status.bas": {
+          "FileHash": "04862c9",
+          "OtherHash": "fb096d8",
+          "ExportDate": "2025-08-11T07:39:16.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "dae9982"
+        },
+        "Sanierungsstau Finanzplanung Jahre.bas": {
+          "FileHash": "9f6dba8",
+          "OtherHash": "f0ecd01",
+          "ExportDate": "2025-08-11T07:39:14.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "3414897"
+        },
+        "Sanierungsstau Finanzplanung ohne VoraussKosten.bas": {
+          "FileHash": "664d485",
+          "OtherHash": "071d8b6",
+          "ExportDate": "2025-08-11T07:39:12.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "dc85c34"
+        },
+        "Sanierungsstau Prioritäten nach Herkunft.bas": {
+          "FileHash": "64b0de7",
+          "OtherHash": "071d8b6",
+          "ExportDate": "2025-08-11T07:39:13.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "da7df00"
+        },
+        "Sanierungsstau Prioritäten nach Mitteln.bas": {
+          "FileHash": "277381d",
+          "OtherHash": "071d8b6",
+          "ExportDate": "2025-08-11T07:39:12.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d4c64d2"
+        },
+        "Sanierungsstau Prioritäten nach SB und Mitteln.bas": {
+          "FileHash": "f5de54c",
+          "OtherHash": "69bb91f",
+          "ExportDate": "2025-08-11T07:39:12.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "70f8dca"
+        },
+        "Sanierungsstau Prioritäten zeitlich.bas": {
+          "FileHash": "1effbea",
+          "OtherHash": "071d8b6",
+          "ExportDate": "2025-08-11T07:39:14.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "9bf27b3"
+        },
+        "Sanierungsstau Prioritäten.bas": {
+          "FileHash": "f3094e5",
+          "OtherHash": "071d8b6",
+          "ExportDate": "2025-08-11T07:39:16.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "99418ad"
+        },
+        "Sanierungsstau Prioritäten_BCK.bas": {
+          "FileHash": "b8c7a96",
+          "OtherHash": "071d8b6",
+          "ExportDate": "2025-08-11T07:39:18.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b3b9c59"
+        },
+        "Sanierungsstau Prioritäten_neu_verwerfen.bas": {
+          "FileHash": "90a4066",
+          "OtherHash": "3bf0367",
+          "ExportDate": "2025-08-11T07:39:13.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a1608ce"
+        },
+        "Sanierungsstau_UF_Teilmassnahmen.bas": {
+          "FileHash": "8cb7869",
+          "ExportDate": "2025-08-11T07:39:15.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "3d1dd2d"
+        },
+        "Sanierungsstau-neu-UF_noch_nicht_zugeordnet.bas": {
+          "FileHash": "616f306",
+          "ExportDate": "2025-08-11T07:39:13.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c8b262b"
+        },
+        "Übersicht Haushalt.bas": {
+          "FileHash": "16093b7",
+          "OtherHash": "085aebe",
+          "ExportDate": "2025-08-11T07:39:13.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "9a9747a"
+        },
+        "Unterbericht Finanzierung alle Maßnahmen.bas": {
+          "FileHash": "a1169c2",
+          "ExportDate": "2025-08-11T07:39:12.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f8a4b10"
+        },
+        "Unterbericht Finanzierung.bas": {
+          "FileHash": "4708b16",
+          "OtherHash": "91321a8",
+          "ExportDate": "2025-08-11T07:39:11.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c493f77"
+        },
+        "Unterbericht Finanzplanung.bas": {
+          "FileHash": "68315f4",
+          "ExportDate": "2025-08-11T07:39:14.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "cf2b9b8"
+        },
+        "Unterbericht Termine.bas": {
+          "FileHash": "3de56eb",
+          "ExportDate": "2025-08-11T07:39:15.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "7f52b0a"
+        },
+        "Unterbericht_Mietkalkulation_für_Formular.bas": {
+          "FileHash": "112a9e1",
+          "ExportDate": "2025-08-11T07:39:13.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "500d298"
+        },
+        "Vergabevorlagen.bas": {
+          "FileHash": "2c8c090",
+          "OtherHash": "9b01e0c",
+          "ExportDate": "2025-08-11T07:39:12.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b88ec65"
+        },
+        "Zuordnung_Abschreibung_2.bas": {
+          "FileHash": "0c31fef",
+          "ExportDate": "2025-08-11T07:39:12.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "e50d18a"
+        },
+        "Zusammenstellung Nebenkosten nach Arten.bas": {
+          "FileHash": "c0cba77",
+          "ExportDate": "2025-08-11T07:39:13.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "655d01b"
+        },
+        "Zusammenstellung Nebenkosten.bas": {
+          "FileHash": "cc88796",
+          "ExportDate": "2025-08-11T07:39:13.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "cf86acb"
+        }
+      },
+      "Tables": {
+        "A_Buchungen.json": {
+          "FileHash": "6be430a",
+          "ExportDate": "2025-08-11T07:38:19.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "149c369"
+        },
+        "A_Buchungen_Aufteilung_auf_Buchungsstellen.json": {
+          "FileHash": "00e2045",
+          "ExportDate": "2025-08-11T07:38:19.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "24f7c1a"
+        },
+        "A_Buchungen_Aufteilung_auf_Fälligkeiten.json": {
+          "FileHash": "ec71d9a",
+          "ExportDate": "2025-08-11T07:38:19.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "ac15ad4"
+        },
+        "A_Buchungen_Aufteilung_auf_Kostenstellen.json": {
+          "FileHash": "24baa79",
+          "ExportDate": "2025-08-11T07:38:19.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "ac15ad4"
+        },
+        "A_Empfänger.json": {
+          "FileHash": "6203b0d",
+          "ExportDate": "2025-08-11T07:38:19.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "2ad095d"
+        },
+        "A_Kostenträger.json": {
+          "FileHash": "c2b4a7c",
+          "ExportDate": "2025-08-11T07:38:19.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "52147ec"
+        },
+        "A_Sachbearbeiter_Buchung.json": {
+          "FileHash": "5c6ca2d",
+          "ExportDate": "2025-08-11T07:38:19.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d7cca26"
+        },
+        "Aktualisierungsdatum.json": {
+          "FileHash": "55256f0",
+          "ExportDate": "2025-08-11T07:38:19.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "1aaaa36"
+        },
+        "Archiv monatlicher Mittelabfluss.json": {
+          "FileHash": "9b39ac7",
+          "ExportDate": "2025-08-11T07:38:19.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "41673e2"
+        },
+        "Archiv_Mietberechnungen.json": {
+          "FileHash": "b4fa03a",
+          "ExportDate": "2025-08-11T07:38:19.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "4148509"
+        },
+        "Aufträge.json": {
+          "FileHash": "25c1ecb",
+          "ExportDate": "2025-08-11T07:38:19.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "7867d77"
+        },
+        "B_bebaute_Grundstücke.json": {
+          "FileHash": "922d16f",
+          "ExportDate": "2025-08-11T07:38:19.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "5c0ffc7"
+        },
+        "B_bebaute_Grundstücke_HN_separiert.json": {
+          "FileHash": "1ce052c",
+          "ExportDate": "2025-08-11T07:38:19.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "1504bc0"
+        },
+        "B_bebaute_Grundstücke1.json": {
+          "FileHash": "8c1f540",
+          "ExportDate": "2025-08-11T07:38:19.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "6c160cc"
+        },
+        "B_Ergebnisse_A.xml": {
+          "FileHash": "5193be3",
+          "ExportDate": "2025-08-11T07:38:19.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "57d9040"
+        },
+        "B_Ergebnisse_B.xml": {
+          "FileHash": "35d1e7d",
+          "ExportDate": "2025-08-11T07:38:19.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "5e16dac"
+        },
+        "B_Ergebnisse_C.xml": {
+          "FileHash": "47c3d94",
+          "ExportDate": "2025-08-11T07:38:19.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b8cc9c3"
+        },
+        "B_Ergebnisse_D.xml": {
+          "FileHash": "5856261",
+          "ExportDate": "2025-08-11T07:38:19.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "bc8dd26"
+        },
+        "B_Ergebnisse_E.xml": {
+          "FileHash": "c1306a9",
+          "ExportDate": "2025-08-11T07:38:19.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b9d97b2"
+        },
+        "B_Ergebnisse_F.xml": {
+          "FileHash": "9a307b8",
+          "ExportDate": "2025-08-11T07:38:19.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "4792e84"
+        },
+        "B_Ergebnisse_G.xml": {
+          "FileHash": "8c5cf79",
+          "ExportDate": "2025-08-11T07:38:19.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8158ac2"
+        },
+        "B_Gebäudebestand_Alt.json": {
+          "FileHash": "080d8b5",
+          "ExportDate": "2025-08-11T07:38:19.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d641f56"
+        },
+        "B_Gebäudebestand_HN_Separiert_Budde.json": {
+          "FileHash": "795b4cf",
+          "ExportDate": "2025-08-11T07:38:19.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d97a073"
+        },
+        "B_Sanierungsbedarf_für_Bewertung.json": {
+          "FileHash": "9e4fb0d",
+          "ExportDate": "2025-08-11T07:38:19.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c6f3cc8"
+        },
+        "B_Sanierungsstau_Werterhöhung.json": {
+          "FileHash": "7139fc8",
+          "ExportDate": "2025-08-11T07:38:19.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "80806c0"
+        },
+        "Bearbeitungsstände.json": {
+          "FileHash": "0cf97c2",
+          "ExportDate": "2025-08-11T07:38:19.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "4148509"
+        },
+        "Bewertung_Archiv_1.json": {
+          "FileHash": "d899b6d",
+          "ExportDate": "2025-08-11T07:38:19.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "9cb6a56"
+        },
+        "Bewertung_Archiv_2.json": {
+          "FileHash": "96dd4f2",
+          "ExportDate": "2025-08-11T07:38:19.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "9cb6a56"
+        },
+        "Bewertung_Archiv_3.json": {
+          "FileHash": "8a9cc07",
+          "ExportDate": "2025-08-11T07:38:19.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "9cb6a56"
+        },
+        "Bewertung_Archiv_4.json": {
+          "FileHash": "8ba4ecd",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "1b56c19"
+        },
+        "Bewertung_Archiv_5.json": {
+          "FileHash": "53b7766",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "1b56c19"
+        },
+        "Buchungen 2006.json": {
+          "FileHash": "9ebdbe9",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "ca7b85a"
+        },
+        "Buchungen 2007.json": {
+          "FileHash": "ff25994",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "77a3dc0"
+        },
+        "Buchungen 2008.json": {
+          "FileHash": "1503fed",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "ca7b85a"
+        },
+        "Buchungen 2011.json": {
+          "FileHash": "894c7cb",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "ca7b85a"
+        },
+        "Buchungsstellen _Doppik.json": {
+          "FileHash": "be43d7e",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "1caed7b"
+        },
+        "Buchungsstellen.json": {
+          "FileHash": "d2b1205",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "5daf578"
+        },
+        "Finanzherkunft.json": {
+          "FileHash": "c3a60ad",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "5fa33c3"
+        },
+        "Finanzquellen.json": {
+          "FileHash": "f683c8f",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "09cebb6"
+        },
+        "Gebäude_Alt.json": {
+          "FileHash": "e15278f",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "69e12b2"
+        },
+        "Gebäudeliste.json": {
+          "FileHash": "ff0453f",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "5daf578"
+        },
+        "Gebäudeliste_Alt.json": {
+          "FileHash": "98ed2da",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "e5be2ce"
+        },
+        "Geplante Finanzierung.json": {
+          "FileHash": "65f69b8",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "4a65840"
+        },
+        "Haushaltsdaten.json": {
+          "FileHash": "eee1da2",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "1f76245"
+        },
+        "Hhstb60_doppik.xml": {
+          "FileHash": "4ea0a1e",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8383591"
+        },
+        "Import_Haushaltsdaten.xml": {
+          "FileHash": "27a06b8",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "408e8b5"
+        },
+        "Import_Haushaltsdaten_alt_bis_2008.xml": {
+          "FileHash": "3eb942a",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "83c3913"
+        },
+        "Import_Haushaltsdaten1.json": {
+          "FileHash": "2b55259",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8f10f54"
+        },
+        "Inventurliste_offiziell.json": {
+          "FileHash": "8153f3e",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c7b7226"
+        },
+        "Kalenderjahre.json": {
+          "FileHash": "464d858",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "73bb5dd"
+        },
+        "Kalkulationsjahr.json": {
+          "FileHash": "930d48a",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "161294a"
+        },
+        "M_Bauunterhaltung.json": {
+          "FileHash": "130cbff",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "e5be2ce"
+        },
+        "M_Bearbeitungshinweise.json": {
+          "FileHash": "fca7c06",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f067f50"
+        },
+        "M_Bereiche.json": {
+          "FileHash": "3cd56c2",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "0e78818"
+        },
+        "M_Betriebe.json": {
+          "FileHash": "6801058",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "1f76245"
+        },
+        "M_Fremdmieten.json": {
+          "FileHash": "9ed0cac",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "6445439"
+        },
+        "M_Kostenstellen.json": {
+          "FileHash": "6e8c29f",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "0ee3f5a"
+        },
+        "M_Nebenkosten.json": {
+          "FileHash": "14df347",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "bf7d8e1"
+        },
+        "M_Nebenkosten_gem_Ansatz.json": {
+          "FileHash": "f365fcc",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "49c6a19"
+        },
+        "M_Nebenkosten_Kalkulation_für_Budget.json": {
+          "FileHash": "8bd8146",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "1f34cc9"
+        },
+        "M_Objekte.json": {
+          "FileHash": "f92bd2a",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "1443071"
+        },
+        "M_Personalkosten.json": {
+          "FileHash": "c65ce6f",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "4de0afd"
+        },
+        "M_Sonderleistungen.json": {
+          "FileHash": "fc3ec74",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "5fa33c3"
+        },
+        "M_Sonderleistungen_Kalkulation_für_Budget.json": {
+          "FileHash": "baa9920",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b2ea365"
+        },
+        "M_Steigerungssätze Nebenkosten.json": {
+          "FileHash": "39a713f",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "6445439"
+        },
+        "M_Strassenverzeichnis.json": {
+          "FileHash": "872c47d",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "14fd0cf"
+        },
+        "M_Verwaltungskosten.json": {
+          "FileHash": "3a3bbc8",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "46f7218"
+        },
+        "M_Verzeichnis Nebenkosten.json": {
+          "FileHash": "ecb4fa0",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "27666b1"
+        },
+        "Maßnahme_Berichte.json": {
+          "FileHash": "82890cb",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "959a316"
+        },
+        "Maßnahmen Prioritäten zeitlich.json": {
+          "FileHash": "05be912",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "91e555f"
+        },
+        "Maßnahmen Prioritäten.json": {
+          "FileHash": "3df185e",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f4f3f05"
+        },
+        "Maßnahmen.json": {
+          "FileHash": "488c075",
+          "ExportDate": "2025-08-11T07:38:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "77a3dc0"
+        },
+        "Maßnahmen_Eigenl_Stunden.json": {
+          "FileHash": "46d5b55",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "442b92e"
+        },
+        "MonatsAO_temp_Buchungssatz.xml": {
+          "FileHash": "c82e8fe",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c04e1ae"
+        },
+        "MonatsAO_temp_Buchungssatz_BuSt.xml": {
+          "FileHash": "c27a656",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "85ad7ff"
+        },
+        "MonatsAO_temp_Buchungssatz_fällig.xml": {
+          "FileHash": "5d7cf32",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "be973dd"
+        },
+        "MonatsAO_temp_Buchungssatz_Kostenstellen.xml": {
+          "FileHash": "bb9b6d4",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "54b31c9"
+        },
+        "NHK-Typen.json": {
+          "FileHash": "5c53e81",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "60efaf2"
+        },
+        "NHK-Werte.json": {
+          "FileHash": "4253503",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "60efaf2"
+        },
+        "NKH-Ausstattungen.json": {
+          "FileHash": "67fb589",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "bf62c13"
+        },
+        "Notizen.json": {
+          "FileHash": "2b741a4",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b17db6f"
+        },
+        "Proiritäten_zeitl.json": {
+          "FileHash": "ca9a706",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "e04362e"
+        },
+        "Sachbearbeiter.json": {
+          "FileHash": "301b18b",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a7472d5"
+        },
+        "tbl_010_10_01_Tabellenliste.json": {
+          "FileHash": "b6fcb34",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a91b580"
+        },
+        "tbl_010_20_01_User.json": {
+          "FileHash": "b813c30",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "bf62c13"
+        },
+        "tbl_010_20_10_Entgeltgruppen.json": {
+          "FileHash": "ae5cfa7",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "6b3b013"
+        },
+        "tbl_010_20_20_Arbeitsplatzkosten.json": {
+          "FileHash": "c95b4b6",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "99c9632"
+        },
+        "tbl_050_10_Gemarkungen.json": {
+          "FileHash": "4c80c8c",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "94801ce"
+        },
+        "tbl_070_10_Flure.json": {
+          "FileHash": "e64f8ea",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d307b64"
+        },
+        "tbl_090_10_Flurstuecke.json": {
+          "FileHash": "10f23b2",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f2d434f"
+        },
+        "tbl_100_05_QV_Liegensch_Flurstuecke.json": {
+          "FileHash": "19b0a83",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "9217b83"
+        },
+        "tbl_100_10_Liegenschaften.json": {
+          "FileHash": "fbedcc8",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "250c24c"
+        },
+        "tbl_100_20_Gebäudeteile.json": {
+          "FileHash": "61223f6",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "0c909ec"
+        },
+        "tbl_100_30_Mietparteien.json": {
+          "FileHash": "7272838",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "442b92e"
+        },
+        "tbl_100_40_Zuordn_Gebteile_Koststellen.json": {
+          "FileHash": "586cdab",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "592b311"
+        },
+        "tbl_200_05_10_Bewertungsläufe.json": {
+          "FileHash": "c2d6f48",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "250c24c"
+        },
+        "tbl_200_10_05_Indexe.json": {
+          "FileHash": "128e067",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "0b98598"
+        },
+        "tbl_200_10_10_Bewertungsbilanzen.json": {
+          "FileHash": "0f35a35",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c2931fd"
+        },
+        "tbl_200_30_10_Bew_Bilanz_Sanierungsstau.json": {
+          "FileHash": "5b6a0c3",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "6f34091"
+        },
+        "tbl_200_30_20_Bew_Bilanz_Werterhoehungen.json": {
+          "FileHash": "2663cd7",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "ee0ce2f"
+        },
+        "tbl_500_10_Begehungen.json": {
+          "FileHash": "169ac54",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "3104745"
+        },
+        "tbl_999_10_10_Eindutige_GebTeile_zu_Gebäuden.json": {
+          "FileHash": "b527a7f",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "86b0f62"
+        },
+        "tbl_BIC_DB_Deutsche_Bundesbank.json": {
+          "FileHash": "0f57ccf",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "75a900d"
+        },
+        "tbl_Bundesländer.json": {
+          "FileHash": "5df6800",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a54c5a7"
+        },
+        "tbl_PLZ_Liste.json": {
+          "FileHash": "90afd69",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "92671f8"
+        },
+        "tbl_PLZen_Castrop_Rauxel.json": {
+          "FileHash": "dbc0807",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a03f3a5"
+        },
+        "tbl_Prod_Nummern.json": {
+          "FileHash": "79a5736",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8751d9f"
+        },
+        "tblRelationshipViews.xml": {
+          "FileHash": "458af46",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "2748e89"
+        },
+        "Teile der Maßnahmen.json": {
+          "FileHash": "fa65512",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d62fbb3"
+        },
+        "Usys_tbl_DBDok_Module_Prozeduren_Zeilen.xml": {
+          "FileHash": "25eb66d",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "e83a7f1"
+        },
+        "Variablen für Gebäudebewertung.json": {
+          "FileHash": "6c34245",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c2931fd"
+        },
+        "Zahlungszyklen.json": {
+          "FileHash": "553628b",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a7472d5"
+        },
+        "Zuordnung Gebäudebestand zu Bilanz.json": {
+          "FileHash": "862bb84",
+          "ExportDate": "2025-08-11T07:38:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a9f941b"
+        },
+        "Zuordnung_Abschreibung.json": {
+          "FileHash": "9d2f9b7",
+          "ExportDate": "2025-08-11T07:38:22.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8b5f0d5"
+        },
+        "ZZ_tmp_QV_B_Gebäudebestand_Gebäudeteile.xml": {
+          "FileHash": "a0a5363",
+          "ExportDate": "2025-08-11T07:38:22.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "5cbb2ad"
+        },
+        "ZZ_tmp_QV_M_Objekte_Gebäudeteile.xml": {
+          "FileHash": "9ca9d56",
+          "ExportDate": "2025-08-11T07:38:22.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "2e6cdf0"
+        }
+      },
+      "Themes": {
+        "Larissa.thmx": {
+          "FileHash": "a25e513",
+          "OtherHash": "cbc0347",
+          "ExportDate": "2025-08-11T07:38:19.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a789af4"
+        }
+      },
+      "VB Project": {
+        "vbe-project.json": {
+          "FileHash": "72420c6",
+          "ExportDate": "2025-08-11T07:38:18.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d832997"
+        }
+      },
+      "VBE References": {
+        "vbe-references.json": {
+          "FileHash": "793f257",
+          "ExportDate": "2025-08-11T07:38:18.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c589041"
+        }
+      }
+    }
+  }
+}

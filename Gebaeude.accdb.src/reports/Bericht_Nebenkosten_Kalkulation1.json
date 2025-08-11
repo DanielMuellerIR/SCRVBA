@@ -1,0 +1,28 @@
+﻿{
+  "Info": {
+    "Class": "clsDbReport",
+    "Description": "Bericht_Nebenkosten_Kalkulation1 Print Settings"
+  },
+  "Items": {
+    "Printer": {
+      "Orientation": "Portrait",
+      "PaperSize": "A4"
+    },
+    "Margins": {
+      "LeftMargin": 0.3938,
+      "TopMargin": 0.3938,
+      "RightMargin": 0.3938,
+      "BotMargin": 0.3938,
+      "DataOnly": false,
+      "Width": 7.3618,
+      "Height": 0.1562,
+      "DefaultSize": true,
+      "Columns": 1,
+      "ColumnSpacing": 0.25,
+      "RowSpacing": 0,
+      "ItemLayout": "Horizontal Columns",
+      "FastPrint": 1,
+      "Datasheet": 1
+    }
+  }
+}

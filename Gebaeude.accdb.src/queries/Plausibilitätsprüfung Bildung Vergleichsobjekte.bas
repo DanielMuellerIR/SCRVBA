@@ -1,0 +1,37 @@
+﻿dbMemo "SQL" ="SELECT M_Objekte.Bezeichnung, \"Keinem Vergleichsobjekt zugeordnet\" AS Fehler, "
+    "[V_Vergleichsobjekte_Zuordnung_M-Objekte].Anteil\015\012FROM M_Objekte LEFT JOIN"
+    " [V_Vergleichsobjekte_Zuordnung_M-Objekte] ON M_Objekte.ID = [V_Vergleichsobjekt"
+    "e_Zuordnung_M-Objekte].[ID aus M_Objekte]\015\012WHERE ((([V_Vergleichsobjekte_Z"
+    "uordnung_M-Objekte].[ID aus M_Objekte]) Is Null))\015\012ORDER BY M_Objekte.[Ken"
+    "nummer aus Straßenverzeichnis], M_Objekte.Hausnummer\015\012\015\012UNION SELECT"
+    " DISTINCTROW M_Objekte.Bezeichnung, \"doppelt zugeordnet, insges.\" AS Fehler, S"
+    "um([V_Vergleichsobjekte_Zuordnung_M-Objekte].Anteil) AS [Summe von Anteil]\015\012"
+    "FROM [V_Vergleichsobjekte_Zuordnung_M-Objekte] LEFT JOIN M_Objekte ON [V_Verglei"
+    "chsobjekte_Zuordnung_M-Objekte].[ID aus M_Objekte] = M_Objekte.ID\015\012GROUP B"
+    "Y M_Objekte.Bezeichnung, \"doppelt zurgeordnet, insges.\", [V_Vergleichsobjekte_"
+    "Zuordnung_M-Objekte].[ID aus M_Objekte]\015\012HAVING (((Count([V_Vergleichsobje"
+    "kte_Zuordnung_M-Objekte].[ID aus M_Objekte]))>1));\015\012"
+dbMemo "Connect" =""
+dbBoolean "ReturnsRecords" ="-1"
+dbInteger "ODBCTimeout" ="60"
+dbByte "RecordsetType" ="0"
+dbBoolean "OrderByOn" ="0"
+dbByte "Orientation" ="0"
+dbByte "DefaultView" ="2"
+dbBoolean "FilterOnLoad" ="0"
+dbBoolean "OrderByOnLoad" ="-1"
+dbText "SubdatasheetName" ="[Auto]"
+Begin
+    Begin
+        dbText "Name" ="M_Objekte.Bezeichnung"
+        dbInteger "ColumnWidth" ="4815"
+        dbBoolean "ColumnHidden" ="0"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="Fehler"
+        dbInteger "ColumnWidth" ="3330"
+        dbBoolean "ColumnHidden" ="0"
+        dbLong "AggregateType" ="-1"
+    End
+End

@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "tbl_090_10_Flurstuecke",
+    "Connect": ";DATABASE=S:\\a60\\Datenbank\\Gebaeude\\Gebaeude_Daten.accdb",
+    "SourceTableName": "tbl_090_10_Flurstuecke",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[ID_Flurstueck]"
+  }
+}

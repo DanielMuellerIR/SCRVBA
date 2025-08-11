@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "tbl_Prod_Nummern",
+    "Connect": ";DATABASE=S:\\a60\\Datenbank\\Gebaeude\\Gebaeude_Daten.accdb",
+    "SourceTableName": "tbl_Prod_Nummern",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[ID_Pr_Nr]"
+  }
+}

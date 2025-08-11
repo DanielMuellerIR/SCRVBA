@@ -1,0 +1,27 @@
+﻿dbMemo "SQL" ="SELECT Plausibilitätsprüfung_Buchungen_2a.Emfpänger, Plausibilitätsprüfung_Buchu"
+    "ngen_2a.angelegt, Plausibilitätsprüfung_Buchungen_2a.Verwendungszweck, Plausibil"
+    "itätsprüfung_Buchungen_2a.Anordnungsbetrag, Plausibilitätsprüfung_Buchungen_2a.E"
+    "inzelbetrag, Plausibilitätsprüfung_Buchungen_2b.[Kennummer aus Kostenstellenverz"
+    "eichnis], \"Buchung auf nicht verwaltetes Objekt\" AS [Text]\015\012FROM Plausib"
+    "ilitätsprüfung_Buchungen_2a LEFT JOIN Plausibilitätsprüfung_Buchungen_2b ON Plau"
+    "sibilitätsprüfung_Buchungen_2a.[ID aus Kostenstellen] = Plausibilitätsprüfung_Bu"
+    "chungen_2b.[Kennummer aus Kostenstellenverzeichnis]\015\012WHERE (((Plausibilitä"
+    "tsprüfung_Buchungen_2b.[Kennummer aus Kostenstellenverzeichnis]) Is Null));\015\012"
+dbMemo "Connect" =""
+dbBoolean "ReturnsRecords" ="-1"
+dbInteger "ODBCTimeout" ="60"
+dbByte "RecordsetType" ="0"
+dbBoolean "OrderByOn" ="0"
+dbByte "Orientation" ="0"
+dbByte "DefaultView" ="2"
+dbBoolean "FilterOnLoad" ="0"
+dbBoolean "OrderByOnLoad" ="-1"
+dbText "SubdatasheetName" ="[Auto]"
+Begin
+    Begin
+        dbText "Name" ="Plausibilitätsprüfung_Buchungen_2a.Einzelbetrag"
+        dbInteger "ColumnWidth" ="1350"
+        dbBoolean "ColumnHidden" ="0"
+        dbLong "AggregateType" ="-1"
+    End
+End

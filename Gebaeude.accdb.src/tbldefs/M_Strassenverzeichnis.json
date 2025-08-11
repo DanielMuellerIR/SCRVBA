@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "M_Strassenverzeichnis",
+    "Connect": ";DATABASE=S:\\a60\\Datenbank\\Gebaeude\\Gebaeude_Daten.accdb",
+    "SourceTableName": "M_Strassenverzeichnis",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[Kennummer]"
+  }
+}

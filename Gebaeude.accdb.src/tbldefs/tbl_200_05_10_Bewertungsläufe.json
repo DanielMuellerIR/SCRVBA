@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "tbl_200_05_10_Bewertungsläufe",
+    "Connect": ";DATABASE=S:\\a60\\Datenbank\\Gebaeude\\Archiv.accdb",
+    "SourceTableName": "tbl_200_05_10_Bewertungsläufe",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[id_Bewert]"
+  }
+}

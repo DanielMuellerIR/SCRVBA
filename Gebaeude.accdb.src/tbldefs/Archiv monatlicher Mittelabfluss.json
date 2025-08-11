@@ -1,0 +1,12 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "Archiv monatlicher Mittelabfluss",
+    "Connect": ";DATABASE=S:\\a60\\Datenbank\\Gebaeude\\Archiv.accdb",
+    "SourceTableName": "Archiv monatlicher Mittelabfluss",
+    "Attributes": 1073741824
+  }
+}

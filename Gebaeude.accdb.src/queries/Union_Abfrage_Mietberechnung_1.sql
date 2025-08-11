@@ -1,0 +1,34 @@
+﻿SELECT
+  *
+from
+  Union_Abfrage_Mietberechnung_1__Teil_1
+Union
+SELECT
+  *
+from
+  Union_Abfrage_Mietberechnung_1__Teil_2
+Union
+SELECT
+  *
+from
+  Union_Abfrage_Mietberechnung_1__Teil_3
+Union
+SELECT
+  *
+from
+  Union_Abfrage_Mietberechnung_1__Teil_4
+Union
+SELECT
+  *
+from
+  Union_Abfrage_Mietberechnung_1__Teil_5
+Union
+SELECT
+  *
+from
+  Union_Abfrage_Mietberechnung_1__Teil_6
+UNION
+SELECT
+  *
+from
+  Union_Abfrage_Mietberechnung_1__Teil_7;

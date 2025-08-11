@@ -1,0 +1,9 @@
+﻿SELECT
+  *
+from
+  Inventurliste_Part_01
+UNION
+SELECT
+  *
+from
+  Inventurliste_Part_02;

@@ -1,0 +1,12 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "A_Buchungen_Aufteilung_auf_Fälligkeiten",
+    "Connect": ";DATABASE=S:\\a60\\Datenbank\\Gebaeude\\Gebaeude_Daten.accdb",
+    "SourceTableName": "A_Buchungen_Aufteilung_auf_Fälligkeiten",
+    "Attributes": 1073741824
+  }
+}
