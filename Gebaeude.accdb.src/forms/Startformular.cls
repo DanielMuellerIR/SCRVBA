@@ -406,16 +406,14 @@ Private Sub Form_Open(Cancel As Integer)
     lng_User = Nz(DLookup("[ID_User]", "tbl_010_20_01_User", "[User_Loginname] = '" & sUsername & "'"))
 
     If (lng_User = 0) Then 'DM2025-08-06 'DM2023-05-12
-        If (sUsername Like "dm*") Then ' Or (Environ$("computername") = Ausnahme_Anw_F_aus_fuer)) Then
+        If (InStr(1, Ausnahme_Anw_F_aus_fuer, (Environ$("computername") & ";")) > 0) Then
             DoCmd.SetWarnings False
             CurrentDb.Execute ("INSERT into tbl_010_20_01_User (Username, User_Loginname, [Zugriffskategorie]) VALUES ('" & sUsername & "', '" & sUsername & "',  'Admin');")
             DoCmd.SetWarnings True
         Else
 
             MsgBox ("Aktuellen Benutzer '" & sUsername & "' nicht gefunden. Die Anwendung wird beendet. Bitte den User im Backend anlegen, wenn Zugriff gewährt werden soll.")
-            If (Not (Environ$("computername") = Ausnahme_Anw_F_aus_fuer)) Then
-                Application.Quit
-            End If
+            Application.Quit
         End If
 
     End If
@@ -641,7 +639,7 @@ End Sub
 
 Private Sub Form_Unload(Cancel As Integer)
     'DM2022-07-26
-    If (Not (Ausnahme_Anw_F_aus_fuer Like ("*" & Environ$("computername") & "*"))) Then
+    If (InStr(1, Ausnahme_Anw_F_aus_fuer, (Environ$("computername") & ";")) <= 0) Then
         Application.Quit
     Else
         Dim lngRetCode As Long

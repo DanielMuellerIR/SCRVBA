@@ -12,7 +12,7 @@ Public Declare PtrSafe Function ShowWindow Lib "user32" (ByVal hwnd As LongPtr, 
 
 ' =====================================================================================
 ' Konstante zur Versionsangabe:
-Public Const str_Version As String = "08.08.2025"
+Public Const str_Version As String = "11.08.2025"
 
 ' Änderungsdoku DM seit 4.5.2022: -------------------
 'DM2022-05-04:
@@ -94,6 +94,9 @@ Public Const str_Version As String = "08.08.2025"
 '  Spalte Fehlbetrag, die in Part_01 "Gepl_Finanz" heißt (es werden die Abfragen 01-03 mit union zusammengeklebt, dabei gelten dann die Spaltenbezeichnungen der ersten Abfrage), wieder von
 '  fix 0 auf den vorherigen Restbetrag aus Vorauss. Gesamtkosten minus jeweils tats. Kosten oder wenn nicht vorhanden die geplante Finanzierung.
 '- Fix in bln_Anw_Fenster_aus
+'DM2025-08-11
+'- Abfrage 'Bericht Sanierungsstau nach Finanzpl_Part_03' Suchbedingung von ungleich null auf größer null geändert, so wie es vor den letzten Änderungen war.
+'- Fixes bzgl. Access-ausblenden / Ausnahme_Anw_F_aus_fuer
 '----------------------------------------------------
 ' Bei bln_Anw_Fenster_aus = True wird das Access-Anwendungsfenster ausgeblendet
 ' Bei bln_Anw_Fenster_aus = False bleibt das Access-Anwendungsfenster eingeblendet

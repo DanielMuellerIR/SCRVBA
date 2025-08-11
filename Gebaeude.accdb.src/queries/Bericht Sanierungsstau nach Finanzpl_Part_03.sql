@@ -62,7 +62,7 @@ HAVING
     (
       (
         [voraussichtliche Kosten gesamt] - [Summe von Betrag]
-      )<> 0
+      )> 0
     )
     AND (
       (
