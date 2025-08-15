@@ -16,3 +16,12 @@ Sub PseudoArray()
 
 
 End Sub
+
+
+Public Sub TestDM()
+
+Dim v As Variant
+
+v = DLookup("Sum(Differenz)", "SummeGeplUndTats_JeGeb", IIf([Erledigt_Status] Like "1*", "[erledigt im Jahr] IS NOT NULL", "[erledigt im Jahr] IS NULL") & " AND id_geb=" & CStr([ID_Gebäude]))
+MsgBox v
+End Sub

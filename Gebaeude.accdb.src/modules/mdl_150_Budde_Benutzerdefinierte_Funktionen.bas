@@ -173,13 +173,17 @@ Function Verantwort(Gruppen_KZ)
 End Function
 
 Public Sub Blende_MN_IDs_ein_aus(rep As Report)
-
+On Error Resume Next
 10  If bln_MN_ID_sichtb = True Then
 20      rep!BF_MN_ID.Visible = True
 30      rep!TF_MN_ID.Visible = True
+        rep!TatsOderGeplant.Visible = True
+        rep!BF_TatsOderGeplant.Visible = True
 40  Else
 50      rep!BF_MN_ID.Visible = False
 60      rep!TF_MN_ID.Visible = False
+        rep!TatsOderGeplant.Visible = False
+        rep!BF_TatsOderGeplant.Visible = False
 70  End If
 
 End Sub

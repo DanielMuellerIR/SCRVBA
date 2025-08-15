@@ -1,7 +1,5 @@
-﻿dbMemo "SQL" ="SELECT ID_Massnahme, Sum(\012        IIf(\012            tats_Kosten_Infoma IS N"
-    "ULL,\012            Betrag,\012            tats_Kosten_Infoma\012        )\012  "
-    "  ) AS [Summe von Betrag]\015\012FROM [geplante Finanzierung]\015\012GROUP BY ID"
-    "_Massnahme;\015\012"
+﻿dbMemo "SQL" ="SELECT ID_Massnahme, Sum([geplante Finanzierung].Betrag) AS SummeGeplant\015\012"
+    "FROM [geplante Finanzierung]\015\012GROUP BY ID_Massnahme;\015\012"
 dbMemo "Connect" =""
 dbBoolean "ReturnsRecords" ="-1"
 dbInteger "ODBCTimeout" ="60"
@@ -22,6 +20,14 @@ Begin
     End
     Begin
         dbText "Name" ="ID_Massnahme"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="[geplante Finanzierung].ID_Massnahme"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="SummeGeplant"
         dbLong "AggregateType" ="-1"
     End
 End

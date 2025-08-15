@@ -12,7 +12,7 @@ Public Declare PtrSafe Function ShowWindow Lib "user32" (ByVal hwnd As LongPtr, 
 
 ' =====================================================================================
 ' Konstante zur Versionsangabe:
-Public Const str_Version As String = "11.08.2025"
+Public Const str_Version As String = "15.08.2025v2"
 
 ' Änderungsdoku DM seit 4.5.2022: -------------------
 'DM2022-05-04:
@@ -97,6 +97,24 @@ Public Const str_Version As String = "11.08.2025"
 'DM2025-08-11
 '- Abfrage 'Bericht Sanierungsstau nach Finanzpl_Part_03' Suchbedingung von ungleich null auf größer null geändert, so wie es vor den letzten Änderungen war.
 '- Fixes bzgl. Access-ausblenden / Ausnahme_Anw_F_aus_fuer
+'DM2025-08-12
+'- Bericht Sanierungsstau Finanzplanung Erledigt_Status überarbeitet
+'- Abfrage komplett überarbeitet hinsichtlich Joins: Bericht Sanierungsstau nach Finanzpl_Part_03, Part 01 und 02 auch erweitert aber die Joins nicht verändert, außerdem neue Abfragen: SummeGeplanteFinanzierung (in die vorher genannten eingebaut), SummeGeplUndTats_JeGeb (momentan nicht verwendet, da nicht für das Summenfeld im Bericht geeignet)
+'DM2025-08-13
+'- Bericht Sanierungsstau Finanzplanung Erledigt_Status: Die rechte der beiden Summen im Gruppierungsbereich je Gebäudeteil überarbeitet, dazu neues berechnetes Feld TatsOderGeplant für Part 01 und 02, fix mit 0 in Part 03. Dieses Feld wird nun summiert. Es enthält je Zeile entweder die tats. Kosten aus der Tabelle Geplante Finanzierung, oder, wenn der Wert fehlt (IS NULL) der Wert Betrag, also das geplante Budget
+'- Neues einblendbares Feld im Bericht "Tats./Gepl." gibt den Wert aus, der dann in der rechten Summe auch summiert wird
+'- Blende_MN_IDs_ein_aus blendet nun auch das neue Feld im Bericht aus
+'DM2025-08-13
+'- Bericht Sanierungsstau Finanzplanung Erledigt_Status: Summen bei zweistelligen Mio.-Beträgen zu schmal: Layout an vielen Stellen optimiert
+'- Rote Zahlen "Tats./Gepl." bzw. die Abfrage dahinter soll bei fehlendem Geplante-Fiannzierung-Datensatz (weder tats. noch gepl.) die vorauss. Kosten gesamt aus der Maßnahme übernehmen. Umgesetzt, dazu alle drei Abfragen angepasst. Generell die Zahlen noch nicht wieder entfernt, da ggf. noch zur Fehlersuche benötigt. Damit fließen diese Zahlen auch in die Summen ein.
+'- Bericht Liste finanziert wirft Fehler: Korrigiert, lag daran, dass die Funktion zum Ausblenden des roten Textes dort unerwartet auch aufgerufen wird, aber die Textelemente nicht vorhanden sind. Korrigiert durch Errorhandling.
+'DM2025-08-14
+'- Rote Zahlen "Tats./Gepl." bzw. die Abfrage dahinter soll bei fehlendem Geplante-Fiannzierung-Datensatz (weder tats. noch gepl.) die vorauss. Kosten gesamt aus der Maßnahme übernehmen. Umgesetzt, dazu alle drei Abfragen angepasst. Generell die Zahlen noch nicht wieder entfernt, da ggf. noch zur Fehlersuche benötigt. Damit fließen diese Zahlen auch in die Summen ein.
+'- Bericht Liste finanziert wirft Fehler: Korrigiert, lag daran, dass die Funktion zum Ausblenden des roten Textes dort unerwartet auch aufgerufen wird, aber die Textelemente nicht vorhanden sind. Korrigiert durch Errorhandling.
+'- Summen bei zweistelligen Mio.-Beträgen zu schmal: Layout an vielen Stellen optimiert
+'DM2025-08-15
+'- Bericht Sanierungsstau Finanzplanung Erledigt_Status: Unerwünschte Zeilen korrigiert nach Rücksprache durch Änderung der Definition des Feldes TatsOderGeplant (die rot ausgegebenen Zahlen, die zur Summenberechnung verwendet werden) in der Part 03 Abfrage (für die 'generierten Zeilen' mit dem Restbudget) auf die identische Definition der letzten Spalte
+'-
 '----------------------------------------------------
 ' Bei bln_Anw_Fenster_aus = True wird das Access-Anwendungsfenster ausgeblendet
 ' Bei bln_Anw_Fenster_aus = False bleibt das Access-Anwendungsfenster eingeblendet

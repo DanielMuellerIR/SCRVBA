@@ -28,16 +28,19 @@
   bsf.[erledigt im Jahr],
   bsf.Erl,
   m.[nicht mehr erforderlich weil],
-  bsf.tats_Kosten_Infoma
+  bsf.tats_Kosten_Infoma,
+  bsf.[ID_Gebäude],
+  bsf.[ID_Gebäudeteil],
+  bsf.TatsOderGeplant
 FROM
-  Sachbearbeiter AS sb
-  RIGHT JOIN (
+  (
     (
       [Bericht Sanierungsstau nach Finanzpl_Union] AS bsf
-      INNER JOIN Maßnahmen AS m ON bsf.ID_Massn = m.ID
+      LEFT JOIN Maßnahmen AS m ON bsf.ID_Massn = m.ID
     )
     INNER JOIN tbl_100_10_Liegenschaften AS lieg ON bsf.[ID_Gebäude] = lieg.[ID_Gebäude]
-  ) ON sb.ID = lieg.ID_SB
+  )
+  LEFT JOIN Sachbearbeiter AS sb ON lieg.ID_SB = sb.ID
 WHERE
   (
     (

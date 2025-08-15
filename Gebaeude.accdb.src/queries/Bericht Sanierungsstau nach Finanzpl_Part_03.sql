@@ -1,74 +1,73 @@
 ﻿SELECT
   "N.N." AS Kalenderjahr,
-  tbl_100_10_Liegenschaften.ID_Gebäude,
-  [M_Strassenverzeichnis_1].[Name] & " " & [tbl_100_10_Liegenschaften].[Haus_Nr] & ": " & [Bezeichnung] AS Liegenschaft,
-  tbl_100_20_Gebäudeteile.Gebäudeteil AS Haus,
-  tbl_100_20_Gebäudeteile.ID_Gebäudeteil,
-  Maßnahmen.ID AS ID_Massn,
-  Sachbearbeiter.Name,
-  [Maßnahme] & Chr (13)& Chr (10)& "Vorauss. Kosten: " & Format(
-    [voraussichtliche Kosten gesamt],
+  lieg.[ID_Gebäude],
+  str1.[Name] & " " & lieg.[Haus_Nr] & ": " & lieg.[Bezeichnung] AS Liegenschaft,
+  geb.[Gebäudeteil] AS Haus,
+  geb.[ID_Gebäudeteil],
+  m.ID AS ID_Massn,
+  sb.Name,
+  m.[Maßnahme] & " (freie Mittel)" & Chr (13)& Chr (10)& "Vorauss. Kosten: " & Format(
+    m.[voraussichtliche Kosten gesamt],
     "#,##0 €"
-  )& "; Summe tats./gepl.: " & Format([Summe von Betrag], "#,##0 €")& "; frei s. letzte Spalte" AS MN,
-  Max([geplante Finanzierung].ID) AS ID_Finanz,
-  [voraussichtliche Kosten gesamt] - [Summe von Betrag] AS Fehlbetra,
+  )& "; Summe tats./gepl.: " & Format(
+    bereit.[Summe von Betrag], "#,##0 €"
+  ) AS MN,
+  Max(gepl.ID) AS ID_Finanz,
+  m.[voraussichtliche Kosten gesamt] - sgp.SummeGeplant AS Gepl_Finanz,
   False AS Erl,
   "noch nicht festgel." AS Finanzquelle,
   "noch nicht festgel." AS Finanzherkunft,
-  Maßnahmen.[erledigt im Jahr],
-  [voraussichtliche Kosten gesamt] - [Summe von Betrag] AS Summevontats_Kosten_Infoma
+  m.[erledigt im Jahr],
+  m.[voraussichtliche Kosten gesamt] - bereit.[Summe von Betrag] AS Summevontats_Kosten_Infoma,
+  m.[voraussichtliche Kosten gesamt] - bereit.[Summe von Betrag] AS TatsOderGeplant
 FROM
   (
-    Sachbearbeiter
-    RIGHT JOIN (
-      tbl_100_10_Liegenschaften
-      LEFT JOIN M_Strassenverzeichnis AS M_Strassenverzeichnis_1 ON tbl_100_10_Liegenschaften.Kennummer_Straße = M_Strassenverzeichnis_1.Kennummer
-    ) ON Sachbearbeiter.ID = tbl_100_10_Liegenschaften.ID_SB
-  )
-  INNER JOIN (
     (
-      tbl_100_20_Gebäudeteile
-      LEFT JOIN M_Strassenverzeichnis ON tbl_100_20_Gebäudeteile.Kennummer_Straße = M_Strassenverzeichnis.Kennummer
-    )
-    INNER JOIN (
       (
-        Maßnahmen
-        LEFT JOIN Bereitgestellt ON Maßnahmen.ID = Bereitgestellt.[ID_Massnahme]
+        (
+          (
+            (
+              Maßnahmen AS m
+              INNER JOIN tbl_100_20_Gebäudeteile AS geb ON m.[ID_Gebäudeteil] = geb.[ID_Gebäudeteil]
+            )
+            LEFT JOIN tbl_100_10_Liegenschaften AS lieg ON geb.[ID_Gebäude] = lieg.[ID_Gebäude]
+          )
+          LEFT JOIN Sachbearbeiter AS sb ON lieg.ID_SB = sb.ID
+        )
+        LEFT JOIN M_Strassenverzeichnis AS str1 ON geb.Kennummer_Straße = str1.Kennummer
       )
-      LEFT JOIN [geplante Finanzierung] ON Maßnahmen.ID = [geplante Finanzierung].[ID_Massnahme]
-    ) ON tbl_100_20_Gebäudeteile.ID_Gebäudeteil = Maßnahmen.ID_Gebäudeteil
-  ) ON tbl_100_10_Liegenschaften.ID_Gebäude = tbl_100_20_Gebäudeteile.ID_Gebäude
+      LEFT JOIN [Geplante Finanzierung] AS gepl ON m.ID = gepl.ID_Massnahme
+    )
+    LEFT JOIN Bereitgestellt AS bereit ON m.ID = bereit.ID_Massnahme
+  )
+  LEFT JOIN SummeGeplanteFinanzierung AS sgp ON m.ID = sgp.ID_Massnahme
 GROUP BY
   "N.N.",
-  tbl_100_10_Liegenschaften.ID_Gebäude,
-  [M_Strassenverzeichnis_1].[Name] & " " & [tbl_100_10_Liegenschaften].[Haus_Nr] & ": " & [Bezeichnung],
-  tbl_100_20_Gebäudeteile.Gebäudeteil,
-  tbl_100_20_Gebäudeteile.ID_Gebäudeteil,
-  Maßnahmen.ID,
-  Sachbearbeiter.Name,
-  [Maßnahme] & Chr (13)& Chr (10)& "Vorauss. Kosten: " & Format(
-    [voraussichtliche Kosten gesamt],
+  lieg.[ID_Gebäude],
+  str1.[Name] & " " & lieg.[Haus_Nr] & ": " & lieg.[Bezeichnung],
+  geb.Gebäudeteil,
+  geb.[ID_Gebäudeteil],
+  m.ID,
+  sb.Name,
+  m.[Maßnahme] & " (freie Mittel)" & Chr (13)& Chr (10)& "Vorauss. Kosten: " & Format(
+    m.[voraussichtliche Kosten gesamt],
     "#,##0 €"
-  )& "; Summe tats./gepl.: " & Format([Summe von Betrag], "#,##0 €")& "; frei s. letzte Spalte",
-  [voraussichtliche Kosten gesamt] - [Summe von Betrag],
+  )& "; Summe tats./gepl.: " & Format(
+    bereit.[Summe von Betrag], "#,##0 €"
+  ),
+  m.[voraussichtliche Kosten gesamt] - sgp.SummeGeplant,
   False,
   "noch nicht festgel.",
   "noch nicht festgel.",
-  Maßnahmen.[erledigt im Jahr],
-  [voraussichtliche Kosten gesamt] - [Summe von Betrag],
-  [geplante Finanzierung].Sammelbuchungsstelle
+  m.[erledigt im Jahr],
+  m.[voraussichtliche Kosten gesamt] - bereit.[Summe von Betrag],
+  gepl.Sammelbuchungsstelle
 HAVING
   (
-    (
-      (
-        [voraussichtliche Kosten gesamt] - [Summe von Betrag]
-      )> 0
-    )
-    AND (
-      (
-        [geplante Finanzierung].Sammelbuchungsstelle
-      )= False
-    )
+    m.[voraussichtliche Kosten gesamt] - bereit.[Summe von Betrag]
+  )> 0
+  AND (
+    gepl.Sammelbuchungsstelle = False
   )
 ORDER BY
-  Maßnahmen.ID;
+  m.ID;

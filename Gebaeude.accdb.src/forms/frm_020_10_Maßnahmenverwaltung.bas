@@ -23,10 +23,10 @@ Begin Form
     Width =22393
     DatasheetFontHeight =10
     ItemSuffix =92
-    Left =611
-    Top =-122
-    Right =18516
-    Bottom =12702
+    Left =11265
+    Top =3443
+    Right =-31876
+    Bottom =16193
     RecSrcDt = Begin
         0x0a31aba7cab2e440
     End
@@ -808,9 +808,7 @@ Begin Form
                             Left =4105
                             Top =7124
                             OptionValue =1
-                            BorderColor =10921638
                             Name ="Op_MN_unerl"
-                            GridlineColor =10921638
 
                             LayoutCachedLeft =4105
                             LayoutCachedTop =7124
@@ -844,9 +842,7 @@ Begin Form
                             Top =7452
                             TabIndex =1
                             OptionValue =2
-                            BorderColor =10921638
                             Name ="Op_MN_erl"
-                            GridlineColor =10921638
 
                             LayoutCachedLeft =4138
                             LayoutCachedTop =7452

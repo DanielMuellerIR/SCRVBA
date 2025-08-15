@@ -2,28 +2,31 @@
     "Str ([Kalenderjahr])\012    ) AS Kal_Jahr, tbl_100_10_Liegenschaften.ID_Gebäude,"
     " [M_Strassenverzeichnis_1].[Name] & \" \" & [tbl_100_10_Liegenschaften].[HAus_Nr"
     "] & \": \" & [Bezeichnung] AS Liegenschaft, tbl_100_20_Gebäudeteile.Gebäudeteil "
-    "AS Haus, tbl_100_20_Gebäudeteile.ID_Gebäudeteil, Maßnahmen.ID AS ID_Massn, Sachb"
-    "earbeiter.Name, Maßnahmen.Maßnahme, [Geplante Finanzierung].ID AS ID_Finanz, IIf"
-    "(\012        IsNull([Betrag]),\012        IIf(\012            IsNull([voraussich"
-    "tliche Kosten gesamt]),\012            0,\012            [voraussichtliche Koste"
-    "n gesamt]\012        ),\012        [Betrag]\012    ) AS Gepl_Finanz, IIf([Kalend"
-    "erjahr] IS NULL, False, [Erledigt]) AS Erl, Finanzquellen.Finanzquelle, Finanzhe"
-    "rkunft.Finanzherkunft, Maßnahmen.[erledigt im Jahr], [Geplante Finanzierung].tat"
-    "s_Kosten_Infoma\015\012FROM ((tbl_100_10_Liegenschaften LEFT JOIN M_Strassenverz"
-    "eichnis AS M_Strassenverzeichnis_1 ON tbl_100_10_Liegenschaften.Kennummer_Straße"
-    " = M_Strassenverzeichnis_1.Kennummer) LEFT JOIN Sachbearbeiter ON tbl_100_10_Lie"
-    "genschaften.ID_SB = Sachbearbeiter.ID) RIGHT JOIN ((tbl_100_20_Gebäudeteile LEFT"
-    " JOIN M_Strassenverzeichnis ON tbl_100_20_Gebäudeteile.Kennummer_Straße = M_Stra"
-    "ssenverzeichnis.Kennummer) RIGHT JOIN (Maßnahmen LEFT JOIN (Finanzquellen RIGHT "
-    "JOIN (Finanzherkunft RIGHT JOIN [Geplante Finanzierung] ON Finanzherkunft.ID_Fin"
-    "_Her = [Geplante Finanzierung].ID_Fin_Her) ON Finanzquellen.ID_Fin_Qu = [Geplant"
-    "e Finanzierung].ID_Fin_Qu) ON Maßnahmen.ID = [Geplante Finanzierung].ID_Massnahm"
-    "e) ON tbl_100_20_Gebäudeteile.ID_Gebäudeteil = Maßnahmen.ID_Gebäudeteil) ON tbl_"
-    "100_10_Liegenschaften.ID_Gebäude = tbl_100_20_Gebäudeteile.ID_Gebäude\015\012WHE"
-    "RE (\012        (\012            ([Geplante Finanzierung].Sammelbuchungsstelle) "
-    "= False\012            OR ([Geplante Finanzierung].Sammelbuchungsstelle) IS NULL"
-    "\012        )\012        AND (([Geplante Finanzierung].Kalenderjahr) IS NULL)\012"
-    "    );\015\012"
+    "AS Haus, tbl_100_20_Gebäudeteile.ID_Gebäudeteil, m.ID AS ID_Massn, Sachbearbeite"
+    "r.Name, m.Maßnahme, [Geplante Finanzierung].ID AS ID_Finanz, IIf(\012        IsN"
+    "ull([Betrag]),\012        IIf(\012            IsNull([voraussichtliche Kosten ge"
+    "samt]),\012            0,\012            [voraussichtliche Kosten gesamt]\012   "
+    "     ),\012        [Betrag]\012    ) AS Gepl_Finanz, IIf([Kalenderjahr] IS NULL,"
+    " False, [Erledigt]) AS Erl, Finanzquellen.Finanzquelle, Finanzherkunft.Finanzher"
+    "kunft, m.[erledigt im Jahr], [Geplante Finanzierung].tats_Kosten_Infoma, IIf(\012"
+    "        [Geplante Finanzierung].tats_Kosten_Infoma IS NULL,\012        Iif(\012 "
+    "           [Geplante Finanzierung].Betrag IS NULL,\012            Nz (m.[vorauss"
+    "ichtliche Kosten gesamt], 0),\012            [Geplante Finanzierung].Betrag\012 "
+    "       ),\012        [Geplante Finanzierung].tats_Kosten_Infoma\012    ) AS Tats"
+    "OderGeplant\015\012FROM ((tbl_100_10_Liegenschaften LEFT JOIN M_Strassenverzeich"
+    "nis AS M_Strassenverzeichnis_1 ON tbl_100_10_Liegenschaften.Kennummer_Straße = M"
+    "_Strassenverzeichnis_1.Kennummer) LEFT JOIN Sachbearbeiter ON tbl_100_10_Liegens"
+    "chaften.ID_SB = Sachbearbeiter.ID) RIGHT JOIN ((tbl_100_20_Gebäudeteile LEFT JOI"
+    "N M_Strassenverzeichnis ON tbl_100_20_Gebäudeteile.Kennummer_Straße = M_Strassen"
+    "verzeichnis.Kennummer) RIGHT JOIN (Maßnahmen AS m LEFT JOIN (Finanzquellen RIGHT"
+    " JOIN (Finanzherkunft RIGHT JOIN [Geplante Finanzierung] ON Finanzherkunft.ID_Fi"
+    "n_Her = [Geplante Finanzierung].ID_Fin_Her) ON Finanzquellen.ID_Fin_Qu = [Geplan"
+    "te Finanzierung].ID_Fin_Qu) ON m.ID = [Geplante Finanzierung].ID_Massnahme) ON t"
+    "bl_100_20_Gebäudeteile.ID_Gebäudeteil = m.ID_Gebäudeteil) ON tbl_100_10_Liegensc"
+    "haften.ID_Gebäude = tbl_100_20_Gebäudeteile.ID_Gebäude\015\012WHERE (\012       "
+    " (\012            ([Geplante Finanzierung].Sammelbuchungsstelle) = False\012    "
+    "        OR ([Geplante Finanzierung].Sammelbuchungsstelle) IS NULL\012        )\012"
+    "        AND (([Geplante Finanzierung].Kalenderjahr) IS NULL)\012    );\015\012"
 dbMemo "Connect" =""
 dbBoolean "ReturnsRecords" ="-1"
 dbInteger "ODBCTimeout" ="60"
@@ -34,6 +37,7 @@ dbByte "DefaultView" ="2"
 dbBoolean "FilterOnLoad" ="0"
 dbBoolean "OrderByOnLoad" ="-1"
 dbBoolean "TotalsRow" ="-1"
+dbMemo "Filter" ="([Bericht Sanierungsstau nach Finanzpl_Part_02].[TatsOderGeplant] Is Null)"
 Begin
     Begin
         dbText "Name" ="Haus "
@@ -45,13 +49,6 @@ Begin
         dbBoolean "ColumnHidden" ="0"
         dbLong "AggregateType" ="-1"
         dbInteger "ColumnOrder" ="5"
-    End
-    Begin
-        dbText "Name" ="Maßnahmen.Maßnahme"
-        dbInteger "ColumnWidth" ="3180"
-        dbBoolean "ColumnHidden" ="0"
-        dbLong "AggregateType" ="-1"
-        dbInteger "ColumnOrder" ="8"
     End
     Begin
         dbText "Name" ="Sachbearbeiter.Name"
@@ -135,10 +132,6 @@ Begin
         dbLong "AggregateType" ="-1"
     End
     Begin
-        dbText "Name" ="Maßnahmen.[erledigt im Jahr]"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
         dbText "Name" ="Finanzherkunft.Finanzherkunft"
         dbLong "AggregateType" ="-1"
     End
@@ -152,6 +145,18 @@ Begin
     End
     Begin
         dbText "Name" ="[Geplante Finanzierung].tats_Kosten_Infoma"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="TatsOderGeplant"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="m.Maßnahme"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="m.[erledigt im Jahr]"
         dbLong "AggregateType" ="-1"
     End
 End

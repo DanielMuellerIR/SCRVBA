@@ -43,12 +43,6 @@ Begin
         dbLong "AggregateType" ="-1"
     End
     Begin
-        dbText "Name" ="Bericht Sanierungsstau nach Finanzpl_Part_01.Maßnahmen.Maßnahme"
-        dbLong "AggregateType" ="-1"
-        dbInteger "ColumnWidth" ="4500"
-        dbBoolean "ColumnHidden" ="0"
-    End
-    Begin
         dbText "Name" ="Bericht Sanierungsstau nach Finanzpl_Part_01.Gepl_Finanz"
         dbLong "AggregateType" ="0"
         dbInteger "ColumnWidth" ="4230"
@@ -74,10 +68,6 @@ Begin
         dbText "Name" ="Bericht Sanierungsstau nach Finanzpl_Part_01.Finanzherkunft.Finanzherkunft"
         dbInteger "ColumnWidth" ="2145"
         dbBoolean "ColumnHidden" ="0"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="Bericht Sanierungsstau nach Finanzpl_Part_01.Maßnahmen.[erledigt im Jahr]"
         dbLong "AggregateType" ="-1"
     End
 End

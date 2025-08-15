@@ -2,9 +2,8 @@
   ID_Massnahme,
   Sum(
     IIf(
-      Nz (tats_Kosten_Infoma, 0)> 0,
-      Nz (tats_Kosten_Infoma, 0),
-      Betrag
+      tats_Kosten_Infoma IS NULL, Betrag,
+      tats_Kosten_Infoma
     )
   ) AS [Summe von Betrag]
 FROM

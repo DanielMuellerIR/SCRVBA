@@ -1,7 +1,7 @@
 ﻿{
   "Info": {
     "Class": "clsDbReport",
-    "Description": "Sanierungsstau Finanzplanung Erledigt_Status Print Settings"
+    "Description": "Sanierungsstau Finanzplanung Erledigt_Status_ALT Print Settings"
   },
   "Items": {
     "Printer": {
@@ -14,8 +14,8 @@
       "RightMargin": 0.2361,
       "BotMargin": 0.3938,
       "DataOnly": false,
-      "Width": 7.2833,
-      "Height": 0.3146,
+      "Width": 7.3222,
+      "Height": 0.2361,
       "DefaultSize": true,
       "Columns": 1,
       "ColumnSpacing": 0.25,
