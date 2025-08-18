@@ -739,7 +739,7 @@ Begin Report
                     TabIndex =7
                     BackColor =967423
                     Name ="TF_Sum_Lev_1_kum_3_tats"
-                    ControlSource ="=Sum(IIf(Left([Erledigt_Status],1)=\"3\",[tats_Kosten_Infoma],0))"
+                    ControlSource ="=Sum(IIf(Left([Erledigt_Status],1)=\"3\",[TatsOderGeplant],0))"
                     Format ="#,##0.00 €;-#,##0.00 €"
                     FontName ="Arial Narrow"
 
@@ -761,7 +761,7 @@ Begin Report
                     TabIndex =8
                     BackColor =967423
                     Name ="TF_Sum_Lev_1_kum_1_2_tats"
-                    ControlSource ="=Sum(IIf(Left([Erledigt_Status],1)<>\"3\",[tats_Kosten_Infoma],0))"
+                    ControlSource ="=Sum(IIf(Left([Erledigt_Status],1)<>\"3\",[TatsOderGeplant],0))"
                     Format ="#,##0.00 €;-#,##0.00 €"
                     FontName ="Arial Narrow"
 
@@ -783,7 +783,7 @@ Begin Report
                     TabIndex =9
                     BackColor =967423
                     Name ="TF_Sum_Lev_1_kum_1_tats"
-                    ControlSource ="=Sum(IIf(Left([Erledigt_Status],1)=\"1\",[tats_Kosten_Infoma],0))"
+                    ControlSource ="=Sum(IIf(Left([Erledigt_Status],1)=\"1\",[TatsOderGeplant],0))"
                     Format ="#,##0.00 €;-#,##0.00 €"
                     FontName ="Arial Narrow"
 
@@ -805,7 +805,7 @@ Begin Report
                     TabIndex =10
                     BackColor =967423
                     Name ="TF_Sum_Lev_1_kum_2_tats"
-                    ControlSource ="=Sum(IIf(Left([Erledigt_Status],1)=\"2\",[tats_Kosten_Infoma],0))"
+                    ControlSource ="=Sum(IIf(Left([Erledigt_Status],1)=\"2\",[TatsOderGeplant],0))"
                     Format ="#,##0.00 €;-#,##0.00 €"
                     FontName ="Arial Narrow"
 
@@ -942,14 +942,14 @@ Begin Report
             Begin
                 Begin Rectangle
                     BackStyle =1
-                    Left =1020
+                    Left =1928
                     Top =338
-                    Width =8560
+                    Width =6865
                     Height =3112
                     Name ="Rechteck112"
-                    LayoutCachedLeft =1020
+                    LayoutCachedLeft =1928
                     LayoutCachedTop =338
-                    LayoutCachedWidth =9580
+                    LayoutCachedWidth =8793
                     LayoutCachedHeight =3450
                     BackThemeColorIndex =1
                     BackShade =95.0
@@ -997,10 +997,10 @@ Begin Report
                     LayoutCachedHeight =170
                 End
                 Begin TextBox
-                    Left =5502
+                    Left =4686
                     Top =905
-                    Width =1687
-                    Height =343
+                    Width =1592
+                    Height =300
                     FontSize =10
                     FontWeight =700
                     TabIndex =1
@@ -1009,35 +1009,35 @@ Begin Report
                     Format ="#,##0.00 €;-#,##0.00 €"
                     FontName ="Arial Narrow"
 
-                    LayoutCachedLeft =5502
+                    LayoutCachedLeft =4686
                     LayoutCachedTop =905
-                    LayoutCachedWidth =7189
-                    LayoutCachedHeight =1248
+                    LayoutCachedWidth =6278
+                    LayoutCachedHeight =1205
                     Begin
                         Begin Label
-                            TextAlign =3
-                            Left =1304
+                            TextAlign =0
+                            Left =2213
                             Top =905
-                            Width =3918
-                            Height =369
+                            Width =2044
+                            Height =300
                             FontSize =10
                             FontWeight =700
                             Name ="Bezeichnungsfeld109"
-                            Caption ="1  (Erledigt)"
+                            Caption ="1)  Erledigt"
                             FontName ="Arial Narrow"
                             Tag ="DetachedLabel"
-                            LayoutCachedLeft =1304
+                            LayoutCachedLeft =2213
                             LayoutCachedTop =905
-                            LayoutCachedWidth =5222
-                            LayoutCachedHeight =1274
+                            LayoutCachedWidth =4257
+                            LayoutCachedHeight =1205
                         End
                     End
                 End
                 Begin TextBox
-                    Left =5502
+                    Left =4686
                     Top =1379
-                    Width =1687
-                    Height =343
+                    Width =1592
+                    Height =300
                     FontSize =10
                     FontWeight =700
                     TabIndex =2
@@ -1046,292 +1046,236 @@ Begin Report
                     Format ="#,##0.00 €;-#,##0.00 €"
                     FontName ="Arial Narrow"
 
-                    LayoutCachedLeft =5502
+                    LayoutCachedLeft =4686
                     LayoutCachedTop =1379
-                    LayoutCachedWidth =7189
-                    LayoutCachedHeight =1722
+                    LayoutCachedWidth =6278
+                    LayoutCachedHeight =1679
                     Begin
                         Begin Label
-                            TextAlign =3
-                            Left =1304
+                            TextAlign =0
+                            Left =2213
                             Top =1379
-                            Width =3918
-                            Height =369
+                            Width =2044
+                            Height =300
                             FontSize =10
                             FontWeight =700
                             Name ="Bezeichnungsfeld110"
-                            Caption ="2 (Nicht erledigt)"
+                            Caption ="2) Nicht erledigt"
                             FontName ="Arial Narrow"
                             Tag ="DetachedLabel"
-                            LayoutCachedLeft =1304
+                            LayoutCachedLeft =2213
                             LayoutCachedTop =1379
-                            LayoutCachedWidth =5222
-                            LayoutCachedHeight =1748
+                            LayoutCachedWidth =4257
+                            LayoutCachedHeight =1679
                         End
                     End
                 End
                 Begin Label
                     FontUnderline = NotDefault
-                    OverlapFlags =4
-                    Left =1304
+                    Left =2212
                     Top =450
-                    Width =3918
-                    Height =369
+                    Width =2044
+                    Height =300
                     FontSize =10
                     FontWeight =700
                     Name ="Bezeichnungsfeld111"
                     Caption ="Gesamtsummen"
                     FontName ="Arial Narrow"
-                    LayoutCachedLeft =1304
+                    LayoutCachedLeft =2212
                     LayoutCachedTop =450
-                    LayoutCachedWidth =5222
-                    LayoutCachedHeight =819
-                End
-                Begin TextBox
-                    Left =5502
-                    Top =2945
-                    Width =1687
-                    Height =343
-                    FontSize =10
-                    FontWeight =700
-                    TabIndex =3
-                    Name ="Text113"
-                    ControlSource ="=[TF_Summe_1_2]+[TF_Summe_3]"
-                    Format ="#,##0.00 €;-#,##0.00 €"
-                    FontName ="Arial Narrow"
-
-                    LayoutCachedLeft =5502
-                    LayoutCachedTop =2945
-                    LayoutCachedWidth =7189
-                    LayoutCachedHeight =3288
-                    Begin
-                        Begin Label
-                            TextAlign =3
-                            Left =1309
-                            Top =2945
-                            Width =3918
-                            Height =369
-                            FontSize =10
-                            FontWeight =700
-                            Name ="Bezeichnungsfeld114"
-                            Caption ="Gesamt:"
-                            FontName ="Arial Narrow"
-                            Tag ="DetachedLabel"
-                            LayoutCachedLeft =1309
-                            LayoutCachedTop =2945
-                            LayoutCachedWidth =5227
-                            LayoutCachedHeight =3314
-                        End
-                    End
+                    LayoutCachedWidth =4256
+                    LayoutCachedHeight =750
                 End
                 Begin Line
                     BorderWidth =2
-                    Left =1020
-                    Top =2775
-                    Width =8560
+                    OverlapFlags =4
+                    Left =2213
+                    Top =1815
+                    Width =6069
                     Name ="Linie115"
-                    LayoutCachedLeft =1020
-                    LayoutCachedTop =2775
-                    LayoutCachedWidth =9580
-                    LayoutCachedHeight =2775
+                    LayoutCachedLeft =2213
+                    LayoutCachedTop =1815
+                    LayoutCachedWidth =8282
+                    LayoutCachedHeight =1815
                     BorderThemeColorIndex =1
                     BorderShade =75.0
                 End
                 Begin Label
                     TextAlign =3
-                    Left =5502
+                    Left =4686
                     Top =450
-                    Width =1687
+                    Width =1592
                     Height =300
                     FontSize =10
                     FontWeight =700
                     Name ="Bezeichnungsfeld128"
                     Caption ="Geplantes Budget"
                     FontName ="Arial Narrow"
-                    LayoutCachedLeft =5502
+                    LayoutCachedLeft =4686
                     LayoutCachedTop =450
-                    LayoutCachedWidth =7189
+                    LayoutCachedWidth =6278
                     LayoutCachedHeight =750
                 End
                 Begin TextBox
-                    Left =5502
-                    Top =1811
-                    Width =1687
-                    Height =343
+                    Left =4686
+                    Top =1988
+                    Width =1592
+                    Height =300
                     FontSize =10
                     FontWeight =700
-                    TabIndex =4
+                    TabIndex =3
                     Name ="TF_Summe_1_2"
                     ControlSource ="=[TF_Sum_Lev_1_kum_1_2]"
                     Format ="#,##0.00 €;-#,##0.00 €"
                     FontName ="Arial Narrow"
 
-                    LayoutCachedLeft =5502
-                    LayoutCachedTop =1811
-                    LayoutCachedWidth =7189
-                    LayoutCachedHeight =2154
+                    LayoutCachedLeft =4686
+                    LayoutCachedTop =1988
+                    LayoutCachedWidth =6278
+                    LayoutCachedHeight =2288
                     Begin
                         Begin Label
-                            TextAlign =3
-                            Left =1309
-                            Top =1811
-                            Width =3918
-                            Height =369
+                            TextAlign =0
+                            Left =2213
+                            Top =1988
+                            Width =2044
+                            Height =300
                             FontSize =10
                             FontWeight =700
                             Name ="Bezeichnungsfeld138"
-                            Caption ="1 + 2 (Erledigt und nicht erledigt)"
+                            Caption ="Summe 1 + 2"
                             FontName ="Arial Narrow"
                             Tag ="DetachedLabel"
-                            LayoutCachedLeft =1309
-                            LayoutCachedTop =1811
-                            LayoutCachedWidth =5227
-                            LayoutCachedHeight =2180
+                            LayoutCachedLeft =2213
+                            LayoutCachedTop =1988
+                            LayoutCachedWidth =4257
+                            LayoutCachedHeight =2288
                         End
                     End
                 End
                 Begin TextBox
-                    Left =5502
-                    Top =2285
+                    Left =4591
+                    Top =2948
                     Width =1687
-                    Height =343
+                    Height =300
                     FontSize =10
                     FontWeight =700
-                    TabIndex =5
+                    TabIndex =4
                     Name ="TF_Summe_3"
                     ControlSource ="=[TF_Sum_Lev_1_kum_3]"
                     Format ="#,##0.00 €;-#,##0.00 €"
                     FontName ="Arial Narrow"
 
-                    LayoutCachedLeft =5502
-                    LayoutCachedTop =2285
-                    LayoutCachedWidth =7189
-                    LayoutCachedHeight =2628
+                    LayoutCachedLeft =4591
+                    LayoutCachedTop =2948
+                    LayoutCachedWidth =6278
+                    LayoutCachedHeight =3248
                     Begin
                         Begin Label
-                            TextAlign =3
-                            Left =1309
-                            Top =2285
-                            Width =3918
-                            Height =369
+                            Left =2213
+                            Top =2948
+                            Width =2149
+                            Height =300
                             FontSize =10
                             FontWeight =700
                             Name ="Bezeichnungsfeld140"
-                            Caption ="3 (Nicht mehr erforderlich)"
+                            Caption ="3) Nicht mehr erforderlich"
                             FontName ="Arial Narrow"
                             Tag ="DetachedLabel"
-                            LayoutCachedLeft =1309
-                            LayoutCachedTop =2285
-                            LayoutCachedWidth =5227
-                            LayoutCachedHeight =2654
+                            LayoutCachedLeft =2213
+                            LayoutCachedTop =2948
+                            LayoutCachedWidth =4362
+                            LayoutCachedHeight =3248
                         End
                     End
                 End
                 Begin TextBox
-                    Left =7597
+                    Left =6459
                     Top =905
-                    Width =1687
-                    Height =343
+                    Width =1810
+                    Height =300
                     FontSize =10
                     FontWeight =700
-                    TabIndex =6
+                    TabIndex =5
                     Name ="TF_Summe_1_tats"
                     ControlSource ="=[TF_Sum_Lev_1_kum_1_tats]"
                     Format ="#,##0.00 €;-#,##0.00 €"
                     FontName ="Arial Narrow"
 
-                    LayoutCachedLeft =7597
+                    LayoutCachedLeft =6459
                     LayoutCachedTop =905
-                    LayoutCachedWidth =9284
-                    LayoutCachedHeight =1248
+                    LayoutCachedWidth =8269
+                    LayoutCachedHeight =1205
                 End
                 Begin TextBox
-                    Left =7597
+                    Left =6459
                     Top =1379
-                    Width =1687
-                    Height =343
+                    Width =1810
+                    Height =300
                     FontSize =10
                     FontWeight =700
-                    TabIndex =7
+                    TabIndex =6
                     Name ="TF_Summe_2_tats"
                     ControlSource ="=[TF_Sum_Lev_1_kum_2_tats]"
                     Format ="#,##0.00 €;-#,##0.00 €"
                     FontName ="Arial Narrow"
 
-                    LayoutCachedLeft =7597
+                    LayoutCachedLeft =6459
                     LayoutCachedTop =1379
-                    LayoutCachedWidth =9284
-                    LayoutCachedHeight =1722
-                End
-                Begin TextBox
-                    Left =7597
-                    Top =2945
-                    Width =1687
-                    Height =343
-                    FontSize =10
-                    FontWeight =700
-                    TabIndex =8
-                    Name ="Text157"
-                    ControlSource ="=[TF_Summe_1_2_tats]+[TF_Summe_3_tats]"
-                    Format ="#,##0.00 €;-#,##0.00 €"
-                    FontName ="Arial Narrow"
-
-                    LayoutCachedLeft =7597
-                    LayoutCachedTop =2945
-                    LayoutCachedWidth =9284
-                    LayoutCachedHeight =3288
+                    LayoutCachedWidth =8269
+                    LayoutCachedHeight =1679
                 End
                 Begin Label
                     TextAlign =3
-                    Left =7597
+                    Left =6459
                     Top =450
-                    Width =1687
+                    Width =1810
                     Height =300
                     FontSize =10
                     FontWeight =700
                     Name ="Bezeichnungsfeld159"
                     Caption ="Tatsächliche Kosten"
                     FontName ="Arial Narrow"
-                    LayoutCachedLeft =7597
+                    LayoutCachedLeft =6459
                     LayoutCachedTop =450
-                    LayoutCachedWidth =9284
+                    LayoutCachedWidth =8269
                     LayoutCachedHeight =750
                 End
                 Begin TextBox
-                    Left =7597
-                    Top =1811
-                    Width =1687
-                    Height =343
+                    Left =6459
+                    Top =1988
+                    Width =1810
+                    Height =300
                     FontSize =10
                     FontWeight =700
-                    TabIndex =9
+                    TabIndex =7
                     Name ="TF_Summe_1_2_tats"
                     ControlSource ="=[TF_Sum_Lev_1_kum_1_2_tats]"
                     Format ="#,##0.00 €;-#,##0.00 €"
                     FontName ="Arial Narrow"
 
-                    LayoutCachedLeft =7597
-                    LayoutCachedTop =1811
-                    LayoutCachedWidth =9284
-                    LayoutCachedHeight =2154
+                    LayoutCachedLeft =6459
+                    LayoutCachedTop =1988
+                    LayoutCachedWidth =8269
+                    LayoutCachedHeight =2288
                 End
                 Begin TextBox
-                    Left =7597
-                    Top =2285
-                    Width =1687
-                    Height =343
+                    Left =6459
+                    Top =2948
+                    Width =1810
+                    Height =300
                     FontSize =10
                     FontWeight =700
-                    TabIndex =10
+                    TabIndex =8
                     Name ="TF_Summe_3_tats"
                     ControlSource ="=[TF_Sum_Lev_1_kum_3_tats]"
                     Format ="#,##0.00 €;-#,##0.00 €"
                     FontName ="Arial Narrow"
 
-                    LayoutCachedLeft =7597
-                    LayoutCachedTop =2285
-                    LayoutCachedWidth =9284
-                    LayoutCachedHeight =2628
+                    LayoutCachedLeft =6459
+                    LayoutCachedTop =2948
+                    LayoutCachedWidth =8269
+                    LayoutCachedHeight =3248
                 End
             End
         End

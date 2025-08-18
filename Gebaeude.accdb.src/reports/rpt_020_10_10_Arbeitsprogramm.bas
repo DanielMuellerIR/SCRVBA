@@ -16,8 +16,8 @@ Begin Report
     Width =15697
     DatasheetFontHeight =11
     ItemSuffix =389
-    Left =8175
-    Top =2445
+    Left =7853
+    Top =6353
     OnNoData ="[Event Procedure]"
     RecSrcDt = Begin
         0x37002ff3f091e540
@@ -1158,7 +1158,6 @@ Begin Report
                     SourceObject ="Report.rpt_020_10_15_Arbeitspr_UB_Kontierungen"
                     LinkChildFields ="ID"
                     LinkMasterFields ="ID"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =5285
                     LayoutCachedTop =54
@@ -1680,25 +1679,25 @@ Begin Report
             Begin
                 Begin TextBox
                     DecimalPlaces =0
-                    TextAlign =0
+                    TextAlign =3
                     IMESentenceMode =3
-                    Left =10832
+                    Left =9415
                     Top =105
-                    Width =1356
+                    Width =1513
                     Height =345
                     FontSize =12
                     FontWeight =700
                     TabIndex =1
                     Name ="TF_TatsK_Zw_Sum"
-                    ControlSource ="=dsum(\"[Summ_tats]\",\"qry_030_05_15_Gepl_Finanz_Maßn_Sum_AP_pro_Jahr\",\"[Sort"
+                    ControlSource ="=DSum(\"[Summ_tats]\",\"qry_030_05_15_Gepl_Finanz_Maßn_Sum_AP_pro_Jahr\",\"[Sort"
                         "] = '\" & [sort] & \"'\")"
                     Format ="#,##0.00 €;-#,##0.00 €"
                     FontName ="Arial Narrow"
                     GridlineColor =10921638
 
-                    LayoutCachedLeft =10832
+                    LayoutCachedLeft =9415
                     LayoutCachedTop =105
-                    LayoutCachedWidth =12188
+                    LayoutCachedWidth =10928
                     LayoutCachedHeight =450
                     BorderThemeColorIndex =0
                     BorderShade =100.0
@@ -1728,8 +1727,8 @@ Begin Report
                     BackStyle =1
                     BorderWidth =2
                     TextAlign =1
-                    Left =8415
-                    Top =120
+                    Left =7200
+                    Top =113
                     Width =975
                     Height =345
                     FontSize =12
@@ -1737,35 +1736,35 @@ Begin Report
                     Name ="Bezeichnungsfeld351"
                     Caption ="Summe:"
                     FontName ="Arial Narrow"
-                    LayoutCachedLeft =8415
-                    LayoutCachedTop =120
-                    LayoutCachedWidth =9390
-                    LayoutCachedHeight =465
+                    LayoutCachedLeft =7200
+                    LayoutCachedTop =113
+                    LayoutCachedWidth =8175
+                    LayoutCachedHeight =458
                     BorderTint =100.0
                     ForeTint =100.0
                 End
                 Begin Rectangle
                     BackStyle =0
                     BorderWidth =2
-                    Left =118
-                    Top =56
-                    Width =12302
+                    Left =60
+                    Top =53
+                    Width =11051
                     Height =454
                     Name ="Rechteck352"
-                    LayoutCachedLeft =118
-                    LayoutCachedTop =56
-                    LayoutCachedWidth =12420
-                    LayoutCachedHeight =510
+                    LayoutCachedLeft =60
+                    LayoutCachedTop =53
+                    LayoutCachedWidth =11111
+                    LayoutCachedHeight =507
                 End
                 Begin TextBox
                     Visible = NotDefault
                     DecimalPlaces =0
-                    TextAlign =0
+                    TextAlign =3
                     BackStyle =0
                     IMESentenceMode =3
-                    Left =9572
-                    Top =105
-                    Width =1356
+                    Left =8492
+                    Top =113
+                    Width =2436
                     Height =345
                     FontSize =12
                     FontWeight =700
@@ -1776,10 +1775,10 @@ Begin Report
                     FontName ="Arial Narrow"
                     GridlineColor =10921638
 
-                    LayoutCachedLeft =9572
-                    LayoutCachedTop =105
+                    LayoutCachedLeft =8492
+                    LayoutCachedTop =113
                     LayoutCachedWidth =10928
-                    LayoutCachedHeight =450
+                    LayoutCachedHeight =458
                     BorderThemeColorIndex =0
                     BorderShade =100.0
                     CurrencySymbol ="€"
@@ -1846,9 +1845,9 @@ Begin Report
                     OldBorderStyle =1
                     BorderWidth =1
                     TextAlign =1
-                    Left =7155
-                    Top =120
-                    Width =5265
+                    Left =6184
+                    Top =113
+                    Width =4927
                     Height =570
                     FontSize =14
                     FontWeight =700
@@ -1858,20 +1857,20 @@ Begin Report
                     Caption ="Summe gesamt:"
                     FontName ="Arial Narrow"
                     GridlineColor =10921638
-                    LayoutCachedLeft =7155
-                    LayoutCachedTop =120
-                    LayoutCachedWidth =12420
-                    LayoutCachedHeight =690
+                    LayoutCachedLeft =6184
+                    LayoutCachedTop =113
+                    LayoutCachedWidth =11111
+                    LayoutCachedHeight =683
                     BackShade =95.0
                     BorderTint =100.0
                     ForeTint =100.0
                 End
                 Begin TextBox
                     DecimalPlaces =0
-                    TextAlign =0
+                    TextAlign =3
                     BackStyle =0
                     IMESentenceMode =3
-                    Left =9993
+                    Left =8733
                     Top =135
                     Width =2195
                     Height =390
@@ -1883,9 +1882,9 @@ Begin Report
                     FontName ="Arial Narrow"
                     GridlineColor =10921638
 
-                    LayoutCachedLeft =9993
+                    LayoutCachedLeft =8733
                     LayoutCachedTop =135
-                    LayoutCachedWidth =12188
+                    LayoutCachedWidth =10928
                     LayoutCachedHeight =525
                     BorderThemeColorIndex =0
                     BorderShade =100.0
@@ -1894,12 +1893,12 @@ Begin Report
                 Begin TextBox
                     Visible = NotDefault
                     DecimalPlaces =0
-                    TextAlign =0
+                    TextAlign =3
                     BackStyle =0
                     IMESentenceMode =3
-                    Left =9468
-                    Top =135
-                    Width =1460
+                    Left =8320
+                    Top =113
+                    Width =2608
                     Height =390
                     FontSize =14
                     FontWeight =700
@@ -1910,10 +1909,10 @@ Begin Report
                     FontName ="Arial Narrow"
                     GridlineColor =10921638
 
-                    LayoutCachedLeft =9468
-                    LayoutCachedTop =135
+                    LayoutCachedLeft =8320
+                    LayoutCachedTop =113
                     LayoutCachedWidth =10928
-                    LayoutCachedHeight =525
+                    LayoutCachedHeight =503
                     BorderThemeColorIndex =0
                     BorderShade =100.0
                     CurrencySymbol ="€"

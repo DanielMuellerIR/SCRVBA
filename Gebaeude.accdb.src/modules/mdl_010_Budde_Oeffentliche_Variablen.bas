@@ -12,7 +12,7 @@ Public Declare PtrSafe Function ShowWindow Lib "user32" (ByVal hwnd As LongPtr, 
 
 ' =====================================================================================
 ' Konstante zur Versionsangabe:
-Public Const str_Version As String = "15.08.2025v2"
+Public Const str_Version As String = "18.08.2025v2"
 
 ' Änderungsdoku DM seit 4.5.2022: -------------------
 'DM2022-05-04:
@@ -114,8 +114,12 @@ Public Const str_Version As String = "15.08.2025v2"
 '- Summen bei zweistelligen Mio.-Beträgen zu schmal: Layout an vielen Stellen optimiert
 'DM2025-08-15
 '- Bericht Sanierungsstau Finanzplanung Erledigt_Status: Unerwünschte Zeilen korrigiert nach Rücksprache durch Änderung der Definition des Feldes TatsOderGeplant (die rot ausgegebenen Zahlen, die zur Summenberechnung verwendet werden) in der Part 03 Abfrage (für die 'generierten Zeilen' mit dem Restbudget) auf die identische Definition der letzten Spalte
-'-
-'----------------------------------------------------
+'DM2025-08-18
+'- Neubau/Sanierung -> Arbeitsprogramm -> Bericht "rpt_020_10_10_Arbeitsprogramm" -> Einer/Alle: Bericht optisch angepasst, damit zwei Summenfelder bündig zu einem Detailfeld sind und Anpassung von Kästen
+'- Bericht Sanierungsstau Finanzplanung Erledigt_Status: Gesamtsummen müssen die Zwischensummen summieren, nicht die letzten beiden Spalten. Bericht und diverse Hilfsvariablen angepasst.
+'- Summenkästchen soll 1, dann 2 und darunter den Trennstrich zeigen, dann Summe 1+2, danach keine Gesamtsummen mehr nötig und die beiden Werte zu 3 versetzt darunter.
+'- Rote Zahlen unsichtbar bis wir sie wieder brauchen
+'-----------------------------------------------------------
 ' Bei bln_Anw_Fenster_aus = True wird das Access-Anwendungsfenster ausgeblendet
 ' Bei bln_Anw_Fenster_aus = False bleibt das Access-Anwendungsfenster eingeblendet
 Public Const Ausnahme_Anw_F_aus_fuer As String = "WEEWIN11PARALLE;YS7;" ' DM2022-07-26 siehe unten die Funktion bln_Anw_Fenster_aus
