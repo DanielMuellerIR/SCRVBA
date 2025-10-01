@@ -10,6 +10,20 @@ Private Sub B_Formular_Gebäudebewertung_Enter()
 End Sub
 
 
+Private Sub bAnlagen_Click() 'DM2025-09-26
+
+    On Error GoTo Err_bAnlagen_Click
+    Dim stDocName As String
+    DoCmd.OpenForm "Filter für Anlagen", , , , , acDialog
+
+Exit_bAnlagen_Click:
+    Exit Sub
+
+Err_bAnlagen_Click:
+    MsgBox Err.Description
+    Resume Exit_bAnlagen_Click
+End Sub
+
 Private Sub Befehl233_Click()
 'DM2025-06-10
  On Error GoTo Err_Befehl233_Click

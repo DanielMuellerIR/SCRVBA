@@ -5,6 +5,7 @@ Attribute VB_Exposed = False
 Option Compare Database
 Option Explicit
 
+
 Private Sub Form_Open(Cancel As Integer)
 
 10  lng_ID_Gebaeude = 0
@@ -38,7 +39,7 @@ Private Sub Form_Open(Cancel As Integer)
 250 End If
 
 260 Me!KF_Gebäudeauswahl.SetFocus
-
+    Me!UF_Anlagen.Requery 'DM2025-09-24
 End Sub
 
 Private Sub BS_Massn_Loeschen_Click()
@@ -160,7 +161,7 @@ Private Sub KF_Gebäudeauswahl_AfterUpdate()
 80  Me!UF_Teilmassnahme.Form.Requery
 90  Me!UF_Gepl_Finanzierung.Requery
 100 Me!UF_Geplante_Finanzierung.Form.Requery
-
+    Me!UF_Anlagen.Form.Requery 'DM2025-09-24
 Setze_Buttons
 
 End Sub
@@ -177,7 +178,7 @@ Private Sub KF_Geb_Teil_Auswahl_AfterUpdate()
 70  Me!UF_Teilmassnahme.Requery
 80  Me!UF_Gepl_Finanzierung.Requery
 90  Me!UF_Geplante_Finanzierung.Form.Requery
-
+    Me!UF_Anlagen.Form.Requery 'DM2025-09-24
 100 Setze_Buttons
 
 End Sub
@@ -197,7 +198,7 @@ Private Sub KF_ID_Massn_AfterUpdate()
 100 Me!UF_Geplante_Finanzierung.Requery
 110 Me!UF_Gepl_Finanzierung.Requery
 120 Me!UF_Teilmassnahme.Requery
-
+    Me!UF_Anlagen.Form.Requery 'DM2025-09-24
 End Sub
 
 Private Sub KF_Massn_auswahl_AfterUpdate()
@@ -211,6 +212,7 @@ Private Sub KF_Massn_auswahl_AfterUpdate()
 70  Me!UF_Teilmassnahme.Form.Repaint
 80  Me!UF_Gepl_Finanzierung.Form.Requery
 90  Me!UF_Geplante_Finanzierung.Form.Requery
+    Me!UF_Anlagen.Form.Requery 'DM2025-09-24
 100 Me.KF_ID_Massn = lng_ID_Massn
 
 110 Setze_Buttons

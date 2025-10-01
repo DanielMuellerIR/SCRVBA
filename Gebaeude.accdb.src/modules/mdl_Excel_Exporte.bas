@@ -112,6 +112,19 @@ Sub Export_Excel(Abfr_Name, Zieldatei, Blattname, Hinweis)
 540 xl.Columns("A").Select
 550 xl.Columns(1).Insert
 
+
+If (Abfr_Name Like "*Anlage*") Then 'DM2025-09-29
+    str_Spalte = VBA_Column_Number_To_Letter(CurrentDb.QueryDefs(Abfr_Name).Fields.Count + 1)
+    xl.Range("B2:" & str_Spalte & "2").Select 'Die graue Zeile oben so breit wie die Tabelle machen
+    xl.Selection.Font.Bold = True
+    xl.Selection.Interior.Color = RGB(227, 227, 227)
+    xl.Selection.HorizontalAlignment = xlLeft
+    xl.Selection.VerticalAlignment = xlCenter
+    xl.Columns("H").EntireColumn.AutoFit 'Spalte mit dem Datum optimieren
+    'Tabellenfunktion für den Datenbereich setzen
+    xl.Sheets(Blattname).ListObjects.Add(xlSrcRange, Range("$B6:$" & str_Spalte & CStr(str_Zeile + 5)), , xlYes).Name = "Tabelle_Anlagen"
+End If
+
     ' Friere ab Zeile 7 das Fenster ein
 560 xl.Range("A7").Select
 570 xl.ActiveWindow.FreezePanes = True

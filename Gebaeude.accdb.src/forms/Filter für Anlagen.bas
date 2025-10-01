@@ -22,19 +22,20 @@ Begin Form
     GridY =10
     Width =9184
     DatasheetFontHeight =10
-    ItemSuffix =70
-    Left =16988
-    Top =5535
-    Right =27938
-    Bottom =12015
+    ItemSuffix =71
+    Left =17775
+    Top =6518
+    Right =27143
+    Bottom =10050
     PaintPalette = Begin
         0x000301000000000000000000
     End
     RecSrcDt = Begin
         0x691ad9634dd1e240
     End
-    Caption ="Filter für Sanierungsstau Jahre"
+    Caption ="Filter für Anlagen"
     DatasheetFontName ="Arial"
+    OnLoad ="[Event Procedure]"
     FilterOnLoad =0
     AllowLayoutView =0
     DatasheetGridlinesColor12 =12632256
@@ -163,7 +164,7 @@ Begin Form
             BorderLineStyle =0
         End
         Begin Section
-            Height =4422
+            Height =3061
             BackColor =12632256
             Name ="Detailbereich"
             Begin
@@ -173,7 +174,7 @@ Begin Form
                     ListRows =50
                     ListWidth =7371
                     Left =2845
-                    Top =3120
+                    Top =1928
                     Width =4536
                     Height =284
                     TabIndex =2
@@ -183,22 +184,22 @@ Begin Form
                     DefaultValue ="\"nach Jahren -> Objekten -> Maßnahmen\""
 
                     LayoutCachedLeft =2845
-                    LayoutCachedTop =3120
+                    LayoutCachedTop =1928
                     LayoutCachedWidth =7381
-                    LayoutCachedHeight =3404
+                    LayoutCachedHeight =2212
                     Begin
                         Begin Label
                             OverlapFlags =85
                             Left =510
-                            Top =3120
+                            Top =1928
                             Width =2160
                             Height =270
                             Name ="Gebäude_Label"
                             Caption ="Sortierung nach:"
                             LayoutCachedLeft =510
-                            LayoutCachedTop =3120
+                            LayoutCachedTop =1928
                             LayoutCachedWidth =2670
-                            LayoutCachedHeight =3390
+                            LayoutCachedHeight =2198
                         End
                     End
                 End
@@ -210,7 +211,7 @@ Begin Form
                     Height =360
                     FontSize =12
                     Name ="Bezeichnungsfeld50"
-                    Caption ="Filter für Sanierungsstau Jahre"
+                    Caption ="Filter für Anlagen"
                     LayoutCachedLeft =1468
                     LayoutCachedTop =225
                     LayoutCachedWidth =6673
@@ -219,23 +220,23 @@ Begin Form
                 Begin CommandButton
                     OverlapFlags =85
                     Left =2895
-                    Top =3630
+                    Top =2438
                     Width =1785
                     Height =330
                     TabIndex =1
                     Name ="BS_Alle_DAten"
-                    Caption ="Daten anzeigen"
+                    Caption ="Bericht anzeigen"
                     OnClick ="[Event Procedure]"
 
                     LayoutCachedLeft =2895
-                    LayoutCachedTop =3630
+                    LayoutCachedTop =2438
                     LayoutCachedWidth =4680
-                    LayoutCachedHeight =3960
+                    LayoutCachedHeight =2768
                 End
                 Begin CommandButton
                     OverlapFlags =85
                     Left =6455
-                    Top =3636
+                    Top =2444
                     Width =975
                     Height =330
                     TabIndex =3
@@ -244,9 +245,9 @@ Begin Form
                     OnClick ="[Event Procedure]"
 
                     LayoutCachedLeft =6455
-                    LayoutCachedTop =3636
+                    LayoutCachedTop =2444
                     LayoutCachedWidth =7430
-                    LayoutCachedHeight =3966
+                    LayoutCachedHeight =2774
                 End
                 Begin ComboBox
                     LimitToList = NotDefault
@@ -301,10 +302,7 @@ Begin Form
                     TabIndex =4
                     Name ="KF_Gebteile"
                     RowSourceType ="Table/Query"
-                    RowSource ="SELECT tbl_100_20_Gebäudeteile.ID_Gebäudeteil, tbl_100_20_Gebäudeteile.Gebäudete"
-                        "il FROM tbl_100_20_Gebäudeteile WHERE (((tbl_100_20_Gebäudeteile.ID_Gebäude)=[Fo"
-                        "rmulare]![Filter für Sanierungsstau Jahre]![KF_Liegenschaften])) ORDER BY tbl_10"
-                        "0_20_Gebäudeteile.Gebäudeteil;"
+                    RowSource ="Filter für Anlagen"
                     ColumnWidths ="0"
 
                     LayoutCachedLeft =2845
@@ -329,94 +327,25 @@ Begin Form
                         End
                     End
                 End
-                Begin OptionGroup
+                Begin CommandButton
                     OverlapFlags =85
-                    Left =2880
-                    Top =1822
-                    Width =3981
-                    Height =1032
+                    Left =623
+                    Top =2438
+                    Width =1785
+                    Height =330
                     TabIndex =5
-                    Name ="OR_Massn_einz_kum"
-                    DefaultValue ="1"
+                    Name ="bExcel"
+                    Caption ="Exportieren als Excel"
+                    OnClick ="[Event Procedure]"
 
-                    LayoutCachedLeft =2880
-                    LayoutCachedTop =1822
-                    LayoutCachedWidth =6861
-                    LayoutCachedHeight =2854
-                    Begin
-                        Begin Label
-                            OverlapFlags =215
-                            Left =3006
-                            Top =1695
-                            Width =1245
-                            Height =270
-                            Name ="Bezeichnungsfeld65"
-                            Caption ="Maßnahmen .."
-                            LayoutCachedLeft =3006
-                            LayoutCachedTop =1695
-                            LayoutCachedWidth =4251
-                            LayoutCachedHeight =1965
-                        End
-                        Begin OptionButton
-                            OverlapFlags =87
-                            Left =3171
-                            Top =2069
-                            OptionValue =1
-                            Name ="Option66"
-
-                            LayoutCachedLeft =3171
-                            LayoutCachedTop =2069
-                            LayoutCachedWidth =3431
-                            LayoutCachedHeight =2309
-                            Begin
-                                Begin Label
-                                    OverlapFlags =247
-                                    Left =3403
-                                    Top =2040
-                                    Width =3285
-                                    Height =270
-                                    Name ="Bezeichnungsfeld67"
-                                    Caption ="getrennt nach Finanz. / Art der  Mittel"
-                                    LayoutCachedLeft =3403
-                                    LayoutCachedTop =2040
-                                    LayoutCachedWidth =6688
-                                    LayoutCachedHeight =2310
-                                End
-                            End
-                        End
-                        Begin OptionButton
-                            OverlapFlags =87
-                            Left =3171
-                            Top =2415
-                            TabIndex =1
-                            OptionValue =2
-                            Name ="Option68"
-
-                            LayoutCachedLeft =3171
-                            LayoutCachedTop =2415
-                            LayoutCachedWidth =3431
-                            LayoutCachedHeight =2655
-                            Begin
-                                Begin Label
-                                    OverlapFlags =247
-                                    Left =3405
-                                    Top =2385
-                                    Width =1800
-                                    Height =270
-                                    Name ="Bezeichnungsfeld69"
-                                    Caption ="kumulierte Summen"
-                                    LayoutCachedLeft =3405
-                                    LayoutCachedTop =2385
-                                    LayoutCachedWidth =5205
-                                    LayoutCachedHeight =2655
-                                End
-                            End
-                        End
-                    End
+                    LayoutCachedLeft =623
+                    LayoutCachedTop =2438
+                    LayoutCachedWidth =2408
+                    LayoutCachedHeight =2768
                 End
             End
         End
     End
 End
 CodeBehindForm
-' See "Filter für Sanierungsstau Jahre.cls"
+' See "Filter für Anlagen.cls"

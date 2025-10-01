@@ -177,7 +177,7 @@ On Error Resume Next
 10  If bln_MN_ID_sichtb = True Then
 20      rep!BF_MN_ID.Visible = True
 30      rep!TF_MN_ID.Visible = True
-        rep!TatsOderGeplant.Visible = True
+        'rep!TatsOderGeplant.Visible = True
         'rep!BF_TatsOderGeplant.Visible = True 'DM2025-08-18 vorerst deaktiviert
 40  Else
 50      rep!BF_MN_ID.Visible = False

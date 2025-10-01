@@ -20,13 +20,13 @@ Begin Form
     PictureAlignment =2
     DatasheetGridlinesBehavior =3
     GridY =10
-    Width =22393
+    Width =24015
     DatasheetFontHeight =10
-    ItemSuffix =92
-    Left =11265
-    Top =3443
-    Right =-31876
-    Bottom =16193
+    ItemSuffix =101
+    Left =5513
+    Top =3735
+    Right =31313
+    Bottom =18555
     RecSrcDt = Begin
         0x0a31aba7cab2e440
     End
@@ -123,6 +123,32 @@ Begin Form
             Width =4536
             Height =2835
         End
+        Begin ToggleButton
+            Width =283
+            Height =283
+            FontName ="Calibri"
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            UseTheme =1
+            Shape =2
+            Bevel =1
+            BackThemeColorIndex =4
+            BackTint =60.0
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BorderThemeColorIndex =4
+            BorderTint =60.0
+            ThemeFontIndex =1
+            HoverThemeColorIndex =4
+            HoverTint =40.0
+            PressedThemeColorIndex =4
+            PressedShade =75.0
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =1
+        End
         Begin Tab
             Width =5103
             Height =3402
@@ -173,7 +199,7 @@ Begin Form
                 End
                 Begin ComboBox
                     LimitToList = NotDefault
-                    OverlapFlags =87
+                    OverlapFlags =215
                     AccessKey =76
                     ColumnCount =2
                     ListRows =30
@@ -244,8 +270,8 @@ Begin Form
                     OverlapFlags =85
                     SpecialEffect =0
                     BorderWidth =1
-                    Left =8163
-                    Top =113
+                    Left =8160
+                    Top =53
                     Width =13961
                     Height =2721
                     TabIndex =3
@@ -253,18 +279,18 @@ Begin Form
                     Name ="UF_Massnahme"
                     SourceObject ="Form.frm_020_20_Maßn_verw_Einzel_DS"
 
-                    LayoutCachedLeft =8163
-                    LayoutCachedTop =113
-                    LayoutCachedWidth =22124
-                    LayoutCachedHeight =2834
+                    LayoutCachedLeft =8160
+                    LayoutCachedTop =53
+                    LayoutCachedWidth =22121
+                    LayoutCachedHeight =2774
                 End
                 Begin Subform
                     AccessKey =84
-                    OverlapFlags =215
+                    OverlapFlags =87
                     SpecialEffect =0
                     BorderWidth =1
-                    Left =618
-                    Top =8440
+                    Left =623
+                    Top =8553
                     Width =18764
                     Height =4153
                     TabIndex =4
@@ -273,15 +299,15 @@ Begin Form
                     SourceObject ="Form.frm_020_40_UF__Teilmassnahmen"
                     UnicodeAccessKey =84
 
-                    LayoutCachedLeft =618
-                    LayoutCachedTop =8440
-                    LayoutCachedWidth =19382
-                    LayoutCachedHeight =12593
+                    LayoutCachedLeft =623
+                    LayoutCachedTop =8553
+                    LayoutCachedWidth =19387
+                    LayoutCachedHeight =12706
                     Begin
                         Begin Label
                             OverlapFlags =93
-                            Left =737
-                            Top =8220
+                            Left =742
+                            Top =8333
                             Width =3120
                             Height =225
                             FontWeight =700
@@ -289,10 +315,10 @@ Begin Form
                             Name ="Bezeichnungsfeld42"
                             Caption ="&Teilmaßnahmen der Maßnahme:"
                             FontName ="Arial"
-                            LayoutCachedLeft =737
-                            LayoutCachedTop =8220
-                            LayoutCachedWidth =3857
-                            LayoutCachedHeight =8445
+                            LayoutCachedLeft =742
+                            LayoutCachedTop =8333
+                            LayoutCachedWidth =3862
+                            LayoutCachedHeight =8558
                             ForeShade =50.0
                         End
                     End
@@ -301,8 +327,8 @@ Begin Form
                     OverlapFlags =215
                     SpecialEffect =0
                     BorderWidth =1
-                    Left =8156
-                    Top =3245
+                    Left =8160
+                    Top =3242
                     Width =13961
                     Height =2258
                     TabIndex =5
@@ -310,63 +336,27 @@ Begin Form
                     Name ="UF_Geplante_Finanzierung"
                     SourceObject ="Form.frm_020_50_UF_Teilmass_Finanzierung"
 
-                    LayoutCachedLeft =8156
-                    LayoutCachedTop =3245
-                    LayoutCachedWidth =22117
-                    LayoutCachedHeight =5503
+                    LayoutCachedLeft =8160
+                    LayoutCachedTop =3242
+                    LayoutCachedWidth =22121
+                    LayoutCachedHeight =5500
                     Begin
                         Begin Label
                             OverlapFlags =93
-                            Left =8220
-                            Top =3011
+                            Left =8224
+                            Top =3008
                             Width =4935
                             Height =270
+                            FontSize =9
                             FontWeight =700
                             ForeColor =4138256
                             Name ="Bezeichnungsfeld44"
                             Caption ="geplante Finanzierung zur markierten Maßnahme:"
                             FontName ="Arial"
-                            LayoutCachedLeft =8220
-                            LayoutCachedTop =3011
-                            LayoutCachedWidth =13155
-                            LayoutCachedHeight =3281
-                            ForeShade =50.0
-                        End
-                    End
-                End
-                Begin Subform
-                    OverlapFlags =215
-                    SpecialEffect =0
-                    BorderWidth =1
-                    Left =8156
-                    Top =5867
-                    Width =13961
-                    Height =2419
-                    TabIndex =6
-                    BorderColor =10040879
-                    Name ="UF_Gepl_Finanzierung"
-                    SourceObject ="Form.frm_020_30_UF_Massn_Finanzierung"
-
-                    LayoutCachedLeft =8156
-                    LayoutCachedTop =5867
-                    LayoutCachedWidth =22117
-                    LayoutCachedHeight =8286
-                    Begin
-                        Begin Label
-                            OverlapFlags =93
-                            Left =8220
-                            Top =5616
-                            Width =2220
-                            Height =270
-                            FontWeight =700
-                            ForeColor =4138256
-                            Name ="Bezeichnungsfeld49"
-                            Caption ="tatsächliche Finanzierung:"
-                            FontName ="Arial"
-                            LayoutCachedLeft =8220
-                            LayoutCachedTop =5616
-                            LayoutCachedWidth =10440
-                            LayoutCachedHeight =5886
+                            LayoutCachedLeft =8224
+                            LayoutCachedTop =3008
+                            LayoutCachedWidth =13159
+                            LayoutCachedHeight =3278
                             ForeShade =50.0
                         End
                     End
@@ -378,7 +368,7 @@ Begin Form
                     Width =1005
                     Height =360
                     FontWeight =700
-                    TabIndex =7
+                    TabIndex =6
                     ForeColor =4138256
                     Name ="BS_Schliessen"
                     Caption ="Schließen"
@@ -399,7 +389,7 @@ Begin Form
                     Width =1785
                     Height =345
                     FontWeight =700
-                    TabIndex =8
+                    TabIndex =7
                     ForeColor =4138256
                     Name ="BS_Massn_Neu"
                     Caption ="Neue Maßnahme"
@@ -420,7 +410,7 @@ Begin Form
                     Width =1785
                     Height =345
                     FontWeight =700
-                    TabIndex =10
+                    TabIndex =9
                     ForeColor =4138256
                     Name ="BS_Massn_Loeschen"
                     Caption ="Maßnahme löschen"
@@ -497,7 +487,7 @@ Begin Form
                     Begin
                         Begin Label
                             BackStyle =1
-                            OverlapFlags =93
+                            OverlapFlags =85
                             Left =733
                             Top =3456
                             Width =2580
@@ -525,7 +515,7 @@ Begin Form
                     Width =5330
                     Height =1552
                     FontSize =8
-                    TabIndex =9
+                    TabIndex =8
                     BackColor =15728383
                     ForeColor =4138256
                     BorderColor =10040879
@@ -793,7 +783,7 @@ Begin Form
                     Top =6972
                     Width =2670
                     Height =794
-                    TabIndex =11
+                    TabIndex =10
                     Name ="OR_Erl_Unerl_MN"
                     AfterUpdate ="[Event Procedure]"
                     DefaultValue ="1"
@@ -867,6 +857,95 @@ Begin Form
                                     LayoutCachedWidth =5828
                                     LayoutCachedHeight =7681
                                     ForeShade =50.0
+                                End
+                            End
+                        End
+                    End
+                End
+                Begin Tab
+                    OverlapFlags =85
+                    BackStyle =0
+                    Left =8063
+                    Top =5565
+                    Width =14197
+                    Height =2910
+                    FontSize =9
+                    FontWeight =700
+                    TabIndex =11
+                    Name ="RK_Anlagen_TF"
+                    FontName ="Arial"
+                    GridlineStyleLeft =1
+                    GridlineStyleTop =1
+                    GridlineStyleRight =1
+                    GridlineStyleBottom =1
+
+                    LayoutCachedLeft =8063
+                    LayoutCachedTop =5565
+                    LayoutCachedWidth =22260
+                    LayoutCachedHeight =8475
+                    OldBorderStyle =0
+                    HoverColor =0
+                    Begin
+                        Begin Page
+                            OverlapFlags =87
+                            Left =8160
+                            Top =5955
+                            Width =14003
+                            Height =2423
+                            Name ="Anlagen"
+                            LayoutCachedLeft =8160
+                            LayoutCachedTop =5955
+                            LayoutCachedWidth =22163
+                            LayoutCachedHeight =8378
+                            Begin
+                                Begin Subform
+                                    OverlapFlags =215
+                                    SpecialEffect =0
+                                    BorderWidth =1
+                                    Left =8160
+                                    Top =6008
+                                    Width =14003
+                                    Height =2213
+                                    BorderColor =10040879
+                                    Name ="UF_Anlagen"
+                                    SourceObject ="Form.frm_020_31_UF_Anlagen"
+
+                                    LayoutCachedLeft =8160
+                                    LayoutCachedTop =6008
+                                    LayoutCachedWidth =22163
+                                    LayoutCachedHeight =8221
+                                End
+                            End
+                        End
+                        Begin Page
+                            OverlapFlags =215
+                            Left =8160
+                            Top =5955
+                            Width =14003
+                            Height =2423
+                            Name ="Tatsächliche Finanzierung"
+                            EventProcPrefix ="Tatsächliche_Finanzierung"
+                            LayoutCachedLeft =8160
+                            LayoutCachedTop =5955
+                            LayoutCachedWidth =22163
+                            LayoutCachedHeight =8378
+                            Begin
+                                Begin Subform
+                                    OverlapFlags =247
+                                    SpecialEffect =0
+                                    BorderWidth =1
+                                    Left =8160
+                                    Top =5955
+                                    Width =13961
+                                    Height =2419
+                                    BorderColor =10040879
+                                    Name ="UF_Gepl_Finanzierung"
+                                    SourceObject ="Form.frm_020_30_UF_Massn_Finanzierung"
+
+                                    LayoutCachedLeft =8160
+                                    LayoutCachedTop =5955
+                                    LayoutCachedWidth =22121
+                                    LayoutCachedHeight =8374
                                 End
                             End
                         End

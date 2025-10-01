@@ -112,6 +112,10 @@
       "Value": 0,
       "Type": 4
     },
+    "Option to enable Monaco SQL Editor": {
+      "Value": 1,
+      "Type": 4
+    },
     "Perform Name AutoCorrect": {
       "Value": 0,
       "Type": 4
@@ -125,7 +129,7 @@
       "Type": 3
     },
     "Property Sheet Label Width": {
-      "Value": 1755,
+      "Value": 3518,
       "Type": 4
     },
     "QueryTimeout": {

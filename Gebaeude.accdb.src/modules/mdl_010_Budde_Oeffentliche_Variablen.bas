@@ -12,7 +12,7 @@ Public Declare PtrSafe Function ShowWindow Lib "user32" (ByVal hwnd As LongPtr, 
 
 ' =====================================================================================
 ' Konstante zur Versionsangabe:
-Public Const str_Version As String = "18.08.2025v2"
+Public Const str_Version As String = "30.09.2025"
 
 ' Änderungsdoku DM seit 4.5.2022: -------------------
 'DM2022-05-04:
@@ -119,6 +119,22 @@ Public Const str_Version As String = "18.08.2025v2"
 '- Bericht Sanierungsstau Finanzplanung Erledigt_Status: Gesamtsummen müssen die Zwischensummen summieren, nicht die letzten beiden Spalten. Bericht und diverse Hilfsvariablen angepasst.
 '- Summenkästchen soll 1, dann 2 und darunter den Trennstrich zeigen, dann Summe 1+2, danach keine Gesamtsummen mehr nötig und die beiden Werte zu 3 versetzt darunter.
 '- Rote Zahlen unsichtbar bis wir sie wieder brauchen
+'DM2025-09-24 - 2025-09-29
+'- Neue Tabelle Anlagen im Backend, außerdem Relation definiert zwischen Anlagen.ID_Massnahme und Maßnahmen.ID. Tabelle Anlagen im Frontend verknüpft.
+'- Frontend: Formular 020_10 Maßnahmenverwaltung bearbeitet. Registerkarte erzeugt, vorheriges UF verschoben
+'- Unterformular 020_31 Anlagen erstellt, analog zu 020_30_Massn_Finanzierung. Schriften, Abstände, Farben, etc. angeglichen; viele Tests und Anpassungen.
+'- Neu-Button für Anlagen implementiert, inkl. Prüfung, ob bereits eine Maßnahme ausgewählt ist und Fehlermeldung. Löschen-Button implementiert, ebenfalls abgesichert
+'- Feld Anlagenjahr aus Unterformular wieder entfernt, da nach Rücksprache das Feld doch ganz wegfallen soll
+'- Neuen Button für den Bericht Anlagen unter dem Button für Maßnahmen erledigt/nicht erledigt
+'- Neues Formular Filter für Anlagen zum Einstellen der Optionen für den neuen Bericht implementiert
+'- Bericht Anlagen erstellt. Abfrage zum Bericht erstellt "Abfrage_Anlagen".
+'- Für die Gruppierung und Überschriften die Abfrage erweitert. Gruppierung erzeugt, Code zum Verändern der Gruppierung je nach Auswahl im Filter-Formular angepasst.
+'- Excel Export implementiert, Button ebenfalls im Formular Filter für Anlagen, da es sich auch auf den Bericht bezieht (die gleiche Abfrage als Grundlage)
+'- Neue Abfrage "Abfrage_Anlagen_Excelexport" basierend auf der Abfrage für den Bericht, aber mit anderer Spaltenkonfiguration, da im Bericht manche Informationen anders dargestellt werden.
+'- Anpassungen an die Excel-Exportfunktion. Dokument besser formatieren. Überschriftenzeile verbessert. Tabellenfunktion gesetzt für komfortables Sortieren. Weitere Optimierungen.
+'DM2025-09-30
+'- Datensätze im Unterformular: Dreistufige Sortierung: Offen absteigend, Beendigungsdatum absteigend, Angelegt-Datum absteigend. Somit wird eine neue Zeile erwartungskonform ganz oben angezeigt.
+'- Bericht Anlagen: Nach der Jahres-Gruppierung im Bericht jeweils einen Seitenumbruch bringen. Steuerelement "Seitenumbruch" im Fußbereich per visible-Attribut gesteuert.
 '-----------------------------------------------------------
 ' Bei bln_Anw_Fenster_aus = True wird das Access-Anwendungsfenster ausgeblendet
 ' Bei bln_Anw_Fenster_aus = False bleibt das Access-Anwendungsfenster eingeblendet

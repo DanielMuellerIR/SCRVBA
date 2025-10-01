@@ -20,11 +20,11 @@ Begin Form
     GridY =10
     Width =16485
     DatasheetFontHeight =10
-    ItemSuffix =234
-    Left =540
-    Top =1845
-    Right =17010
-    Bottom =12960
+    ItemSuffix =236
+    Left =2010
+    Top =1253
+    Right =18480
+    Bottom =12368
     PaintPalette = Begin
         0x000301000000000000000000
     End
@@ -36,7 +36,6 @@ Begin Form
     Caption ="Gebäudeverwaltung (Version 01.02.2023)"
     OnOpen ="[Event Procedure]"
     DatasheetFontName ="Arial"
-    AllowDatasheetView =0
     FilterOnLoad =0
     ShowPageMargins =0
     DatasheetGridlinesColor12 =12632256
@@ -717,8 +716,8 @@ Begin Form
                                 End
                                 Begin CommandButton
                                     OverlapFlags =215
-                                    Left =5876
-                                    Top =6930
+                                    Left =5895
+                                    Top =7433
                                     Width =4410
                                     Height =375
                                     FontSize =10
@@ -729,16 +728,16 @@ Begin Form
                                     OnClick ="Makro Filter Controllingbericht.ÖffnenFilter"
                                     FontName ="Arial"
 
-                                    LayoutCachedLeft =5876
-                                    LayoutCachedTop =6930
-                                    LayoutCachedWidth =10286
-                                    LayoutCachedHeight =7305
+                                    LayoutCachedLeft =5895
+                                    LayoutCachedTop =7433
+                                    LayoutCachedWidth =10305
+                                    LayoutCachedHeight =7808
                                     Overlaps =1
                                 End
                                 Begin CommandButton
                                     OverlapFlags =215
-                                    Left =5876
-                                    Top =7428
+                                    Left =5895
+                                    Top =7931
                                     Width =4410
                                     Height =375
                                     FontSize =10
@@ -749,10 +748,10 @@ Begin Form
                                     OnClick ="[Event Procedure]"
                                     FontName ="Arial"
 
-                                    LayoutCachedLeft =5876
-                                    LayoutCachedTop =7428
-                                    LayoutCachedWidth =10286
-                                    LayoutCachedHeight =7803
+                                    LayoutCachedLeft =5895
+                                    LayoutCachedTop =7931
+                                    LayoutCachedWidth =10305
+                                    LayoutCachedHeight =8306
                                     Overlaps =1
                                 End
                                 Begin CommandButton
@@ -765,7 +764,7 @@ Begin Form
                                     FontWeight =700
                                     TabIndex =9
                                     Name ="BS_Sanstau_Exp_Excel"
-                                    Caption ="Bericht nach Excel export."
+                                    Caption ="Bericht nach Excel export"
                                     OnClick ="[Event Procedure]"
                                     FontName ="Arial"
 
@@ -777,8 +776,8 @@ Begin Form
                                 End
                                 Begin CommandButton
                                     OverlapFlags =215
-                                    Left =5876
-                                    Top =6240
+                                    Left =5895
+                                    Top =6743
                                     Width =4410
                                     Height =375
                                     FontSize =10
@@ -789,16 +788,16 @@ Begin Form
                                     OnClick ="[Event Procedure]"
                                     FontName ="Arial"
 
-                                    LayoutCachedLeft =5876
-                                    LayoutCachedTop =6240
-                                    LayoutCachedWidth =10286
-                                    LayoutCachedHeight =6615
+                                    LayoutCachedLeft =5895
+                                    LayoutCachedTop =6743
+                                    LayoutCachedWidth =10305
+                                    LayoutCachedHeight =7118
                                     Overlaps =1
                                 End
                                 Begin CommandButton
                                     OverlapFlags =215
-                                    Left =1495
-                                    Top =6240
+                                    Left =1470
+                                    Top =6120
                                     Width =3435
                                     Height =405
                                     FontSize =10
@@ -809,10 +808,10 @@ Begin Form
                                     OnClick ="[Event Procedure]"
                                     FontName ="Arial"
 
-                                    LayoutCachedLeft =1495
-                                    LayoutCachedTop =6240
-                                    LayoutCachedWidth =4930
-                                    LayoutCachedHeight =6645
+                                    LayoutCachedLeft =1470
+                                    LayoutCachedTop =6120
+                                    LayoutCachedWidth =4905
+                                    LayoutCachedHeight =6525
                                     Overlaps =1
                                 End
                                 Begin CommandButton
@@ -1597,6 +1596,26 @@ Begin Form
                             End
                         End
                     End
+                End
+                Begin CommandButton
+                    OverlapFlags =223
+                    Left =5872
+                    Top =6009
+                    Width =4410
+                    Height =375
+                    FontSize =10
+                    FontWeight =700
+                    TabIndex =8
+                    Name ="bAnlagen"
+                    Caption ="Bericht Anlagen"
+                    OnClick ="[Event Procedure]"
+                    FontName ="Arial"
+
+                    LayoutCachedLeft =5872
+                    LayoutCachedTop =6009
+                    LayoutCachedWidth =10282
+                    LayoutCachedHeight =6384
+                    Overlaps =1
                 End
             End
         End
