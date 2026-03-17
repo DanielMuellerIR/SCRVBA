@@ -1,0 +1,12 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "tbl_20_10_Aufträge",
+    "Connect": ";DATABASE=S:\\a60\\Datenbank\\Auftragsliste_VIS\\Auftragsliste-VIS_Daten.accdb",
+    "SourceTableName": "tbl_20_10_Aufträge",
+    "Attributes": 1073741824
+  }
+}

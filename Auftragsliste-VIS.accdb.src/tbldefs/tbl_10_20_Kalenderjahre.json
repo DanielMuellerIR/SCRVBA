@@ -1,0 +1,12 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "tbl_10_20_Kalenderjahre",
+    "Connect": ";DATABASE=S:\\a60\\Datenbank\\Auftragsliste_VIS\\Auftragsliste-VIS_Daten.accdb",
+    "SourceTableName": "tbl_10_20_Kalenderjahre",
+    "Attributes": 1073741824
+  }
+}

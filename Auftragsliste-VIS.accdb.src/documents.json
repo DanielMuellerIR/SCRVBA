@@ -1,0 +1,15 @@
+﻿{
+  "Info": {
+    "Class": "clsDbDocument",
+    "Description": "Database Documents Properties (DAO)"
+  },
+  "Items": {
+    "Databases": {
+      "SummaryInfo": {
+        "Author": "gregor.kania",
+        "Company": "Stadt Castrop-Rauxel",
+        "Title": "Auftragsliste-VIS"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "tbl_10_40_Firmen",
+    "Connect": ";DATABASE=S:\\a60\\Datenbank\\Auftragsliste_VIS\\Auftragsliste-VIS_Daten.accdb",
+    "SourceTableName": "tbl_10_40_Firmen",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[ID_Fa]"
+  }
+}

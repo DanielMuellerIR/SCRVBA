@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "tbl_20_20_Vergabe_Art",
+    "Connect": ";DATABASE=S:\\a60\\Datenbank\\Auftragsliste_VIS\\Auftragsliste-VIS_Daten.accdb",
+    "SourceTableName": "tbl_20_20_Vergabe_Art",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[ID_Vergabe_Art]"
+  }
+}
