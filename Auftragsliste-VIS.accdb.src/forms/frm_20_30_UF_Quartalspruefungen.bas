@@ -16,14 +16,13 @@ Begin Form
     Width =5896
     DatasheetFontHeight =11
     ItemSuffix =6
-    Left =3532
-    Top =7798
-    Right =19386
-    Bottom =9088
-    RecordSource ="SELECT tbl_20_30_Q_Prüfung.* FROM tbl_20_30_Q_Prüfung WHERE (((tbl_20_30_Q_Prüfu"
-        "ng.Kalenderjahr) Like '*' & [Formulare]![frm_10_10_Startformular]![TF_Filter_Jah"
-        "r] & '*')) ORDER BY tbl_20_30_Q_Prüfung.Kalenderjahr DESC , tbl_20_30_Q_Prüfung."
-        "Quartal; "
+    Left =3773
+    Top =11175
+    Right =20378
+    Bottom =12713
+    RecSrcDt = Begin
+        0xae9218ab5282e640
+    End
     OnCurrent ="[Event Procedure]"
     DatasheetFontName ="Calibri"
     AllowFormView =0
@@ -104,11 +103,8 @@ Begin Form
                     Width =2601
                     Height =315
                     ColumnWidth =1620
-                    BorderColor =10921638
-                    ForeColor =4210752
                     Name ="Kalenderjahr"
                     ControlSource ="Kalenderjahr"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =2494
                     LayoutCachedTop =623
@@ -126,7 +122,6 @@ Begin Form
                             ForeColor =4210752
                             Name ="Bezeichnungsfeld0"
                             Caption ="Kalenderjahr"
-                            GridlineColor =10921638
                             LayoutCachedLeft =793
                             LayoutCachedTop =623
                             LayoutCachedWidth =2068
@@ -147,11 +142,8 @@ Begin Form
                     Height =315
                     ColumnWidth =1110
                     TabIndex =1
-                    BorderColor =10921638
-                    ForeColor =4210752
                     Name ="Quartal"
                     ControlSource ="Quartal"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =2494
                     LayoutCachedTop =1019
@@ -169,7 +161,6 @@ Begin Form
                             ForeColor =4210752
                             Name ="Bezeichnungsfeld1"
                             Caption ="Quartal"
-                            GridlineColor =10921638
                             LayoutCachedLeft =793
                             LayoutCachedTop =1019
                             LayoutCachedWidth =2068
@@ -190,11 +181,8 @@ Begin Form
                     Height =315
                     ColumnWidth =1680
                     TabIndex =2
-                    BorderColor =10921638
-                    ForeColor =4210752
                     Name ="Datum"
                     ControlSource ="Datum"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =2494
                     LayoutCachedTop =1416
@@ -212,7 +200,6 @@ Begin Form
                             ForeColor =4210752
                             Name ="Bezeichnungsfeld2"
                             Caption ="Datum"
-                            GridlineColor =10921638
                             LayoutCachedLeft =793
                             LayoutCachedTop =1416
                             LayoutCachedWidth =2068
@@ -235,8 +222,6 @@ Begin Form
                     Height =315
                     ColumnWidth =3825
                     TabIndex =3
-                    BorderColor =10921638
-                    ForeColor =3484194
                     Name ="ID_User"
                     ControlSource ="ID_User"
                     RowSourceType ="Table/Query"
@@ -244,7 +229,6 @@ Begin Form
                         "0_10_User WHERE (((tbl_10_10_User.[Q-Pruefung])=True) AND (Not (tbl_10_10_User.n"
                         "ur_lesen)=True)) ORDER BY tbl_10_10_User.Username; "
                     ColumnWidths ="0"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =2496
                     LayoutCachedTop =1815
@@ -262,7 +246,6 @@ Begin Form
                             ForeColor =4210752
                             Name ="Bezeichnungsfeld5"
                             Caption ="Bereichsleitung / stv. Bereichsleitung"
-                            GridlineColor =10921638
                             LayoutCachedLeft =799
                             LayoutCachedTop =1820
                             LayoutCachedWidth =4372

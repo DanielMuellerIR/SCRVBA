@@ -6,7 +6,6 @@ Begin Form
     MaxButton = NotDefault
     MinButton = NotDefault
     ControlBox = NotDefault
-    ShortcutMenu = NotDefault
     AutoCenter = NotDefault
     NavigationButtons = NotDefault
     DividingLines = NotDefault
@@ -19,15 +18,15 @@ Begin Form
     Width =19339
     DatasheetFontHeight =11
     ItemSuffix =58
-    Left =693
-    Top =1209
-    Right =20350
-    Bottom =13775
+    Left =2475
+    Top =293
+    Right =22133
+    Bottom =12863
     OnUnload ="[Event Procedure]"
     RecSrcDt = Begin
         0x4a9e3a481305e640
     End
-    Caption ="Auftragsliste VIS"
+    Caption ="Auftragsliste VIS (Version 24.07.2025)"
     OnOpen ="[Event Procedure]"
     DatasheetFontName ="Calibri"
     FilterOnLoad =0
@@ -177,13 +176,13 @@ Begin Form
                     Height =2446
                     FontSize =9
                     TabIndex =19
+                    ForeColor =0
                     BorderColor =1643706
                     Name ="LF_Auftraege"
                     RowSourceType ="Table/Query"
                     ColumnWidths ="0;1363;1474;3402;4876;3969;2268;0;0"
                     AfterUpdate ="[Event Procedure]"
                     FontName ="Arial"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =350
                     LayoutCachedTop =1415
@@ -202,11 +201,10 @@ Begin Form
                             Height =315
                             FontSize =10
                             FontWeight =700
-                            BorderColor =8355711
+                            ForeColor =0
                             Name ="Bezeichnungsfeld1"
                             Caption ="Auftragsliste"
                             FontName ="Arial"
-                            GridlineColor =10921638
                             LayoutCachedLeft =350
                             LayoutCachedTop =1100
                             LayoutCachedWidth =1610
@@ -226,11 +224,10 @@ Begin Form
                     FontSize =14
                     FontWeight =700
                     BackColor =0
-                    BorderColor =8355711
+                    ForeColor =0
                     Name ="Bezeichnungsfeld9"
                     Caption ="Beauftragungen ohne Beteiligung der ZVS"
                     FontName ="Arial"
-                    GridlineColor =10921638
                     LayoutCachedLeft =340
                     LayoutCachedTop =54
                     LayoutCachedWidth =6265
@@ -249,7 +246,6 @@ Begin Form
                     Name ="UF_Auftrag"
                     SourceObject ="Form.frm_20_20_Auftrgasdaten_EDS"
                     OnExit ="[Event Procedure]"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =350
                     LayoutCachedTop =4530
@@ -272,7 +268,6 @@ Begin Form
                     Caption ="Beenden"
                     OnClick ="[Event Procedure]"
                     FontName ="Arial"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =17183
                     LayoutCachedTop =53
@@ -284,12 +279,7 @@ Begin Form
                     BackColor =2366701
                     BackThemeColorIndex =-1
                     BackTint =100.0
-                    BorderColor =15123357
                     ThemeFontIndex =-1
-                    HoverColor =15652797
-                    PressedColor =11957550
-                    HoverForeColor =4210752
-                    PressedForeColor =4210752
                     Overlaps =1
                 End
                 Begin Subform
@@ -303,7 +293,6 @@ Begin Form
                     Name ="UF_Quart_Pruefungen"
                     SourceObject ="Form.frm_20_30_UF_Quartalspruefungen"
                     Tag ="*Pruefer*"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =345
                     LayoutCachedTop =10425
@@ -320,11 +309,10 @@ Begin Form
                             Height =315
                             FontSize =10
                             FontWeight =700
-                            BorderColor =8355711
+                            ForeColor =0
                             Name ="Bezeichnungsfeld4"
                             Caption ="Quartalsprüfungen der Auftragsliste:"
                             FontName ="Arial"
-                            GridlineColor =10921638
                             LayoutCachedLeft =345
                             LayoutCachedTop =10110
                             LayoutCachedWidth =3825
@@ -343,24 +331,16 @@ Begin Form
                     FontSize =10
                     FontWeight =700
                     TabIndex =3
-                    ForeColor =4210752
                     Name ="BS_Neuer_Auftrag"
                     Caption ="Neuer Auftrag"
                     OnClick ="[Event Procedure]"
                     FontName ="Arial"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =17185
                     LayoutCachedTop =3016
                     LayoutCachedWidth =19120
                     LayoutCachedHeight =3391
-                    BackColor =15123357
-                    BorderColor =15123357
                     ThemeFontIndex =-1
-                    HoverColor =15652797
-                    PressedColor =11957550
-                    HoverForeColor =4210752
-                    PressedForeColor =4210752
                     Overlaps =1
                 End
                 Begin CommandButton
@@ -372,25 +352,17 @@ Begin Form
                     FontSize =10
                     FontWeight =700
                     TabIndex =4
-                    ForeColor =4210752
                     Name ="BS_AUftr_loeschen"
                     Caption ="Auftrag löschen"
                     OnClick ="[Event Procedure]"
                     FontName ="Arial"
                     Tag ="*Pruefer*"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =17185
                     LayoutCachedTop =3502
                     LayoutCachedWidth =19120
                     LayoutCachedHeight =3877
-                    BackColor =15123357
-                    BorderColor =15123357
                     ThemeFontIndex =-1
-                    HoverColor =15652797
-                    PressedColor =11957550
-                    HoverForeColor =4210752
-                    PressedForeColor =4210752
                     Overlaps =1
                 End
                 Begin CommandButton
@@ -402,25 +374,17 @@ Begin Form
                     FontSize =10
                     FontWeight =700
                     TabIndex =5
-                    ForeColor =4210752
                     Name ="BS_Quartal_Neu"
                     Caption ="Neues Quartal"
                     OnClick ="[Event Procedure]"
                     FontName ="Arial"
                     Tag ="*Pruefer*"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =17187
                     LayoutCachedTop =10341
                     LayoutCachedWidth =19122
                     LayoutCachedHeight =10716
-                    BackColor =15123357
-                    BorderColor =15123357
                     ThemeFontIndex =-1
-                    HoverColor =15652797
-                    PressedColor =11957550
-                    HoverForeColor =4210752
-                    PressedForeColor =4210752
                     Overlaps =1
                 End
                 Begin CommandButton
@@ -432,25 +396,17 @@ Begin Form
                     FontSize =10
                     FontWeight =700
                     TabIndex =6
-                    ForeColor =4210752
                     Name ="BS_Quartal_Loeschen"
                     Caption ="Quartal löschen"
                     OnClick ="[Event Procedure]"
                     FontName ="Arial"
                     Tag ="*Pruefer*"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =17187
                     LayoutCachedTop =10842
                     LayoutCachedWidth =19122
                     LayoutCachedHeight =11217
-                    BackColor =15123357
-                    BorderColor =15123357
                     ThemeFontIndex =-1
-                    HoverColor =15652797
-                    PressedColor =11957550
-                    HoverForeColor =4210752
-                    PressedForeColor =4210752
                     Overlaps =1
                 End
                 Begin CommandButton
@@ -462,24 +418,16 @@ Begin Form
                     FontSize =10
                     FontWeight =700
                     TabIndex =7
-                    ForeColor =4210752
                     Name ="BS_Auftr_Liste_drucken"
                     Caption ="Auftragsliste ausdrucken..."
                     OnClick ="[Event Procedure]"
                     FontName ="Arial"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =4095
                     LayoutCachedTop =3967
                     LayoutCachedWidth =6975
                     LayoutCachedHeight =4342
-                    BackColor =15123357
-                    BorderColor =15123357
                     ThemeFontIndex =-1
-                    HoverColor =15652797
-                    PressedColor =11957550
-                    HoverForeColor =4210752
-                    PressedForeColor =4210752
                     Overlaps =1
                 End
                 Begin CommandButton
@@ -491,24 +439,16 @@ Begin Form
                     FontSize =10
                     FontWeight =700
                     TabIndex =9
-                    ForeColor =4210752
                     Name ="BS_Auftr_Liste_Export"
                     Caption ="Auftragsliste nach Excel exportieren"
                     OnClick ="[Event Procedure]"
                     FontName ="Arial"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =340
                     LayoutCachedTop =3967
                     LayoutCachedWidth =3955
                     LayoutCachedHeight =4342
-                    BackColor =15123357
-                    BorderColor =15123357
                     ThemeFontIndex =-1
-                    HoverColor =15652797
-                    PressedColor =11957550
-                    HoverForeColor =4210752
-                    PressedForeColor =4210752
                     Overlaps =1
                 End
                 Begin ComboBox
@@ -522,7 +462,6 @@ Begin Form
                     Width =1032
                     Height =315
                     TabIndex =8
-                    BorderColor =10921638
                     Name ="TF_Filter_Jahr"
                     RowSourceType ="Table/Query"
                     RowSource ="SELECT tbl_10_20_Kalenderjahre.Jahr FROM tbl_10_20_Kalenderjahre WHERE (((tbl_10"
@@ -531,7 +470,6 @@ Begin Form
                     AfterUpdate ="[Event Procedure]"
                     DefaultValue ="Year(Date())"
                     Format ="0000"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =2760
                     LayoutCachedTop =615
@@ -549,11 +487,10 @@ Begin Form
                             Height =286
                             FontSize =10
                             FontWeight =700
-                            BorderColor =8355711
+                            ForeColor =0
                             Name ="Bezeichnungsfeld13"
                             Caption ="Jahr:"
                             FontName ="Arial"
-                            GridlineColor =10921638
                             LayoutCachedLeft =2070
                             LayoutCachedTop =609
                             LayoutCachedWidth =2640
@@ -571,11 +508,8 @@ Begin Form
                     Width =1271
                     Height =315
                     TabIndex =10
-                    BorderColor =10921638
-                    ForeColor =4210752
                     Name ="TF_Filter_AuftrNr"
                     AfterUpdate ="[Event Procedure]"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =6293
                     LayoutCachedTop =608
@@ -590,11 +524,10 @@ Begin Form
                             Height =286
                             FontSize =10
                             FontWeight =700
-                            BorderColor =8355711
+                            ForeColor =0
                             Name ="Bezeichnungsfeld17"
                             Caption ="lfd. Auftrags-Nr.:"
                             FontName ="Arial"
-                            GridlineColor =10921638
                             LayoutCachedLeft =4537
                             LayoutCachedTop =609
                             LayoutCachedWidth =6182
@@ -611,11 +544,9 @@ Begin Form
                     Width =395
                     Height =352
                     TabIndex =11
-                    ForeColor =4210752
                     Name ="BS_Filter_AUftrNr_loeschen"
                     Caption ="Befehl18"
                     OnClick ="[Event Procedure]"
-                    GridlineColor =10921638
                     ImageData = Begin
                         0x2800000010000000100000000100200000000000000000000000000000000000 ,
                         0x0000000000000000000000000000000000000000000000000000000000000000 ,
@@ -657,12 +588,6 @@ Begin Form
                     LayoutCachedTop =586
                     LayoutCachedWidth =8057
                     LayoutCachedHeight =938
-                    BackColor =15123357
-                    BorderColor =15123357
-                    HoverColor =15652797
-                    PressedColor =11957550
-                    HoverForeColor =4210752
-                    PressedForeColor =4210752
                     Overlaps =1
                 End
                 Begin CommandButton
@@ -672,11 +597,9 @@ Begin Form
                     Width =395
                     Height =352
                     TabIndex =18
-                    ForeColor =4210752
                     Name ="BS_Filter_JAhr_loeschen"
                     Caption ="Befehl18"
                     OnClick ="[Event Procedure]"
-                    GridlineColor =10921638
                     ImageData = Begin
                         0x2800000010000000100000000100200000000000000000000000000000000000 ,
                         0x0000000000000000000000000000000000000000000000000000000000000000 ,
@@ -718,12 +641,6 @@ Begin Form
                     LayoutCachedTop =586
                     LayoutCachedWidth =4240
                     LayoutCachedHeight =938
-                    BackColor =15123357
-                    BorderColor =15123357
-                    HoverColor =15652797
-                    PressedColor =11957550
-                    HoverForeColor =4210752
-                    PressedForeColor =4210752
                     Overlaps =1
                 End
                 Begin CommandButton
@@ -735,25 +652,17 @@ Begin Form
                     FontSize =10
                     FontWeight =700
                     TabIndex =20
-                    ForeColor =4210752
                     Name ="BS_Quartals_Pr_drucken"
                     Caption ="Quartalsprüfungen ausdrucken .."
                     OnClick ="[Event Procedure]"
                     FontName ="Arial"
                     Tag ="*Pruefer*"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =345
                     LayoutCachedTop =12075
                     LayoutCachedWidth =4365
                     LayoutCachedHeight =12450
-                    BackColor =15123357
-                    BorderColor =15123357
                     ThemeFontIndex =-1
-                    HoverColor =15652797
-                    PressedColor =11957550
-                    HoverForeColor =4210752
-                    PressedForeColor =4210752
                     Overlaps =1
                 End
                 Begin TextBox
@@ -769,11 +678,8 @@ Begin Form
                     Width =707
                     Height =315
                     TabIndex =21
-                    BorderColor =10921638
-                    ForeColor =4210752
                     Name ="Text21"
                     ControlSource ="=F_Variable(\"str_Bereich\")"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =1288
                     LayoutCachedTop =571
@@ -788,11 +694,10 @@ Begin Form
                             Height =286
                             FontSize =10
                             FontWeight =700
-                            BorderColor =8355711
+                            ForeColor =0
                             Name ="Bezeichnungsfeld22"
                             Caption ="Bereich:"
                             FontName ="Arial"
-                            GridlineColor =10921638
                             LayoutCachedLeft =340
                             LayoutCachedTop =609
                             LayoutCachedWidth =1210
@@ -812,7 +717,6 @@ Begin Form
                     Width =1689
                     Height =315
                     TabIndex =14
-                    BorderColor =10921638
                     Name ="TF_Filter_Bearbeiter"
                     RowSourceType ="Table/Query"
                     RowSource ="SELECT tbl_10_10_User.Username FROM tbl_10_10_User WHERE (((tbl_10_10_User.nur_l"
@@ -820,7 +724,6 @@ Begin Form
                         "eschieden)>DateAdd(\"yyyy\",-2,Date()))) ORDER BY tbl_10_10_User.Username; "
                     AfterUpdate ="[Event Procedure]"
                     Format ="0000"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =14736
                     LayoutCachedTop =131
@@ -839,11 +742,10 @@ Begin Form
                             Height =286
                             FontSize =10
                             FontWeight =700
-                            BorderColor =8355711
+                            ForeColor =0
                             Name ="Bezeichnungsfeld24"
                             Caption ="Sachbearbeiter:"
                             FontName ="Arial"
-                            GridlineColor =10921638
                             LayoutCachedLeft =12920
                             LayoutCachedTop =131
                             LayoutCachedWidth =14633
@@ -860,11 +762,9 @@ Begin Form
                     Width =395
                     Height =352
                     TabIndex =15
-                    ForeColor =4210752
                     Name ="BS_Filter_BEarbeiter_loeschen"
                     Caption ="Befehl18"
                     OnClick ="[Event Procedure]"
-                    GridlineColor =10921638
                     ImageData = Begin
                         0x2800000010000000100000000100200000000000000000000000000000000000 ,
                         0x0000000000000000000000000000000000000000000000000000000000000000 ,
@@ -906,12 +806,6 @@ Begin Form
                     LayoutCachedTop =109
                     LayoutCachedWidth =16944
                     LayoutCachedHeight =461
-                    BackColor =15123357
-                    BorderColor =15123357
-                    HoverColor =15652797
-                    PressedColor =11957550
-                    HoverForeColor =4210752
-                    PressedForeColor =4210752
                     Overlaps =1
                 End
                 Begin TextBox
@@ -922,11 +816,8 @@ Begin Form
                     Width =1689
                     Height =315
                     TabIndex =12
-                    BorderColor =10921638
-                    ForeColor =4210752
                     Name ="TF_Filter_BSNr_Infoma"
                     AfterUpdate ="[Event Procedure]"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =10436
                     LayoutCachedTop =608
@@ -942,11 +833,10 @@ Begin Form
                             Height =284
                             FontSize =10
                             FontWeight =700
-                            BorderColor =8355711
+                            ForeColor =0
                             Name ="Bezeichnungsfeld27"
                             Caption ="Bestell-Nr. Infoma:"
                             FontName ="Arial"
-                            GridlineColor =10921638
                             LayoutCachedLeft =8455
                             LayoutCachedTop =609
                             LayoutCachedWidth =10321
@@ -963,11 +853,9 @@ Begin Form
                     Width =395
                     Height =352
                     TabIndex =13
-                    ForeColor =4210752
                     Name ="BS_Filter_INfomaNr_loeschen"
                     Caption ="Befehl18"
                     OnClick ="[Event Procedure]"
-                    GridlineColor =10921638
                     ImageData = Begin
                         0x2800000010000000100000000100200000000000000000000000000000000000 ,
                         0x0000000000000000000000000000000000000000000000000000000000000000 ,
@@ -1009,12 +897,6 @@ Begin Form
                     LayoutCachedTop =586
                     LayoutCachedWidth =12643
                     LayoutCachedHeight =938
-                    BackColor =15123357
-                    BorderColor =15123357
-                    HoverColor =15652797
-                    PressedColor =11957550
-                    HoverForeColor =4210752
-                    PressedForeColor =4210752
                     Overlaps =1
                 End
                 Begin TextBox
@@ -1032,12 +914,9 @@ Begin Form
                     Height =315
                     FontWeight =700
                     TabIndex =22
-                    BorderColor =10921638
-                    ForeColor =4210752
                     Name ="Text29"
                     ControlSource ="=IIf([LF_Auftraege].[ListCount]=0,0,[LF_Auftraege].[ListCount]-1)"
                     Format ="#,##0\" Aufträge\""
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =15134
                     LayoutCachedTop =3967
@@ -1051,11 +930,9 @@ Begin Form
                     Width =395
                     Height =352
                     TabIndex =17
-                    ForeColor =4210752
                     Name ="BS_Filter_Firma_loeschen"
                     Caption ="Befehl18"
                     OnClick ="[Event Procedure]"
-                    GridlineColor =10921638
                     ImageData = Begin
                         0x2800000010000000100000000100200000000000000000000000000000000000 ,
                         0x0000000000000000000000000000000000000000000000000000000000000000 ,
@@ -1097,12 +974,6 @@ Begin Form
                     LayoutCachedTop =1005
                     LayoutCachedWidth =8057
                     LayoutCachedHeight =1357
-                    BackColor =15123357
-                    BorderColor =15123357
-                    HoverColor =15652797
-                    PressedColor =11957550
-                    HoverForeColor =4210752
-                    PressedForeColor =4210752
                     Overlaps =1
                 End
                 Begin TextBox
@@ -1115,11 +986,8 @@ Begin Form
                     Width =1703
                     Height =315
                     TabIndex =16
-                    BorderColor =10921638
-                    ForeColor =4210752
                     Name ="TF_Filter_Firma"
                     AfterUpdate ="[Event Procedure]"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =5850
                     LayoutCachedTop =1042
@@ -1135,11 +1003,10 @@ Begin Form
                             Height =299
                             FontSize =10
                             FontWeight =700
-                            BorderColor =8355711
+                            ForeColor =0
                             Name ="Bezeichnungsfeld32"
                             Caption ="Firma :"
                             FontName ="Arial"
-                            GridlineColor =10921638
                             LayoutCachedLeft =4544
                             LayoutCachedTop =1043
                             LayoutCachedWidth =5730
@@ -1156,11 +1023,9 @@ Begin Form
                     Width =395
                     Height =352
                     TabIndex =23
-                    ForeColor =4210752
                     Name ="BS_Filter_Ort_loeschen"
                     Caption ="Befehl18"
                     OnClick ="[Event Procedure]"
-                    GridlineColor =10921638
                     ImageData = Begin
                         0x2800000010000000100000000100200000000000000000000000000000000000 ,
                         0x0000000000000000000000000000000000000000000000000000000000000000 ,
@@ -1202,12 +1067,6 @@ Begin Form
                     LayoutCachedTop =1005
                     LayoutCachedWidth =12648
                     LayoutCachedHeight =1357
-                    BackColor =15123357
-                    BorderColor =15123357
-                    HoverColor =15652797
-                    PressedColor =11957550
-                    HoverForeColor =4210752
-                    PressedForeColor =4210752
                     Overlaps =1
                 End
                 Begin TextBox
@@ -1220,11 +1079,8 @@ Begin Form
                     Width =1689
                     Height =315
                     TabIndex =24
-                    BorderColor =10921638
-                    ForeColor =4210752
                     Name ="TF_Filter_Ort"
                     AfterUpdate ="[Event Procedure]"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =10436
                     LayoutCachedTop =1043
@@ -1240,11 +1096,10 @@ Begin Form
                             Height =285
                             FontSize =10
                             FontWeight =700
-                            BorderColor =8355711
+                            ForeColor =0
                             Name ="Bezeichnungsfeld36"
                             Caption ="Leistungsort :"
                             FontName ="Arial"
-                            GridlineColor =10921638
                             LayoutCachedLeft =8456
                             LayoutCachedTop =1044
                             LayoutCachedWidth =10321
@@ -1261,11 +1116,9 @@ Begin Form
                     Width =395
                     Height =352
                     TabIndex =25
-                    ForeColor =4210752
                     Name ="BS_Filter_ProdBez_loeschen"
                     Caption ="Befehl18"
                     OnClick ="[Event Procedure]"
-                    GridlineColor =10921638
                     ImageData = Begin
                         0x2800000010000000100000000100200000000000000000000000000000000000 ,
                         0x0000000000000000000000000000000000000000000000000000000000000000 ,
@@ -1307,12 +1160,6 @@ Begin Form
                     LayoutCachedTop =1009
                     LayoutCachedWidth =16943
                     LayoutCachedHeight =1361
-                    BackColor =15123357
-                    BorderColor =15123357
-                    HoverColor =15652797
-                    PressedColor =11957550
-                    HoverForeColor =4210752
-                    PressedForeColor =4210752
                     Overlaps =1
                 End
                 Begin TextBox
@@ -1325,11 +1172,8 @@ Begin Form
                     Width =1689
                     Height =315
                     TabIndex =26
-                    BorderColor =10921638
-                    ForeColor =4210752
                     Name ="TF_Filter_ProdBez"
                     AfterUpdate ="[Event Procedure]"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =14736
                     LayoutCachedTop =1043
@@ -1345,11 +1189,10 @@ Begin Form
                             Height =285
                             FontSize =10
                             FontWeight =700
-                            BorderColor =8355711
+                            ForeColor =0
                             Name ="Bezeichnungsfeld39"
                             Caption ="Produktbez. :"
                             FontName ="Arial"
-                            GridlineColor =10921638
                             LayoutCachedLeft =12920
                             LayoutCachedTop =1044
                             LayoutCachedWidth =14618
@@ -1366,11 +1209,9 @@ Begin Form
                     Width =395
                     Height =352
                     TabIndex =27
-                    ForeColor =4210752
                     Name ="BS_AlleFilter_Loeschen"
                     Caption ="Befehl18"
                     OnClick ="[Event Procedure]"
-                    GridlineColor =10921638
                     ImageData = Begin
                         0x2800000010000000100000000100200000000000000000000000000000000000 ,
                         0x0000000000000000000000000000000000000000000000000000000000000000 ,
@@ -1412,12 +1253,6 @@ Begin Form
                     LayoutCachedTop =1009
                     LayoutCachedWidth =18313
                     LayoutCachedHeight =1361
-                    BackColor =15123357
-                    BorderColor =15123357
-                    HoverColor =15652797
-                    PressedColor =11957550
-                    HoverForeColor =4210752
-                    PressedForeColor =4210752
                     Overlaps =1
                     Begin
                         Begin Label
@@ -1429,11 +1264,10 @@ Begin Form
                             Height =285
                             FontSize =10
                             FontWeight =700
-                            BorderColor =8355711
+                            ForeColor =0
                             Name ="Bezeichnungsfeld41"
                             Caption ="Alle Filter löschen"
                             FontName ="Arial"
-                            GridlineColor =10921638
                             LayoutCachedLeft =17295
                             LayoutCachedTop =608
                             LayoutCachedWidth =19095
@@ -1450,11 +1284,9 @@ Begin Form
                     Width =395
                     Height =352
                     TabIndex =28
-                    ForeColor =4210752
                     Name ="BS_Filter_MeldNrInfoma_loeschen"
                     Caption ="Befehl18"
                     OnClick ="[Event Procedure]"
-                    GridlineColor =10921638
                     ImageData = Begin
                         0x2800000010000000100000000100200000000000000000000000000000000000 ,
                         0x0000000000000000000000000000000000000000000000000000000000000000 ,
@@ -1496,12 +1328,6 @@ Begin Form
                     LayoutCachedTop =586
                     LayoutCachedWidth =16944
                     LayoutCachedHeight =938
-                    BackColor =15123357
-                    BorderColor =15123357
-                    HoverColor =15652797
-                    PressedColor =11957550
-                    HoverForeColor =4210752
-                    PressedForeColor =4210752
                     Overlaps =1
                 End
                 Begin TextBox
@@ -1512,11 +1338,8 @@ Begin Form
                     Width =1689
                     Height =315
                     TabIndex =29
-                    BorderColor =10921638
-                    ForeColor =4210752
                     Name ="TF_Filter_MeldNrInfoma"
                     AfterUpdate ="[Event Procedure]"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =14736
                     LayoutCachedTop =608
@@ -1532,11 +1355,10 @@ Begin Form
                             Height =284
                             FontSize =10
                             FontWeight =700
-                            BorderColor =8355711
+                            ForeColor =0
                             Name ="Bezeichnungsfeld46"
                             Caption ="Meld-Nr. Infoma:"
                             FontName ="Arial"
-                            GridlineColor =10921638
                             LayoutCachedLeft =12920
                             LayoutCachedTop =608
                             LayoutCachedWidth =14619
@@ -1555,25 +1377,17 @@ Begin Form
                     FontSize =10
                     FontWeight =700
                     TabIndex =30
-                    ForeColor =4210752
                     Name ="BS_Firmenliste"
                     Caption ="Firmenliste\015\012pflegen"
                     OnClick ="[Event Procedure]"
                     FontName ="Arial"
                     Tag ="*Pruefer*"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =17185
                     LayoutCachedTop =5272
                     LayoutCachedWidth =19120
                     LayoutCachedHeight =5962
-                    BackColor =15123357
-                    BorderColor =15123357
                     ThemeFontIndex =-1
-                    HoverColor =15652797
-                    PressedColor =11957550
-                    HoverForeColor =4210752
-                    PressedForeColor =4210752
                     Overlaps =1
                 End
                 Begin CommandButton
@@ -1585,25 +1399,17 @@ Begin Form
                     FontSize =10
                     FontWeight =700
                     TabIndex =31
-                    ForeColor =4210752
                     Name ="BS_ZVS_Ausw_drucken"
                     Caption ="ZVS-Auswertung ausdrucken .."
                     OnClick ="[Event Procedure]"
                     FontName ="Arial"
                     Tag ="*Pruefer*"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =11393
                     LayoutCachedTop =3967
                     LayoutCachedWidth =14565
                     LayoutCachedHeight =4342
-                    BackColor =15123357
-                    BorderColor =15123357
                     ThemeFontIndex =-1
-                    HoverColor =15652797
-                    PressedColor =11957550
-                    HoverForeColor =4210752
-                    PressedForeColor =4210752
                     Overlaps =1
                 End
                 Begin CommandButton
@@ -1615,25 +1421,17 @@ Begin Form
                     FontSize =10
                     FontWeight =700
                     TabIndex =32
-                    ForeColor =4210752
                     Name ="BS_ZVS_Ausw_Export"
                     Caption ="ZVS-Auswertung nach Excel exportieren"
                     OnClick ="[Event Procedure]"
                     FontName ="Arial"
                     Tag ="*Pruefer*"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =7200
                     LayoutCachedTop =3967
                     LayoutCachedWidth =11205
                     LayoutCachedHeight =4342
-                    BackColor =15123357
-                    BorderColor =15123357
                     ThemeFontIndex =-1
-                    HoverColor =15652797
-                    PressedColor =11957550
-                    HoverForeColor =4210752
-                    PressedForeColor =4210752
                     Overlaps =1
                 End
                 Begin TextBox
@@ -1644,11 +1442,8 @@ Begin Form
                     Width =1689
                     Height =315
                     TabIndex =33
-                    BorderColor =10921638
-                    ForeColor =4210752
                     Name ="TF_Filter_VergN_VIS"
                     AfterUpdate ="[Event Procedure]"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =10426
                     LayoutCachedTop =131
@@ -1664,11 +1459,10 @@ Begin Form
                             Height =284
                             FontSize =10
                             FontWeight =700
-                            BorderColor =8355711
+                            ForeColor =0
                             Name ="Bezeichnungsfeld53"
                             Caption ="Vergabe-Nr. VIS:"
                             FontName ="Arial"
-                            GridlineColor =10921638
                             LayoutCachedLeft =8445
                             LayoutCachedTop =131
                             LayoutCachedWidth =10311
@@ -1685,11 +1479,9 @@ Begin Form
                     Width =395
                     Height =352
                     TabIndex =34
-                    ForeColor =4210752
                     Name ="BS_Filter_VergN_VIS_loeschen"
                     Caption ="Befehl18"
                     OnClick ="[Event Procedure]"
-                    GridlineColor =10921638
                     ImageData = Begin
                         0x2800000010000000100000000100200000000000000000000000000000000000 ,
                         0x0000000000000000000000000000000000000000000000000000000000000000 ,
@@ -1731,12 +1523,6 @@ Begin Form
                     LayoutCachedTop =131
                     LayoutCachedWidth =12643
                     LayoutCachedHeight =483
-                    BackColor =15123357
-                    BorderColor =15123357
-                    HoverColor =15652797
-                    PressedColor =11957550
-                    HoverForeColor =4210752
-                    PressedForeColor =4210752
                     Overlaps =1
                 End
                 Begin CommandButton
@@ -1748,24 +1534,16 @@ Begin Form
                     FontSize =10
                     FontWeight =700
                     TabIndex =35
-                    ForeColor =4210752
                     Name ="bRE"
                     Caption ="Rechnung eingeben"
                     OnClick ="[Event Procedure]"
                     FontName ="Arial"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =17185
                     LayoutCachedTop =9070
                     LayoutCachedWidth =19120
                     LayoutCachedHeight =9760
-                    BackColor =15123357
-                    BorderColor =15123357
                     ThemeFontIndex =-1
-                    HoverColor =15652797
-                    PressedColor =11957550
-                    HoverForeColor =4210752
-                    PressedForeColor =4210752
                     Overlaps =1
                 End
                 Begin CheckBox
@@ -1775,10 +1553,8 @@ Begin Form
                     Width =284
                     Height =284
                     TabIndex =36
-                    BorderColor =10921638
                     Name ="TF_Filter_Offene"
                     AfterUpdate ="[Event Procedure]"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =4081
                     LayoutCachedTop =1077
@@ -1793,11 +1569,10 @@ Begin Form
                     Height =299
                     FontSize =10
                     FontWeight =700
-                    BorderColor =8355711
+                    ForeColor =0
                     Name ="Bezeichnungsfeld56"
                     Caption ="Nur offene Aufträge:"
                     FontName ="Arial"
-                    GridlineColor =10921638
                     LayoutCachedLeft =1928
                     LayoutCachedTop =1043
                     LayoutCachedWidth =3976
@@ -1814,24 +1589,17 @@ Begin Form
                     FontSize =10
                     FontWeight =700
                     TabIndex =37
-                    ForeColor =4210752
                     Name ="bAufDok"
                     Caption ="Auftrags-dokumente"
                     OnClick ="[Event Procedure]"
                     FontName ="Arial"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =17185
                     LayoutCachedTop =7993
                     LayoutCachedWidth =19120
                     LayoutCachedHeight =8683
-                    BackColor =15123357
-                    BorderColor =15123357
                     ThemeFontIndex =-1
-                    HoverColor =15652797
-                    PressedColor =11957550
-                    HoverForeColor =4210752
-                    PressedForeColor =4210752
+                    Overlaps =1
                 End
             End
         End

@@ -73,7 +73,7 @@
       "Type": 3
     },
     "Name": {
-      "Value": "rel:Auftragsliste-VIS_alt (2).accdb",
+      "Value": "rel:Auftragsliste-VIS.accdb",
       "Type": 12
     },
     "NavPane Category": {
@@ -93,7 +93,7 @@
       "Type": 4
     },
     "NavPane Width": {
-      "Value": 330,
+      "Value": 700,
       "Type": 4
     },
     "Never Cache": {

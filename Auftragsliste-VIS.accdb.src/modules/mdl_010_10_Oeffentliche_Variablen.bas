@@ -11,7 +11,7 @@ Public Const SW_NORMAL = 1
 Public Const SW_MINIMIZED = 2
 Public Const SW_MAXIMIZED = 3
 
-Public Const str_Version As String = "24.07.2025"
+Public Const str_Version As String = "17.03.2026"
 ' In der Variablen str_Version kann die Version eingetragen werden, einbettende Anführungszeichen bitte belassen
 '------ Änderungslog DM seit 2023-01-30
 'DM2023-01-30
@@ -26,6 +26,10 @@ Public Const str_Version As String = "24.07.2025"
 '- Auftragsdokumente zeigen: Button bringt nun einer Meldung, dass man erst einen Auftrag auswählen soll, wenn man ohne dies zu tun auf den Button geklickt hat
 'DM2023-06-05
 '- Modul mdl_90_10_Datei_Speichern komplett ersetzt durch die eingebaute VBA-Funktion FileDialog. Anpassungen.
+'DM2026-03-17
+'- Bugfix: RecordSource der beiden unteren UF im Startformular beím Starten Setzen, wird sonst vom Beenden-Button geleert und blieb dann beim Entwickeln leer.
+'- Prüfen, ob notwendige Felder leer sind, bevor man die Auftragssumme eintragen darf, inkl. Meldung, welche Felder noch fehlen und einfärben sowie wieder weiß färben wenn befüllt
+'- Rechnung erstellen nur, wenn Auftragssumme brutto und Auftragsdatum gesetzt sind, sonst Meldung.
 '------ Änderungslog Ende
 'Public Const bln_Anw_Fenster_aus As Boolean = True
 ' True:  das  Accesls-Anwendungsfenster wird  ausgeblendet  (Auslieferungszustand)

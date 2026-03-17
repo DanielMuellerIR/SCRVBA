@@ -15,6 +15,13 @@ Private Sub Form_Open(Cancel As Integer)
     sUsername = getUser() 'DM2023-05-12
     lng_User = Nz(DLookup("[ID_User]", "tbl_10_10_User", "[User_Loginname] = '" & sUsername & "'"))
 
+    'DM2026-03-17
+    Dim sqlStr As String
+    sqlStr = "SELECT tbl_20_10_Aufträge.*, tbl_10_40_Firmen.PersID, tbl_10_40_Firmen.Name FROM tbl_10_40_Firmen RIGHT JOIN tbl_20_10_Aufträge ON tbl_10_40_Firmen.ID_Fa = tbl_20_10_Aufträge.ID_Fa WHERE (((tbl_20_10_Aufträge.ID_Auftrag)=F_Variable('lng_Auftr_Nr')) And ((Mid([Auftragsnr],4,4)) Like '*' & Formulare!frm_10_10_Startformular!TF_Filter_Jahr & '*')) ORDER BY tbl_20_10_Aufträge.Auftragsnr;"
+    Me.UF_Auftrag.Form.RecordSource = sqlStr
+    sqlStr = "SELECT tbl_20_30_Q_Prüfung.* FROM tbl_20_30_Q_Prüfung WHERE (((tbl_20_30_Q_Prüfung.Kalenderjahr) Like '*' & [Formulare]![frm_10_10_Startformular]![TF_Filter_Jahr] & '*')) ORDER BY tbl_20_30_Q_Prüfung.Kalenderjahr DESC , tbl_20_30_Q_Prüfung.Quartal; "
+    Me.UF_Quart_Pruefungen.Form.RecordSource = sqlStr
+
 If (lng_User = 0) Then 'DM2023-05-12
     If (sUsername Like "dm0") Then ' Or (Environ$("computername") = Ausnahme_Anw_F_aus_fuer)) Then
         Str_SQL_Statement = "INSERT INTO tbl_10_10_User ( Username, User_Loginname, [Q-Pruefung], nur_lesen) values ('" & sUsername & "', '" & sUsername & "', true, false)" 'DM2023-05-12
@@ -145,10 +152,14 @@ End Sub
 
 Private Sub bRE_Click()
     If (Me!UF_Auftrag.Form.Recordset.RecordCount <> 0) Then
-        If (IsNull(Me!UF_Auftrag!ID_Fa)) Then
-            MsgBox ("Bitte erst eine Firma angeben.")
+        If ((Nz(Me!UF_Auftrag!TF_AS_brutto.Value, 0) <> 0) And (Nz(Me!UF_Auftrag!TF_Auftragsdatum.Value, 0) <> 0)) Then
+            If (IsNull(Me!UF_Auftrag!ID_Fa)) Then
+                MsgBox ("Bitte erst eine Firma angeben.")
+            Else
+                DoCmd.OpenForm "frm_20_40_Auftrag_Rechnung", , , , , acDialog, Me!UF_Auftrag!A_Nr.Value
+            End If
         Else
-            DoCmd.OpenForm "frm_20_40_Auftrag_Rechnung", , , , , acDialog, Me!UF_Auftrag!A_Nr.Value
+            MsgBox ("Bitte erst Auftragssumme brutto und Auftragsdatum ausfüllen.")
         End If
     Else
         MsgBox ("Bitte erst einen Auftrag auswählen.")

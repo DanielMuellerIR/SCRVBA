@@ -19,18 +19,13 @@ Begin Form
     Width =16497
     DatasheetFontHeight =11
     ItemSuffix =164
-    Left =394
-    Top =1617
-    Right =16723
-    Bottom =6792
+    Left =4125
+    Top =5925
+    Right =20468
+    Bottom =11115
     RecSrcDt = Begin
-        0xbdbc4e47ab0ae640
+        0xd7cb17ab5282e640
     End
-    RecordSource ="SELECT tbl_20_10_Aufträge.*, tbl_10_40_Firmen.PersID, tbl_10_40_Firmen.Name FROM"
-        " tbl_10_40_Firmen RIGHT JOIN tbl_20_10_Aufträge ON tbl_10_40_Firmen.ID_Fa = tbl_"
-        "20_10_Aufträge.ID_Fa WHERE (((tbl_20_10_Aufträge.ID_Auftrag)=F_Variable(\"lng_Au"
-        "ftr_Nr\")) And ((Mid([Auftragsnr],4,4)) Like '*' & Formulare!frm_10_10_Startform"
-        "ular!TF_Filter_Jahr & '*')) ORDER BY tbl_20_10_Aufträge.Auftragsnr; "
     OnCurrent ="[Event Procedure]"
     DatasheetFontName ="Calibri"
     AllowDatasheetView =0
@@ -224,10 +219,10 @@ Begin Form
                     Height =270
                     FontSize =9
                     TabIndex =19
+                    ForeColor =0
                     Name ="TF_Schaetzkosten"
                     ControlSource ="Schätzkosten"
                     FontName ="Arial"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =3137
                     LayoutCachedTop =1518
@@ -246,11 +241,10 @@ Begin Form
                             Width =2145
                             Height =270
                             FontSize =9
-                            BorderColor =8355711
+                            ForeColor =0
                             Name ="BF_Schätzkosten"
                             Caption ="Schätzkosten:"
                             FontName ="Arial"
-                            GridlineColor =10921638
                             LayoutCachedLeft =812
                             LayoutCachedTop =1518
                             LayoutCachedWidth =2957
@@ -270,17 +264,17 @@ Begin Form
                     Height =270
                     FontSize =9
                     TabIndex =8
-                    BorderColor =10921638
+                    ForeColor =0
                     Name ="TF_Produktbezeichnung"
                     ControlSource ="Produktbezeichnung"
                     AfterUpdate ="=Aktual_F_Listenfeld()"
                     FontName ="Arial"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =3137
                     LayoutCachedTop =1848
                     LayoutCachedWidth =10934
                     LayoutCachedHeight =2118
+                    BackThemeColorIndex =-1
                     ThemeFontIndex =-1
                     ForeTint =100.0
                     Begin
@@ -292,11 +286,10 @@ Begin Form
                             Width =2145
                             Height =270
                             FontSize =9
-                            BorderColor =8355711
+                            ForeColor =0
                             Name ="BF_Produktbezeichnung"
                             Caption ="Produktbezeichnung:"
                             FontName ="Arial"
-                            GridlineColor =10921638
                             LayoutCachedLeft =812
                             LayoutCachedTop =1848
                             LayoutCachedWidth =2957
@@ -318,16 +311,17 @@ Begin Form
                     Height =941
                     FontSize =9
                     TabIndex =9
-                    BorderColor =10921638
+                    ForeColor =0
                     Name ="TF_Teilnehmer"
                     ControlSource ="Teilnehmer"
+                    AfterUpdate ="=CheckFields(True)"
                     FontName ="Arial"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =3137
                     LayoutCachedTop =2178
                     LayoutCachedWidth =14633
                     LayoutCachedHeight =3119
+                    BackThemeColorIndex =-1
                     ThemeFontIndex =-1
                     ForeTint =100.0
                     Begin
@@ -339,11 +333,10 @@ Begin Form
                             Width =2145
                             Height =270
                             FontSize =9
-                            BorderColor =8355711
+                            ForeColor =0
                             Name ="BF_Teilnehmer"
                             Caption ="aufgeforderte Teilnehmer:"
                             FontName ="Arial"
-                            GridlineColor =10921638
                             LayoutCachedLeft =812
                             LayoutCachedTop =2178
                             LayoutCachedWidth =2957
@@ -364,11 +357,10 @@ Begin Form
                     Height =555
                     FontSize =9
                     TabIndex =10
-                    BorderColor =10921638
+                    ForeColor =0
                     Name ="TF_Bemerkung"
                     ControlSource ="Bemerkungen"
                     FontName ="Arial"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =3120
                     LayoutCachedTop =3180
@@ -385,11 +377,10 @@ Begin Form
                             Width =2145
                             Height =270
                             FontSize =9
-                            BorderColor =8355711
+                            ForeColor =0
                             Name ="BF_Bemerkung"
                             Caption ="Bemerkung:"
                             FontName ="Arial"
-                            GridlineColor =10921638
                             LayoutCachedLeft =795
                             LayoutCachedTop =3180
                             LayoutCachedWidth =2940
@@ -409,11 +400,10 @@ Begin Form
                     Height =270
                     FontSize =9
                     TabIndex =20
-                    BorderColor =10921638
+                    ForeColor =0
                     Name ="TF_Auftragsdatum"
                     ControlSource ="Auftrags_Dat"
                     FontName ="Arial"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =13170
                     LayoutCachedTop =4811
@@ -430,11 +420,10 @@ Begin Form
                             Width =1627
                             Height =270
                             FontSize =9
-                            BorderColor =8355711
+                            ForeColor =0
                             Name ="BF_Auftragsdatum"
                             Caption ="Auftragsdatum:"
                             FontName ="Arial"
-                            GridlineColor =10921638
                             LayoutCachedLeft =11359
                             LayoutCachedTop =4811
                             LayoutCachedWidth =12986
@@ -457,11 +446,11 @@ Begin Form
                     Height =270
                     FontSize =9
                     TabIndex =21
+                    ForeColor =0
                     Name ="TF_Auftragssumme"
                     ControlSource ="Auftragssumme"
                     Format ="#,##0.00 €;-#,##0.00 €"
                     FontName ="Arial"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =3131
                     LayoutCachedTop =4811
@@ -481,11 +470,10 @@ Begin Form
                             Width =2146
                             Height =270
                             FontSize =9
-                            BorderColor =8355711
+                            ForeColor =0
                             Name ="BF_Auftragssumme"
                             Caption ="Auftragssumme:"
                             FontName ="Arial"
-                            GridlineColor =10921638
                             LayoutCachedLeft =804
                             LayoutCachedTop =4811
                             LayoutCachedWidth =2950
@@ -508,8 +496,6 @@ Begin Form
                     ColumnWidth =4365
                     FontSize =9
                     TabIndex =3
-                    BorderColor =10921638
-                    ForeColor =3484194
                     Name ="ID_User"
                     ControlSource ="ID_User"
                     RowSourceType ="Table/Query"
@@ -517,14 +503,15 @@ Begin Form
                         "0_10_User WHERE (((tbl_10_10_User.nur_lesen)<>True) AND ((tbl_10_10_User.ausgesc"
                         "hieden) Is Null)) ORDER BY tbl_10_10_User.Username; "
                     ColumnWidths ="0"
+                    AfterUpdate ="=Aktual_F_Listenfeld()"
                     FontName ="Arial"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =3133
                     LayoutCachedTop =858
                     LayoutCachedWidth =5777
                     LayoutCachedHeight =1128
                     ThemeFontIndex =-1
+                    BackThemeColorIndex =-1
                     Begin
                         Begin Label
                             OverlapFlags =85
@@ -534,11 +521,10 @@ Begin Form
                             Width =2145
                             Height =270
                             FontSize =9
-                            BorderColor =8355711
+                            ForeColor =0
                             Name ="Bezeichnungsfeld72"
                             Caption ="Sachbearbeiter:"
                             FontName ="Arial"
-                            GridlineColor =10921638
                             LayoutCachedLeft =805
                             LayoutCachedTop =858
                             LayoutCachedWidth =2950
@@ -561,8 +547,6 @@ Begin Form
                     ColumnWidth =3525
                     FontSize =9
                     TabIndex =5
-                    BorderColor =10921638
-                    ForeColor =3484194
                     Name ="ID_Vergabe_Art"
                     ControlSource ="ID_Vergabe_Art"
                     RowSourceType ="Table/Query"
@@ -570,14 +554,15 @@ Begin Form
                         "gabeart] & \")\" AS Verg_Art FROM tbl_20_20_Vergabe_Art ORDER BY tbl_20_20_Verga"
                         "be_Art.Vergabe_Grundlage; "
                     ColumnWidths ="0"
+                    AfterUpdate ="=CheckFields(True)"
                     FontName ="Arial"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =3134
                     LayoutCachedTop =1188
                     LayoutCachedWidth =10931
                     LayoutCachedHeight =1458
                     ThemeFontIndex =-1
+                    BackThemeColorIndex =-1
                     Begin
                         Begin Label
                             OverlapFlags =85
@@ -587,11 +572,10 @@ Begin Form
                             Width =2145
                             Height =270
                             FontSize =9
-                            BorderColor =8355711
+                            ForeColor =0
                             Name ="Bezeichnungsfeld73"
                             Caption ="Vergabe-Art:"
                             FontName ="Arial"
-                            GridlineColor =10921638
                             LayoutCachedLeft =812
                             LayoutCachedTop =1188
                             LayoutCachedWidth =2957
@@ -614,11 +598,9 @@ Begin Form
                     FontWeight =700
                     BackColor =62207
                     BorderColor =2366701
-                    ForeColor =4210752
                     Name ="A_Nr"
                     ControlSource ="Auftragsnr"
                     FontName ="Arial"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =3137
                     LayoutCachedTop =109
@@ -637,11 +619,10 @@ Begin Form
                             Width =2145
                             Height =285
                             FontSize =10
-                            BorderColor =8355711
+                            ForeColor =0
                             Name ="Bezeichnungsfeld74"
                             Caption ="Auftrags-Nr.:"
                             FontName ="Arial"
-                            GridlineColor =10921638
                             LayoutCachedLeft =809
                             LayoutCachedTop =109
                             LayoutCachedWidth =2954
@@ -663,11 +644,11 @@ Begin Form
                     Height =270
                     FontSize =9
                     TabIndex =23
+                    ForeColor =0
                     Name ="TF_SR_Summe"
                     ControlSource ="SR_Summe"
                     Format ="#,##0.00 €;-#,##0.00 €"
                     FontName ="Arial"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =3130
                     LayoutCachedTop =5127
@@ -687,11 +668,10 @@ Begin Form
                             Width =2605
                             Height =270
                             FontSize =9
-                            BorderColor =8355711
+                            ForeColor =0
                             Name ="BF_SR_Summe"
                             Caption ="Abrechnungssumme (AR+SR):"
                             FontName ="Arial"
-                            GridlineColor =10921638
                             LayoutCachedLeft =331
                             LayoutCachedTop =5127
                             LayoutCachedWidth =2936
@@ -708,11 +688,10 @@ Begin Form
                     Width =562
                     Height =270
                     FontSize =9
-                    BorderColor =8355711
+                    ForeColor =0
                     Name ="Bezeichnungsfeld79"
                     Caption ="netto"
                     FontName ="Arial"
-                    GridlineColor =10921638
                     LayoutCachedLeft =4695
                     LayoutCachedTop =1518
                     LayoutCachedWidth =5257
@@ -727,11 +706,10 @@ Begin Form
                     Width =562
                     Height =270
                     FontSize =9
-                    BorderColor =8355711
+                    ForeColor =0
                     Name ="Bezeichnungsfeld80"
                     Caption ="netto"
                     FontName ="Arial"
-                    GridlineColor =10921638
                     LayoutCachedLeft =4700
                     LayoutCachedTop =4811
                     LayoutCachedWidth =5262
@@ -750,11 +728,10 @@ Begin Form
                     Width =562
                     Height =270
                     FontSize =9
-                    BorderColor =8355711
+                    ForeColor =0
                     Name ="Bezeichnungsfeld81"
                     Caption ="netto"
                     FontName ="Arial"
-                    GridlineColor =10921638
                     LayoutCachedLeft =4700
                     LayoutCachedTop =5128
                     LayoutCachedWidth =5262
@@ -774,8 +751,6 @@ Begin Form
                     Height =270
                     FontSize =9
                     TabIndex =4
-                    BorderColor =10921638
-                    ForeColor =3484194
                     Name ="Kombinationsfeld82"
                     ControlSource ="ID_User2"
                     RowSourceType ="Table/Query"
@@ -783,14 +758,15 @@ Begin Form
                         "0_10_User WHERE (((tbl_10_10_User.nur_lesen)<>True) AND ((tbl_10_10_User.ausgesc"
                         "hieden) Is Null)) ORDER BY tbl_10_10_User.Username; "
                     ColumnWidths ="0"
+                    AfterUpdate ="=CheckFields(True)"
                     FontName ="Arial"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =8166
                     LayoutCachedTop =859
                     LayoutCachedWidth =10930
                     LayoutCachedHeight =1129
                     ThemeFontIndex =-1
+                    BackThemeColorIndex =-1
                     Begin
                         Begin Label
                             OverlapFlags =85
@@ -800,11 +776,10 @@ Begin Form
                             Width =1683
                             Height =270
                             FontSize =9
-                            BorderColor =8355711
+                            ForeColor =0
                             Name ="Bezeichnungsfeld83"
                             Caption ="Vertreter:"
                             FontName ="Arial"
-                            GridlineColor =10921638
                             LayoutCachedLeft =6232
                             LayoutCachedTop =859
                             LayoutCachedWidth =7915
@@ -824,11 +799,10 @@ Begin Form
                     Height =271
                     FontSize =9
                     TabIndex =18
-                    BorderColor =10921638
+                    ForeColor =0
                     Name ="TF_MeldungsNr"
                     ControlSource ="Vergabe_Nr_VIS"
                     FontName ="Arial"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =13170
                     LayoutCachedTop =4485
@@ -845,11 +819,10 @@ Begin Form
                             Width =1627
                             Height =270
                             FontSize =9
-                            BorderColor =8355711
+                            ForeColor =0
                             Name ="BF_InfomaNr"
                             Caption ="Vergabe-Nr. VIS:"
                             FontName ="Arial"
-                            GridlineColor =10921638
                             LayoutCachedLeft =11359
                             LayoutCachedTop =4485
                             LayoutCachedWidth =12986
@@ -873,11 +846,9 @@ Begin Form
                     FontWeight =700
                     TabIndex =1
                     BorderColor =2366701
-                    ForeColor =4210752
                     Name ="Text88"
                     ControlSource ="angelegt_am"
                     FontName ="Arial"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =7423
                     LayoutCachedTop =109
@@ -895,11 +866,10 @@ Begin Form
                             Width =1236
                             Height =285
                             FontSize =10
-                            BorderColor =8355711
+                            ForeColor =0
                             Name ="Bezeichnungsfeld89"
                             Caption ="angelegt am:"
                             FontName ="Arial"
-                            GridlineColor =10921638
                             LayoutCachedLeft =6005
                             LayoutCachedTop =109
                             LayoutCachedWidth =7241
@@ -921,10 +891,10 @@ Begin Form
                     Height =270
                     FontSize =9
                     TabIndex =22
+                    ForeColor =0
                     Name ="Text90"
                     ControlSource ="SR_bearbeitet_am"
                     FontName ="Arial"
-                    GridlineColor =10921638
                     ShowDatePicker =0
 
                     LayoutCachedLeft =13170
@@ -944,11 +914,10 @@ Begin Form
                             Width =1627
                             Height =270
                             FontSize =9
-                            BorderColor =8355711
+                            ForeColor =0
                             Name ="Bezeichnungsfeld91"
                             Caption ="SR bearbeitet am:"
                             FontName ="Arial"
-                            GridlineColor =10921638
                             LayoutCachedLeft =11359
                             LayoutCachedTop =5127
                             LayoutCachedWidth =12986
@@ -969,11 +938,10 @@ Begin Form
                     Width =291
                     Height =270
                     FontSize =9
-                    BorderColor =8355711
+                    ForeColor =0
                     Name ="Bezeichnungsfeld93"
                     Caption ="=>"
                     FontName ="Arial"
-                    GridlineColor =10921638
                     LayoutCachedLeft =5363
                     LayoutCachedTop =1518
                     LayoutCachedWidth =5654
@@ -991,18 +959,18 @@ Begin Form
                     Height =270
                     FontSize =9
                     TabIndex =7
-                    BorderColor =10921638
+                    ForeColor =0
                     Name ="TF_SK_brutto"
                     ControlSource ="SK_brutto"
                     Format ="#,##0.00 €;-#,##0.00 €"
                     AfterUpdate ="[Event Procedure]"
                     FontName ="Arial"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =8146
                     LayoutCachedTop =1518
                     LayoutCachedWidth =9617
                     LayoutCachedHeight =1788
+                    BackThemeColorIndex =-1
                     ThemeFontIndex =-1
                     ForeTint =100.0
                     CurrencySymbol ="€"
@@ -1014,11 +982,10 @@ Begin Form
                     Width =562
                     Height =270
                     FontSize =9
-                    BorderColor =8355711
+                    ForeColor =0
                     Name ="Bezeichnungsfeld99"
                     Caption ="brutto"
                     FontName ="Arial"
-                    GridlineColor =10921638
                     LayoutCachedLeft =9723
                     LayoutCachedTop =1518
                     LayoutCachedWidth =10285
@@ -1033,11 +1000,10 @@ Begin Form
                     Width =291
                     Height =270
                     FontSize =9
-                    BorderColor =8355711
+                    ForeColor =0
                     Name ="Bezeichnungsfeld100"
                     Caption ="=>"
                     FontName ="Arial"
-                    GridlineColor =10921638
                     LayoutCachedLeft =5368
                     LayoutCachedTop =4811
                     LayoutCachedWidth =5659
@@ -1055,13 +1021,12 @@ Begin Form
                     Height =270
                     FontSize =9
                     TabIndex =16
-                    BorderColor =10921638
+                    ForeColor =0
                     Name ="TF_AS_brutto"
                     ControlSource ="AS_brutto"
                     Format ="#,##0.00 €;-#,##0.00 €"
                     AfterUpdate ="[Event Procedure]"
                     FontName ="Arial"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =8151
                     LayoutCachedTop =4811
@@ -1078,11 +1043,10 @@ Begin Form
                     Width =562
                     Height =270
                     FontSize =9
-                    BorderColor =8355711
+                    ForeColor =0
                     Name ="Bezeichnungsfeld102"
                     Caption ="brutto"
                     FontName ="Arial"
-                    GridlineColor =10921638
                     LayoutCachedLeft =9728
                     LayoutCachedTop =4811
                     LayoutCachedWidth =10290
@@ -1102,12 +1066,12 @@ Begin Form
                     Height =270
                     FontSize =9
                     TabIndex =17
+                    ForeColor =0
                     Name ="TF_SR_brutto"
                     ControlSource ="SR_brutto"
                     Format ="#,##0.00 €;-#,##0.00 €"
                     AfterUpdate ="[Event Procedure]"
                     FontName ="Arial"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =8151
                     LayoutCachedTop =5146
@@ -1126,11 +1090,10 @@ Begin Form
                     Width =562
                     Height =270
                     FontSize =9
-                    BorderColor =8355711
+                    ForeColor =0
                     Name ="Bezeichnungsfeld105"
                     Caption ="brutto"
                     FontName ="Arial"
-                    GridlineColor =10921638
                     LayoutCachedLeft =9727
                     LayoutCachedTop =5146
                     LayoutCachedWidth =10289
@@ -1148,12 +1111,11 @@ Begin Form
                     Height =270
                     FontSize =9
                     TabIndex =13
-                    BorderColor =10921638
+                    ForeColor =0
                     Name ="TF_InfomaBestellNr"
                     ControlSource ="Best_Nr_Infoma"
                     AfterUpdate ="=Aktual_F_Listenfeld()"
                     FontName ="Arial"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =3131
                     LayoutCachedTop =4486
@@ -1170,11 +1132,10 @@ Begin Form
                             Width =2146
                             Height =270
                             FontSize =9
-                            BorderColor =8355711
+                            ForeColor =0
                             Name ="Bezeichnungsfeld107"
                             Caption =" Bestell-Nr. Infoma:"
                             FontName ="Arial"
-                            GridlineColor =10921638
                             LayoutCachedLeft =817
                             LayoutCachedTop =4486
                             LayoutCachedWidth =2963
@@ -1195,7 +1156,6 @@ Begin Form
                     Height =270
                     FontSize =9
                     TabIndex =2
-                    BorderColor =10921638
                     Name ="KF_Leistungsort"
                     ControlSource ="ID_Obj"
                     RowSourceType ="Table/Query"
@@ -1205,13 +1165,13 @@ Begin Form
                     ColumnWidths ="0"
                     AfterUpdate ="=Aktual_F_Listenfeld()"
                     FontName ="Arial"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =3134
                     LayoutCachedTop =516
                     LayoutCachedWidth =10930
                     LayoutCachedHeight =786
                     ThemeFontIndex =-1
+                    BackThemeColorIndex =-1
                     ForeThemeColorIndex =0
                     ForeShade =100.0
                     Begin
@@ -1223,11 +1183,10 @@ Begin Form
                             Width =2320
                             Height =270
                             FontSize =9
-                            BorderColor =8355711
+                            ForeColor =0
                             Name ="Bezeichnungsfeld85"
                             Caption ="Leistungsort (Bez., Straße):"
                             FontName ="Arial"
-                            GridlineColor =10921638
                             LayoutCachedLeft =630
                             LayoutCachedTop =516
                             LayoutCachedWidth =2950
@@ -1250,7 +1209,6 @@ Begin Form
                     Height =270
                     FontSize =9
                     TabIndex =11
-                    BorderColor =10921638
                     Name ="TF_beauftragte_Firma"
                     ControlSource ="ID_Fa"
                     RowSourceType ="Table/Query"
@@ -1261,7 +1219,6 @@ Begin Form
                     ColumnWidths ="0;4536"
                     AfterUpdate ="=Aktual_F_Listenfeld()"
                     FontName ="Arial"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =3120
                     LayoutCachedTop =3795
@@ -1279,11 +1236,10 @@ Begin Form
                             Width =2145
                             Height =270
                             FontSize =9
-                            BorderColor =8355711
+                            ForeColor =0
                             Name ="BF_beauftragte_Firma"
                             Caption ="Beauftragte Firma:"
                             FontName ="Arial"
-                            GridlineColor =10921638
                             LayoutCachedLeft =795
                             LayoutCachedTop =3795
                             LayoutCachedWidth =2940
@@ -1304,13 +1260,12 @@ Begin Form
                     Height =270
                     FontSize =9
                     TabIndex =15
-                    BorderColor =10921638
+                    ForeColor =0
                     Name ="TF_AS_MWST_Satz"
                     ControlSource ="AS_MWST_Satz"
                     Format ="Percent"
                     AfterUpdate ="[Event Procedure]"
                     FontName ="Arial"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =7007
                     LayoutCachedTop =4815
@@ -1327,11 +1282,10 @@ Begin Form
                     Width =1065
                     Height =270
                     FontSize =9
-                    BorderColor =8355711
+                    ForeColor =0
                     Name ="Bezeichnungsfeld113"
                     Caption ="MWSt-Satz:"
                     FontName ="Arial"
-                    GridlineColor =10921638
                     LayoutCachedLeft =5777
                     LayoutCachedTop =4815
                     LayoutCachedWidth =6842
@@ -1346,11 +1300,10 @@ Begin Form
                     Width =291
                     Height =270
                     FontSize =9
-                    BorderColor =8355711
+                    ForeColor =0
                     Name ="Bezeichnungsfeld116"
                     Caption ="=>"
                     FontName ="Arial"
-                    GridlineColor =10921638
                     LayoutCachedLeft =7746
                     LayoutCachedTop =4830
                     LayoutCachedWidth =8037
@@ -1369,13 +1322,12 @@ Begin Form
                     Height =270
                     FontSize =9
                     TabIndex =6
-                    BorderColor =10921638
+                    ForeColor =0
                     Name ="TF_SK_MWST_Satz"
                     ControlSource ="SK_MWST_Satz"
                     Format ="Percent"
                     AfterUpdate ="[Event Procedure]"
                     FontName ="Arial"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =7002
                     LayoutCachedTop =1518
@@ -1392,11 +1344,10 @@ Begin Form
                     Width =1065
                     Height =270
                     FontSize =9
-                    BorderColor =8355711
+                    ForeColor =0
                     Name ="Bezeichnungsfeld119"
                     Caption ="MWSt-Satz:"
                     FontName ="Arial"
-                    GridlineColor =10921638
                     LayoutCachedLeft =5772
                     LayoutCachedTop =1518
                     LayoutCachedWidth =6837
@@ -1411,11 +1362,10 @@ Begin Form
                     Width =291
                     Height =270
                     FontSize =9
-                    BorderColor =8355711
+                    ForeColor =0
                     Name ="Bezeichnungsfeld120"
                     Caption ="=>"
                     FontName ="Arial"
-                    GridlineColor =10921638
                     LayoutCachedLeft =7766
                     LayoutCachedTop =1518
                     LayoutCachedWidth =8057
@@ -1437,13 +1387,13 @@ Begin Form
                     FontSize =9
                     TabIndex =24
                     BorderColor =8355711
+                    ForeColor =0
                     Name ="TF_Fa_Ort"
                     ControlSource ="=Nz(DLookUp(\"[Ort]\",\"tbl_10_40_Firmen\",\"[ID_Fa] = \" & F_Variable(\"lng_Fir"
                         "ma\")),\"\") & \",   \" & Nz(DLookUp(\"[Straße]\",\"tbl_10_40_Firmen\",\"[ID_Fa]"
                         " = \" & F_Variable(\"lng_Firma\")),\"\")"
                     Format ="#,##0.00 €;-#,##0.00 €"
                     FontName ="Arial"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =3120
                     LayoutCachedTop =4080
@@ -1464,11 +1414,10 @@ Begin Form
                     Height =271
                     FontSize =9
                     TabIndex =14
-                    BorderColor =10921638
+                    ForeColor =0
                     Name ="Text127"
                     ControlSource ="Mel_Nr_Infoma"
                     FontName ="Arial"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =7746
                     LayoutCachedTop =4478
@@ -1485,11 +1434,10 @@ Begin Form
                             Width =1830
                             Height =270
                             FontSize =9
-                            BorderColor =8355711
+                            ForeColor =0
                             Name ="Bezeichnungsfeld128"
                             Caption =" Meldungs-Nr. Infoma:"
                             FontName ="Arial"
-                            GridlineColor =10921638
                             LayoutCachedLeft =5778
                             LayoutCachedTop =4478
                             LayoutCachedWidth =7608
@@ -1506,11 +1454,9 @@ Begin Form
                     Width =440
                     Height =251
                     TabIndex =25
-                    ForeColor =4210752
                     Name ="BS_Fa_loeschen"
                     Caption ="Befehl18"
                     OnClick ="[Event Procedure]"
-                    GridlineColor =10921638
                     ImageData = Begin
                         0x2800000010000000100000000100200000000000000000000000000000000000 ,
                         0x0000000000000000000000000000000000000000000000000000000000000000 ,
@@ -1552,12 +1498,6 @@ Begin Form
                     LayoutCachedTop =4111
                     LayoutCachedWidth =13610
                     LayoutCachedHeight =4362
-                    BackColor =15123357
-                    BorderColor =15123357
-                    HoverColor =15652797
-                    PressedColor =11957550
-                    HoverForeColor =4210752
-                    PressedForeColor =4210752
                     Overlaps =1
                     Begin
                         Begin Label
@@ -1568,11 +1508,10 @@ Begin Form
                             Width =2161
                             Height =271
                             FontSize =9
-                            BorderColor =8355711
+                            ForeColor =0
                             Name ="Bezeichnungsfeld127"
                             Caption ="Beauftragte Firma löschen:"
                             FontName ="Arial"
-                            GridlineColor =10921638
                             LayoutCachedLeft =10825
                             LayoutCachedTop =4081
                             LayoutCachedWidth =12986
@@ -1594,11 +1533,10 @@ Begin Form
                     FontSize =9
                     TabIndex =12
                     BackColor =15921906
-                    BorderColor =10921638
+                    ForeColor =0
                     Name ="TF_PersID"
                     ControlSource ="PersID"
                     FontName ="Arial"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =13170
                     LayoutCachedTop =3798
@@ -1616,11 +1554,10 @@ Begin Form
                             Width =2162
                             Height =270
                             FontSize =9
-                            BorderColor =8355711
+                            ForeColor =0
                             Name ="Bezeichnungsfeld135"
                             Caption ="Kreditoren-Nr. Infoma:"
                             FontName ="Arial"
-                            GridlineColor =10921638
                             LayoutCachedLeft =10825
                             LayoutCachedTop =3795
                             LayoutCachedWidth =12987
@@ -1637,11 +1574,9 @@ Begin Form
                     Width =3056
                     Height =943
                     TabIndex =26
-                    BorderColor =10921638
                     Name ="optKrit"
                     ControlSource ="Kriterium"
                     DefaultValue ="0"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =11182
                     LayoutCachedTop =680
@@ -1657,11 +1592,10 @@ Begin Form
                             Height =233
                             FontSize =9
                             BackColor =-2147483633
-                            BorderColor =8355711
+                            ForeColor =0
                             Name ="Bezeichnungsfeld154"
                             Caption ="Wertungskriterium"
                             FontName ="Arial"
-                            GridlineColor =10921638
                             LayoutCachedLeft =11302
                             LayoutCachedTop =510
                             LayoutCachedWidth =12817
@@ -1676,9 +1610,7 @@ Begin Form
                             Left =11370
                             Top =868
                             OptionValue =0
-                            BorderColor =10921638
                             Name ="Option156"
-                            GridlineColor =10921638
 
                             LayoutCachedLeft =11370
                             LayoutCachedTop =868
@@ -1692,11 +1624,10 @@ Begin Form
                                     Width =473
                                     Height =293
                                     FontSize =9
-                                    BorderColor =8355711
+                                    ForeColor =0
                                     Name ="Bezeichnungsfeld157"
                                     Caption ="Preis"
                                     FontName ="Arial"
-                                    GridlineColor =10921638
                                     LayoutCachedLeft =11601
                                     LayoutCachedTop =840
                                     LayoutCachedWidth =12074
@@ -1713,9 +1644,7 @@ Begin Form
                             Top =1198
                             TabIndex =1
                             OptionValue =1
-                            BorderColor =10921638
                             Name ="Option158"
-                            GridlineColor =10921638
 
                             LayoutCachedLeft =11370
                             LayoutCachedTop =1198
@@ -1729,11 +1658,10 @@ Begin Form
                                     Width =2548
                                     Height =293
                                     FontSize =9
-                                    BorderColor =8355711
+                                    ForeColor =0
                                     Name ="Bezeichnungsfeld159"
                                     Caption ="Anderes Kriterium (s. Anlage)"
                                     FontName ="Arial"
-                                    GridlineColor =10921638
                                     LayoutCachedLeft =11601
                                     LayoutCachedTop =1170
                                     LayoutCachedWidth =14149
@@ -1757,22 +1685,21 @@ Begin Form
                     Height =270
                     FontSize =9
                     TabIndex =27
-                    BorderColor =10921638
-                    ForeColor =3484194
                     Name ="KF_Produktart"
                     ControlSource ="Produktart"
                     RowSourceType ="Table/Query"
                     RowSource ="SELECT tbl_20_40_Produktart.ID_Produktart, tbl_20_40_Produktart.Art_der_Aufwendu"
                         "ng FROM tbl_20_40_Produktart; "
                     ColumnWidths ="0"
+                    AfterUpdate ="=CheckFields(True)"
                     FontName ="Arial"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =12190
                     LayoutCachedTop =1848
                     LayoutCachedWidth =14633
                     LayoutCachedHeight =2118
                     ThemeFontIndex =-1
+                    BackThemeColorIndex =-1
                     Begin
                         Begin Label
                             OverlapFlags =85
@@ -1782,11 +1709,10 @@ Begin Form
                             Width =1017
                             Height =270
                             FontSize =9
-                            BorderColor =8355711
+                            ForeColor =0
                             Name ="BF_Schadensart"
                             Caption ="Produktart:"
                             FontName ="Arial"
-                            GridlineColor =10921638
                             LayoutCachedLeft =10991
                             LayoutCachedTop =1848
                             LayoutCachedWidth =12008
@@ -1808,16 +1734,18 @@ Begin Form
                     Height =271
                     FontSize =9
                     TabIndex =28
-                    BorderColor =10921638
+                    BackColor =13158655
+                    ForeColor =0
                     Name ="Text162"
                     ControlSource ="Name"
+                    AfterUpdate ="=CheckFields(True)"
                     FontName ="Arial"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =3121
                     LayoutCachedTop =3795
                     LayoutCachedWidth =10026
                     LayoutCachedHeight =4066
+                    BackThemeColorIndex =-1
                     ThemeFontIndex =-1
                     ForeTint =100.0
                 End
