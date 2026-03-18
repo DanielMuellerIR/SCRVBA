@@ -162,6 +162,6 @@ Function Aktual_F_Listenfeld()
 50      Forms("frm_10_10_Startformular")!LF_Auftraege.Requery
 60  End If
 
-    ' CheckFields (True) 'DM2026-03-17 Felder einfärben
+CheckFields (True) 'DM2026-03-18 Felder einfärben
 
 End Function

@@ -19,10 +19,10 @@ Begin Form
     Width =16497
     DatasheetFontHeight =11
     ItemSuffix =164
-    Left =4125
-    Top =5925
-    Right =20468
-    Bottom =11115
+    Left =3210
+    Top =5903
+    Right =19553
+    Bottom =11093
     RecSrcDt = Begin
         0xd7cb17ab5282e640
     End
@@ -218,10 +218,11 @@ Begin Form
                     Width =1471
                     Height =270
                     FontSize =9
-                    TabIndex =19
+                    TabIndex =6
                     ForeColor =0
                     Name ="TF_Schaetzkosten"
                     ControlSource ="Schätzkosten"
+                    AfterUpdate ="=CheckFields(True)"
                     FontName ="Arial"
 
                     LayoutCachedLeft =3137
@@ -263,7 +264,7 @@ Begin Form
                     Width =7797
                     Height =270
                     FontSize =9
-                    TabIndex =8
+                    TabIndex =9
                     ForeColor =0
                     Name ="TF_Produktbezeichnung"
                     ControlSource ="Produktbezeichnung"
@@ -310,7 +311,7 @@ Begin Form
                     Width =11496
                     Height =941
                     FontSize =9
-                    TabIndex =9
+                    TabIndex =11
                     ForeColor =0
                     Name ="TF_Teilnehmer"
                     ControlSource ="Teilnehmer"
@@ -356,7 +357,7 @@ Begin Form
                     Width =11496
                     Height =555
                     FontSize =9
-                    TabIndex =10
+                    TabIndex =12
                     ForeColor =0
                     Name ="TF_Bemerkung"
                     ControlSource ="Bemerkungen"
@@ -399,7 +400,7 @@ Begin Form
                     Width =1471
                     Height =270
                     FontSize =9
-                    TabIndex =20
+                    TabIndex =21
                     ForeColor =0
                     Name ="TF_Auftragsdatum"
                     ControlSource ="Auftrags_Dat"
@@ -445,7 +446,7 @@ Begin Form
                     Width =1471
                     Height =270
                     FontSize =9
-                    TabIndex =21
+                    TabIndex =24
                     ForeColor =0
                     Name ="TF_Auftragssumme"
                     ControlSource ="Auftragssumme"
@@ -633,6 +634,7 @@ Begin Form
                     End
                 End
                 Begin TextBox
+                    Enabled = NotDefault
                     Locked = NotDefault
                     OverlapFlags =85
                     TextAlign =3
@@ -643,7 +645,7 @@ Begin Form
                     Width =1471
                     Height =270
                     FontSize =9
-                    TabIndex =23
+                    TabIndex =26
                     ForeColor =0
                     Name ="TF_SR_Summe"
                     ControlSource ="SR_Summe"
@@ -880,6 +882,7 @@ Begin Form
                     End
                 End
                 Begin TextBox
+                    Enabled = NotDefault
                     Locked = NotDefault
                     OverlapFlags =85
                     TextAlign =1
@@ -890,7 +893,7 @@ Begin Form
                     Width =1471
                     Height =270
                     FontSize =9
-                    TabIndex =22
+                    TabIndex =25
                     ForeColor =0
                     Name ="Text90"
                     ControlSource ="SR_bearbeitet_am"
@@ -958,7 +961,7 @@ Begin Form
                     Width =1471
                     Height =270
                     FontSize =9
-                    TabIndex =7
+                    TabIndex =8
                     ForeColor =0
                     Name ="TF_SK_brutto"
                     ControlSource ="SK_brutto"
@@ -1020,7 +1023,7 @@ Begin Form
                     Width =1471
                     Height =270
                     FontSize =9
-                    TabIndex =16
+                    TabIndex =20
                     ForeColor =0
                     Name ="TF_AS_brutto"
                     ControlSource ="AS_brutto"
@@ -1055,6 +1058,7 @@ Begin Form
                     ForeTint =100.0
                 End
                 Begin TextBox
+                    Enabled = NotDefault
                     Locked = NotDefault
                     OverlapFlags =85
                     TextAlign =3
@@ -1065,7 +1069,7 @@ Begin Form
                     Width =1471
                     Height =270
                     FontSize =9
-                    TabIndex =17
+                    TabIndex =23
                     ForeColor =0
                     Name ="TF_SR_brutto"
                     ControlSource ="SR_brutto"
@@ -1110,7 +1114,7 @@ Begin Form
                     Width =1471
                     Height =270
                     FontSize =9
-                    TabIndex =13
+                    TabIndex =16
                     ForeColor =0
                     Name ="TF_InfomaBestellNr"
                     ControlSource ="Best_Nr_Infoma"
@@ -1208,7 +1212,7 @@ Begin Form
                     Width =7155
                     Height =270
                     FontSize =9
-                    TabIndex =11
+                    TabIndex =22
                     Name ="TF_beauftragte_Firma"
                     ControlSource ="ID_Fa"
                     RowSourceType ="Table/Query"
@@ -1259,7 +1263,7 @@ Begin Form
                     Width =616
                     Height =270
                     FontSize =9
-                    TabIndex =15
+                    TabIndex =19
                     ForeColor =0
                     Name ="TF_AS_MWST_Satz"
                     ControlSource ="AS_MWST_Satz"
@@ -1321,7 +1325,7 @@ Begin Form
                     Width =616
                     Height =270
                     FontSize =9
-                    TabIndex =6
+                    TabIndex =7
                     ForeColor =0
                     Name ="TF_SK_MWST_Satz"
                     ControlSource ="SK_MWST_Satz"
@@ -1385,7 +1389,7 @@ Begin Form
                     Width =7155
                     Height =270
                     FontSize =9
-                    TabIndex =24
+                    TabIndex =27
                     BorderColor =8355711
                     ForeColor =0
                     Name ="TF_Fa_Ort"
@@ -1413,7 +1417,7 @@ Begin Form
                     Width =1886
                     Height =271
                     FontSize =9
-                    TabIndex =14
+                    TabIndex =17
                     ForeColor =0
                     Name ="Text127"
                     ControlSource ="Mel_Nr_Infoma"
@@ -1453,7 +1457,7 @@ Begin Form
                     Top =4111
                     Width =440
                     Height =251
-                    TabIndex =25
+                    TabIndex =15
                     Name ="BS_Fa_loeschen"
                     Caption ="Befehl18"
                     OnClick ="[Event Procedure]"
@@ -1531,7 +1535,7 @@ Begin Form
                     Width =1463
                     Height =270
                     FontSize =9
-                    TabIndex =12
+                    TabIndex =14
                     BackColor =15921906
                     ForeColor =0
                     Name ="TF_PersID"
@@ -1573,7 +1577,7 @@ Begin Form
                     Top =680
                     Width =3056
                     Height =943
-                    TabIndex =26
+                    TabIndex =28
                     Name ="optKrit"
                     ControlSource ="Kriterium"
                     DefaultValue ="0"
@@ -1684,7 +1688,7 @@ Begin Form
                     Width =2443
                     Height =270
                     FontSize =9
-                    TabIndex =27
+                    TabIndex =10
                     Name ="KF_Produktart"
                     ControlSource ="Produktart"
                     RowSourceType ="Table/Query"
@@ -1733,7 +1737,7 @@ Begin Form
                     Width =6905
                     Height =271
                     FontSize =9
-                    TabIndex =28
+                    TabIndex =13
                     BackColor =13158655
                     ForeColor =0
                     Name ="Text162"

@@ -6,7 +6,7 @@
   "Items": {
     "MergeBuildDate": null,
     "FullBuildDate": null,
-    "ExportDate": "2026-03-17T15:45:02.000Z",
+    "ExportDate": "2026-03-18T15:17:03.000Z",
     "FullExportDate": "2026-03-17T15:45:02.000Z",
     "OptionsHash": "e599266",
     "LastMergedCommit": "",
@@ -47,11 +47,11 @@
           "FilePropertiesHash": "878b30b"
         },
         "frm_20_20_Auftrgasdaten_EDS.bas": {
-          "FileHash": "752a257",
-          "OtherHash": "cd6c204",
-          "ExportDate": "2026-03-17T15:45:01.000Z",
+          "FileHash": "8f32fa0",
+          "OtherHash": "f0063b0",
+          "ExportDate": "2026-03-18T15:16:49.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "400798f"
+          "FilePropertiesHash": "b7bba97"
         },
         "frm_20_30_UF_Quartalspruefungen.bas": {
           "FileHash": "66f89e2",
@@ -117,11 +117,11 @@
       },
       "Modules": {
         "mdl_010_10_Oeffentliche_Variablen.bas": {
-          "FileHash": "3fecc87",
-          "OtherHash": "ec6d8c2",
-          "ExportDate": "2026-03-17T15:45:00.000Z",
+          "FileHash": "11bd66c",
+          "OtherHash": "876b177",
+          "ExportDate": "2026-03-18T15:16:48.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "bf15384"
+          "FilePropertiesHash": "c9ee9ee"
         },
         "mdl_051_Budde_User_Login_Abfrage.bas": {
           "FileHash": "80082e1",
@@ -195,9 +195,9 @@
         },
         "qry_20_10_DH_Auftr_Liste.bas": {
           "FileHash": "2a69387",
-          "ExportDate": "2026-03-17T15:45:00.000Z",
+          "ExportDate": "2026-03-18T15:17:03.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "2f403e2"
+          "FilePropertiesHash": "31012d9"
         },
         "qry_20_15_DH_VIS_Auftr_Liste_Bericht.bas": {
           "FileHash": "aba4a8e",
